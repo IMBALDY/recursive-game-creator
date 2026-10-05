@@ -239,15 +239,16 @@ td { color: var(--secondary); }
 .small-metric strong span { font-size: 14px; color: var(--muted); margin-left: 3px; }
 .small-metric>span { color: var(--muted); font-size: 10px; }
 /* Exploration, citation, footer */
-.exploration-section { display: grid; grid-template-columns: .9fr 1.4fr; align-items: center; gap: 62px; }
-.exploration-copy>p:not(.eyebrow) { color: var(--secondary); font-size: 13px; line-height: 1.85; margin-top: 20px; }
-.exploration-numbers { display: flex; gap: 35px; margin-top: 27px; }
-.exploration-numbers strong { display: block; font-size: 32px; font-weight: 550; letter-spacing: -1px; color: var(--accent); }
-.exploration-numbers strong span { font-size: 15px; margin-left: 3px; }
-.exploration-numbers div>span { color: var(--muted); font-size: 9px; }
-.exploration-image { display: block; background: white; border: 1px solid var(--line); padding: 13px; border-radius: 8px; width: 100%; }
-.exploration-image img { width: 100%; }
-.exploration-section figcaption { color: var(--muted); font-size: 10px; line-height: 1.8; margin-top: 12px; }
+.exploration-section { display: grid; gap: 36px; scroll-margin-top: 90px; }
+.exploration-copy { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 60px; }
+.exploration-summary p { color: var(--secondary); font-size: 13px; line-height: 1.85; margin: 0 0 14px; }
+.exploration-full-view { display: inline-flex; align-items: center; gap: 8px; color: var(--accent); font-size: 12px; margin-top: 5px; }
+.exploration-full-view:hover { color: var(--accent-hover); }
+.exploration-figure { min-width: 0; }
+.exploration-frame { display: block; width: 100%; border: 0; border-radius: 16px; height: 750px; }
+.exploration-fallback { width: 100%; height: auto; border-radius: 12px; }
+.exploration-section figcaption { color: var(--muted); font-size: 10px; line-height: 1.8; margin-top: 14px; }
+.exploration-section figcaption a { color: var(--accent); white-space: nowrap; }
 .citation-section { display: grid; grid-template-columns: .8fr 1.3fr; gap: 65px; border-top: 1px solid var(--line); padding-block: 60px 80px; }
 .citation-intro>p:not(.eyebrow) { font-size: 12px; color: var(--secondary); margin-top: 20px; }
 .citation-links { display: flex; gap: 21px; margin-top: 24px; font-size: 11px; color: var(--accent); }
@@ -298,7 +299,7 @@ dialog::backdrop { background: #23271fbb; backdrop-filter: blur(7px); }
   .version-switcher button{padding:16px 13px;gap:10px;}.version-switcher small{font-size:8px;line-height:1.6;}.version-switcher strong{font-size:11px;}.version-dot{width:5px;height:5px;}.figure-note{font-size:9px;}.comparison-grid{grid-template-columns:1fr;}.comparison-card h3{font-size:20px;}.comparison-card p{font-size:12px;}.comparison-card img{max-height:400px;}
   .results-layout{grid-template-columns:1fr;gap:18px;}.main-score{font-size:66px;}.category-panel{padding-block:26px 29px;}.chart-header h3{font-size:17px;}.chart-row{grid-template-columns:80px 1fr 36px;}.chart-scale{margin-left:90px;margin-top:26px;}.chart-legend{margin-left:90px;}.chart-controls button{padding:7px 9px;}.score-staircase strong{font-size:26px;}
   .gameasg-strip{grid-template-columns:repeat(3,1fr);gap:24px 10px;}.gameasg-strip>div:first-child{grid-column:1/-1;}.small-metric{padding-left:14px;}.small-metric>span{font-size:9px;}.small-metric>strong{font-size:29px;}
-  .exploration-section{grid-template-columns:1fr;gap:28px;}.exploration-copy h2 br{display:none;}.exploration-numbers{margin-top:23px;}.exploration-image{padding:8px;}
+  .exploration-section{gap:28px;}.exploration-copy{grid-template-columns:1fr;gap:20px;}.exploration-copy h2 br{display:none;}.exploration-frame{height:1250px;}
   .citation-section{grid-template-columns:1fr;gap:27px;padding-block:42px 54px;}.citation-intro>p:not(.eyebrow){margin-top:15px;}.citation-links{margin-top:17px;}.bibtex-block pre{font-size:10px;padding:18px;}
   .site-footer{flex-wrap:wrap;padding-block:25px;gap:15px;}.site-footer p{order:3;max-width:none;text-align:left;width:100%;font-size:8px;}.site-footer>a:last-child{font-size:9px;}.site-footer .brand{font-size:11px;}
   .image-arrow{opacity:1;width:24px;height:24px;right:8px;bottom:8px;}.image-arrow .icon{width:12px;height:12px;}.dialog-toolbar{font-size:7px;padding:7px 12px;}#dialog-caption{font-size:10px;}

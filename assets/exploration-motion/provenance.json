@@ -1,0 +1,22 @@
+{
+  "source": "neon-breach-fps/validation/trajectory-heatmap-v012-expanded-20260926",
+  "source_sha256": {
+    "map.json": "0b1b361c07489a22e703822e8545a88e81175c7fd93baabd2adc58dfde063cc4",
+    "episodes.json": "a15609e53ddec30aba199a3f3eb8d143ba8f95de5371042738bc7ec65d272125",
+    "positions.csv": "d30a8ea0a02aee8528141641ee861ba6bcc4e28dd0f2d87595e10c38a8858200",
+    "metrics.json": "ffd46505857835bc6fa0d2ce94a152acbc911e2524c557d8ef19c1991b448748",
+    "english-refined/schematic-rendered-paths.json": "3c12266e7fadcc992eb9d95649fcc5cc3d2e5893fb57c865f8d8a30b8da0c89b",
+    "english-refined/render-method.json": "318b877952d8daf8260cb0f7950af669ed14e4fe155bf5f181741ca649e426b1"
+  },
+  "measured_rollouts": 48,
+  "measured_samples": 17847,
+  "samples_excluded": 0,
+  "coordinates_changed": false,
+  "gui_paths_measured": false,
+  "playback": "All recorded rollouts are overlaid, each normalized by its own recorded duration. This is display alignment, not measured concurrency or a wall-clock comparison.",
+  "heat": "Distinct rollouts per 1 m cell; 8 four-neighbor diffusion steps, weight 0.2, no flux across walls; fixed global normalization and gamma 0.72.",
+  "coverage": "Recomputed from full-precision, positive-interval samples on the original eligible 2 m grid; heat smoothing does not change coverage.",
+  "final_coverage": 97.07010812696198,
+  "final_rooms": 11,
+  "partial_rollouts_included": true
+}

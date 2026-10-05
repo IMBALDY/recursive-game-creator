@@ -197,3 +197,27 @@ if ('IntersectionObserver' in window) {
 
 renderGame();
 setupChart();
+
+// Keep the responsive animation in its own document and pause it offscreen.
+const explorationFrame = query('#exploration-frame');
+let explorationVisible = false;
+const syncExplorationVisibility = () => {
+  explorationFrame.contentWindow?.postMessage({
+    type: 'exploration-visibility', visible: explorationVisible && !document.hidden
+  }, location.origin);
+};
+window.addEventListener('message', event => {
+  if (event.source !== explorationFrame.contentWindow || event.origin !== location.origin) return;
+  if (event.data?.type === 'exploration-height' && Number.isFinite(event.data.height)) {
+    explorationFrame.style.height = `${Math.max(300, Math.min(2400, event.data.height))}px`;
+  }
+  if (event.data?.type === 'exploration-ready') syncExplorationVisibility();
+});
+if ('IntersectionObserver' in window) {
+  new IntersectionObserver(entries => {
+    explorationVisible = entries[0].isIntersecting;
+    syncExplorationVisibility();
+  }).observe(explorationFrame);
+} else explorationVisible = true;
+explorationFrame.addEventListener('load', syncExplorationVisibility);
+document.addEventListener('visibilitychange', syncExplorationVisibility);

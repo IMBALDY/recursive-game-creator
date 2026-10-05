@@ -13,8 +13,8 @@
   <link rel="canonical" href="https://rsigamecreator.github.io/">
   <title>Recursive Game Creator | Research Project</title>
   <link rel="icon" href="favicon.svg?v=20261005-paper" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20261005-paper">
-  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261005-motion">
+  <script src="app.js?v=20261005-motion" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -141,9 +141,16 @@
       </div>
     </section>
 
-    <section class="exploration-section section-space container" aria-labelledby="exploration-title">
-      <div class="exploration-copy"><p class="eyebrow">CODING-NATIVE PLAYER</p><h2 id="exploration-title">Diverse play.<br>Concrete evidence.</h2><p>Separating policy generation from interaction lets the Player act repeatedly without a new model response at every step.</p><p>Different strategies produce different paths through a game. Recorded states, actions, and outcomes give the Reviewer concrete evidence for the next revision.</p><div class="exploration-numbers"><div><strong>48</strong><span>recorded rollouts</span></div><div><strong>97.1<span>%</span></strong><span>reported grid coverage</span></div></div></div>
-      <figure><button class="exploration-image zoom-button" data-zoom="assets/exploration.png" data-caption="Player exploration figure from the manuscript. The left panel shows three illustrative paths; the right shows 48 recorded rollouts. This is not a matched-budget comparison." aria-label="Enlarge exploration comparison"><img src="assets/exploration.png" alt="Exploration comparison showing three illustrative GUI paths and a visitation heatmap from 48 coding-native Player rollouts" width="1500" height="960" loading="lazy"><span class="image-arrow"><svg class="icon"><use href="#i-expand"/></svg></span></button><figcaption>Left: three illustrative paths. Right: recorded rollout coverage. The figure is qualitative, not a matched-budget comparison.</figcaption></figure>
+    <section class="exploration-section section-space container" id="exploration" aria-labelledby="exploration-title">
+      <div class="exploration-copy">
+        <div><p class="eyebrow">CODING-NATIVE PLAYER</p><h2 id="exploration-title">Diverse play.<br>Concrete evidence.</h2></div>
+        <div class="exploration-summary"><p>Separating policy generation from interaction lets the Player act repeatedly without a new model response at every step.</p><p>Watch different strategies unfold into recorded paths, visited interiors, and accumulated coverage—concrete evidence for the next revision.</p><a class="exploration-full-view" href="exploration-motion.html" target="_blank" rel="noopener">Open full interactive view <svg class="icon"><use href="#i-external"/></svg></a></div>
+      </div>
+      <figure class="exploration-figure">
+        <iframe class="exploration-frame" id="exploration-frame" src="exploration-motion.html?embed=1" title="Animated exploration: illustrative GUI routes and 48 recorded coding-native Player rollouts" loading="lazy" height="750"></iframe>
+        <noscript><style>.exploration-frame { display: none; }</style><img class="exploration-fallback" src="assets/exploration.png" alt="Three illustrative routes and the recorded rollout coverage heatmap" width="1500" height="960" loading="lazy"></noscript>
+        <figcaption>Left: three illustrative paths. Right: all 48 recorded rollouts, normalized by each rollout’s duration and overlaid for display. This is a qualitative visualization, not a matched-budget speed comparison. <a href="assets/exploration-motion/provenance.json" target="_blank" rel="noopener">Data provenance ↗</a></figcaption>
+      </figure>
     </section>
 
     <section class="citation-section container-wide" id="citation" aria-labelledby="citation-title"><div class="citation-intro"><p class="eyebrow">RESOURCES</p><h2 id="citation-title">Citation</h2><p>Explore the paper, code, and generated games.</p><div class="citation-links"><a href="assets/recursive-game-creator.pdf" target="_blank" rel="noopener">Paper <svg class="icon"><use href="#i-external"/></svg></a><a href="https://github.com/IMBALDY/RSI-GameCreator" target="_blank" rel="noopener">Code <svg class="icon"><use href="#i-external"/></svg></a><a href="https://github.com/RSIGameCreator/gamecraft" target="_blank" rel="noopener">Games <svg class="icon"><use href="#i-external"/></svg></a></div></div><div class="bibtex-block"><div class="bibtex-header"><span>BIBTEX</span><button id="copy-citation"><svg class="icon"><use href="#i-copy"/></svg><span>Copy citation</span></button></div><pre id="bibtex">@misc{chen2026recursive,

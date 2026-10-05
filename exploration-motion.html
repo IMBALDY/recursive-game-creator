@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#faf8f4">
+  <title>Exploration in motion · Recursive Game Creator</title>
+  <link rel="icon" href="favicon.svg?v=20261005-paper" type="image/svg+xml">
+  <script>if (new URLSearchParams(location.search).get("embed") === "1") document.documentElement.dataset.embed = "true";</script>
+  <link rel="stylesheet" href="assets/exploration-motion/motion.css?v=20261005-embed">
+  <script src="assets/exploration-motion/data.js" defer></script>
+  <script src="assets/exploration-motion/motion.js?v=20261005-embed" defer></script>
+</head>
+<body>
+  <header><a class="brand" href="./">↻ <span>Recursive Game Creator</span></a><a class="preview" href="./#exploration">BACK TO PROJECT ↗</a></header>
+  <main>
+    <div class="intro"><p class="eyebrow">CODING-NATIVE PLAYER / EXPLORATION</p><h1>Watch exploration <em>unfold.</em></h1><p class="deck">From a shared starting point, follow three illustrative routes and watch recorded policy trajectories accumulate into map coverage.</p></div>
+    <section class="figure" aria-label="Animated exploration comparison">
+      <div class="figure-top"><span>NEON BREACH <span class="separator">/</span> PLAYER EXPLORATION</span><span class="playing-state"><i id="status-dot"></i><span id="status">Loading recorded paths…</span></span></div>
+      <div class="panels">
+        <article class="panel gui-panel">
+          <div class="panel-head"><div><p class="panel-label">01 / ILLUSTRATIVE ROUTES</p><h2>GUI Agent Player</h2><p class="panel-description">Three paths, one shared starting point.</p></div><span class="tag">Illustrative</span></div>
+          <canvas id="gui-map" width="882" height="690" aria-label="Three illustrative GUI-style paths gradually drawn on the original game map">Three illustrative routes unfold from a shared starting point.</canvas>
+          <div class="legend"><span><i style="--route:#237d88"></i>Path 1</span><span><i style="--route:#83739d"></i>Path 2</span><span><i style="--route:#ba8250"></i>Path 3</span><span class="spawn-key">✦ Shared spawn</span></div>
+          <div class="panel-note">These three illustrative routes are not measured GUI-agent trajectories.</div>
+        </article>
+        <article class="panel policy-panel">
+          <div class="panel-head"><div><p class="panel-label">02 / RECORDED POLICY ROLLOUTS</p><h2>Coding-Native Player</h2><p class="panel-description">Many trajectories. Accumulating evidence.</p></div><span class="tag measured">48 recorded rollouts</span></div>
+          <canvas id="policy-map" width="882" height="690" aria-label="48 recorded policy trajectories replayed with an accumulating visitation heatmap">48 recorded trajectories and their accumulated visitation heatmap.</canvas>
+          <div class="heat-legend"><span>Less visited</span><span class="color-ramp"></span><span>More visited</span></div>
+          <div class="metrics"><div><strong id="coverage">0.0<span>%</span></strong><span>raw grid coverage</span></div><div><strong id="rooms">0<span> / 11</span></strong><span>interiors visited</span></div><div><strong>48</strong><span>recorded rollouts</span></div></div>
+        </article>
+      </div>
+      <div class="controls">
+        <button class="primary" id="toggle" type="button">Ⅱ Pause</button>
+        <button class="replay" id="replay" type="button" aria-label="Replay from the beginning">↻ Replay</button>
+        <label class="timeline"><span class="sr-only">Animation progress</span><input id="timeline" type="range" min="0" max="1000" value="0"><output id="progress" for="timeline">0%</output></label>
+        <label class="speed"><span class="sr-only">Playback speed</span><select id="speed" aria-label="Playback speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option></select></label>
+        <label class="trails"><input id="trails" type="checkbox" checked><span>Trails</span></label>
+        <label class="loop"><input id="loop" type="checkbox" checked><span>Loop</span></label>
+      </div>
+      <div class="figure-bottom"><span id="sample-count">0 / 17,847 position samples</span><span>Heat accumulates as recorded positions are revealed.</span></div>
+    </section>
+    <div class="caption"><p><b>Reading the animation.</b> Three illustrative routes unfold on the left. On the right, all 48 recorded policy rollouts reveal accumulated visitation, reaching the original dataset’s <b>97.1% grid coverage</b>.</p><p>Each rollout is normalized by its own duration and overlaid for display, including incomplete runs. This does not represent simultaneous execution or a matched-budget speed comparison. Heat is smoothed for display; coverage uses the original 2 m grid.</p><a href="assets/exploration-motion/provenance.json" target="_blank" rel="noopener">Data provenance and calculation details ↗</a></div>
+  </main>
+  <footer>Recursive Game Creator <span>·</span> Animated from original map geometry and recorded policy positions.</footer>
+</body>
+</html>

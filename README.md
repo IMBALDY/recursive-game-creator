@@ -9,11 +9,15 @@ This repository contains the static project page, manuscript PDF, research figur
 ## Contents
 
 - `index.html`, `styles.css`, `app.js`: project page and interactive comparisons.
+- `exploration-motion.html`: interactive exploration animation, also embedded in the main page.
+- `assets/exploration-motion/`: recorded trajectory data, animation code, and source provenance.
 - `meme-arena-video.html`: dedicated player for the three-version gameplay comparison.
 - `assets/`: manuscript PDF, research figures, screenshots, and provenance notes.
 - `videos/meme-arena/`: comparison film, individual version captures, posters, and capture notes.
 
 Meme Arena V1/V2 use restored development snapshots. See the page and `videos/meme-arena/README.txt` for details. The gameplay film uses matched scripted staging and is not a benchmark replay.
+
+The exploration animation overlays 48 recorded policy rollouts, each normalized by its own duration. The three GUI-style routes are illustrative; the visualization is not a matched-budget or wall-clock comparison. See `assets/exploration-motion/provenance.json` for source hashes and calculation details.
 
 ## Local preview
 
