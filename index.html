@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d1a">
+  <meta name="description" content="Recursive Game Creator: an experience-oriented game development harness connecting design, implementation, executable play, and evidence-backed revision.">
+  <meta property="og:title" content="Recursive Game Creator">
+  <meta property="og:description" content="An Agentic Product-Level Experience-Oriented Game Harness.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rsigamecreator.github.io/">
+  <meta property="og:image" content="https://rsigamecreator.github.io/videos/meme-arena/poster.jpg">
+  <link rel="canonical" href="https://rsigamecreator.github.io/">
+  <title>Recursive Game Creator | Research Project</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></symbol>
+    <symbol id="i-paper" viewBox="0 0 24 24"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8zM14 3v5h5M9 12h6M9 16h6"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-14-2 18"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></symbol>
+    <symbol id="i-expand" viewBox="0 0 24 24"><path d="M9 3H3v6m12-6h6v6M3 15v6h6m12-6v6h-6"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+    <symbol id="i-loop" viewBox="0 0 24 24"><path d="M20 7a9 9 0 0 0-15-2L2 8m0-5v5h5M4 17a9 9 0 0 0 15 2l3-3m0 5v-5h-5"/></symbol>
+    <symbol id="i-game" viewBox="0 0 24 24"><path d="M7 6h10c2 0 3 2 3.5 4l1 6c.5 3-2 4-4 2l-3-3h-5l-3 3c-2 2-4.5 1-4-2l1-6C4 8 5 6 7 6ZM7 9v5m-2.5-2.5h5M16 10h.01M18 13h.01"/></symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#" aria-label="Recursive Game Creator home"><span class="brand-mark"><svg><use href="#i-loop"/></svg></span><span>Recursive<span class="brand-light"> Game Creator</span></span></a>
+      <nav aria-label="Main navigation">
+        <a href="#overview">Overview</a><a href="#method">Method</a><a href="#evolution">Evolution</a><a href="#results">Results</a><a href="#citation">Citation</a>
+        <a class="nav-paper" href="assets/recursive-game-creator.pdf" target="_blank" rel="noopener">Paper <svg class="icon"><use href="#i-external"/></svg></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-backdrop" aria-hidden="true"></div>
+      <div class="hero-copy container">
+        <p class="eyebrow hero-eyebrow">EXPERIENCE-ORIENTED GAME DEVELOPMENT</p>
+        <h1 id="hero-title">Recursive <span class="title-accent">Game Creator</span></h1>
+        <p class="hero-subtitle">An Agentic Product-Level<br>Experience-Oriented Game Harness</p>
+        
+        <div class="authors" aria-label="Authors">
+          <span>Jiajun Chen<sup>1,2,†</sup></span><span>Haoyu Wu<sup>1,†</sup></span><span>Mingda Jia<sup>1,2,†</sup></span><span>Xihui Liu<sup>1,2,*</sup></span>
+        </div>
+        <p class="institutions"><span><sup>1</sup> The University of Hong Kong</span><span class="institution-dot">·</span><span><sup>2</sup> Shenzhen Loop Area Institute</span></p>
+        <p class="author-notes">† Equal contribution <span>·</span> * Corresponding author</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="assets/recursive-game-creator.pdf" target="_blank" rel="noopener"><svg class="icon"><use href="#i-paper"/></svg> Paper <svg class="icon"><use href="#i-external"/></svg></a>
+          <a class="button button-secondary" href="https://github.com/IMBALDY/RSI-GameCreator" target="_blank" rel="noopener"><svg class="icon"><use href="#i-code"/></svg> Code</a>
+          <a class="button button-secondary" href="https://github.com/RSIGameCreator/gamecraft" target="_blank" rel="noopener"><svg class="icon"><use href="#i-game"/></svg> Game collection</a>
+          <a class="button button-secondary" href="#evolution-film">▶ Evolution film</a>
+        </div>
+      </div>
+
+      <div class="showcase container-wide">
+        <button class="showcase-card side-card" data-zoom="assets/novel_3.jpeg" data-caption="See You Tomorrow · event illustration from the manuscript" aria-label="Enlarge See You Tomorrow game screenshot">
+          <div class="showcase-image"><img src="assets/novel_3.jpeg" alt="An illustrated event in See You Tomorrow, showing two characters in an evening city scene" width="1280" height="720"><span class="image-arrow"><svg class="icon"><use href="#i-expand"/></svg></span></div>
+          <span class="showcase-label"><span><small>01 / VISUAL NOVEL</small><strong>See You Tomorrow</strong></span><span class="tiny-plus">+</span></span>
+        </button>
+        <button class="showcase-card center-card" data-zoom="assets/meme-hero.png" data-caption="Meme Arena · selected combat view from the manuscript's game assets" aria-label="Enlarge Meme Arena game screenshot">
+          <div class="showcase-image"><img src="assets/meme-hero.png" alt="Meme Arena's bull and dragon characters exchange attacks amid flame effects in a night market arena" width="1275" height="845" fetchpriority="high"><span class="image-badge"><span></span> SELECTED GAMEPLAY</span><span class="image-arrow"><svg class="icon"><use href="#i-expand"/></svg></span></div>
+          <span class="showcase-label"><span><small>02 / FIGHTING GAME</small><strong>Meme Arena</strong></span><span class="tiny-plus">+</span></span>
+        </button>
+        <button class="showcase-card side-card" data-zoom="assets/racing_2.png" data-caption="KAZE · V2 race conditions and driving guides from the manuscript" aria-label="Enlarge KAZE racing game screenshot">
+          <div class="showcase-image"><img src="assets/racing_2.png" alt="A KAZE racing car on a snowy circuit with track guidance and race controls" width="1920" height="1080"><span class="image-arrow"><svg class="icon"><use href="#i-expand"/></svg></span></div>
+          <span class="showcase-label"><span><small>03 / RACING</small><strong>KAZE</strong></span><span class="tiny-plus">+</span></span>
+        </button>
+      </div>
+      <div class="hero-bottom container"><span>Selected games developed with Recursive Game Creator</span><a href="#evolution">Explore the evolution <svg class="icon"><use href="#i-arrow"/></svg></a></div>
+    </section>
+
+    <div class="highlights container" aria-label="Reported research highlights">
+      <div><strong>4 <span>roles</span></strong><p>Design, build, play, and review</p></div>
+      <div><strong>3 <span>rounds</span></strong><p>Iterative game refinement</p></div>
+      <div><strong>+5.19 <span>points</span></strong><p>GameCraft-Bench overall · R1 → R3</p></div>
+    </div>
+    <section class="intro-section section-space container" id="overview" aria-labelledby="intro-title">
+      <div class="intro-body"><p class="eyebrow">OVERVIEW</p><h2 id="intro-title">Beyond a playable prototype.</h2>
+      <h3 class="abstract-label">Abstract</h3>
+      <p>Recent game design agents have made substantial progress in generating playable games and correcting functional bugs. However, functional correctness alone does not ensure engaging gameplay or a production-quality player experience.</p>
+      <p>We present <strong>Recursive Game Creator</strong>, an experience-oriented harness for advancing game development from functional prototypes toward games that people enjoy playing. It organizes iterative development around four components: a <strong>Designer</strong>, a <strong>Builder</strong>, a <strong>Player</strong>, and a <strong>Reviewer</strong>. The Designer translates user goals and review feedback into revision plans, while the Builder implements these plans as candidate games.</p>
+      <p>The coding-native Player executes reusable policies through programmatic interfaces to collect diverse gameplay trajectories, mitigating evaluation bias from visual perception errors and response latency. The Reviewer uses trajectory-based metrics, visual evidence, and explicit textual preferences to evaluate games against game-specific criteria. Its judgments guide version selection and subsequent revisions.</p>
+      <p>In our three-round GameCraft-Bench evaluation, the overall score increases from <strong>72.70 to 77.89</strong>, with gains in all five reported game categories. These results support experience-oriented refinement as a means of improving benchmark-assessed game quality.</p></div>
+      <aside class="research-summary"><span class="panel-kicker">THE REFINEMENT LOOP</span><h3>Development informed<br>by experience.</h3><ol><li><b>Design &amp; build</b><span>Turn user goals and review feedback into a playable candidate.</span></li><li><b>Play &amp; observe</b><span>Execute diverse policies and retain states, actions, metrics, and screenshots.</span></li><li><b>Review &amp; select</b><span>Compare experience evidence and choose the version to carry forward.</span></li></ol><p class="summary-footer"><svg class="icon"><use href="#i-loop"/></svg> Selected game + feedback → next round</p></aside>
+    </section>
+
+    <section class="method-section container-wide" id="method" aria-labelledby="method-title">
+      <div class="method-top"><div><p class="eyebrow">METHOD</p><h2 id="method-title">Four roles. One feedback loop.</h2></div><p>A shared workflow connects creation, executable playtesting, and experience-oriented evaluation.</p></div>
+      <figure class="method-figure"><button class="zoom-button" data-zoom="assets/method-overview.png" data-caption="The Recursive Game Creator workflow, reproduced from the manuscript." aria-label="Enlarge four-role workflow"><img src="assets/method-overview.png" alt="Workflow linking Designer, Builder, Player, and Reviewer through game creation, trajectory evidence, and revision feedback" width="2200" loading="lazy"><span class="image-arrow"><svg class="icon"><use href="#i-expand"/></svg></span></button><figcaption>Experience evidence connects each candidate game to the next development round.</figcaption></figure>
+      <div class="role-grid">
+        <article class="role"><div class="role-top"><span class="role-number">01</span><span class="role-kind">PLAN</span></div><img src="assets/robot-designer.svg" alt="Designer robot from the paper's workflow illustration" width="130" height="130" loading="lazy"><h3>Designer</h3><p>Turns goals and feedback into experience hypotheses, concrete changes, and verifiable acceptance criteria.</p><span class="role-output">Revision plan <svg class="icon"><use href="#i-arrow"/></svg></span></article>
+        <article class="role"><div class="role-top"><span class="role-number">02</span><span class="role-kind">CREATE</span></div><img src="assets/robot-builder.svg" alt="Builder robot from the paper's workflow illustration" width="130" height="130" loading="lazy"><h3>Builder</h3><p>Implements mechanics and interfaces, prepares assets, and integrates them into a playable candidate.</p><span class="role-output">Playable game <svg class="icon"><use href="#i-arrow"/></svg></span></article>
+        <article class="role"><div class="role-top"><span class="role-number">03</span><span class="role-kind">EXPERIENCE</span></div><img src="assets/robot-player.svg" alt="Player robot from the paper's workflow illustration" width="130" height="130" loading="lazy"><h3>Player</h3><p>Writes reusable gameplay policies and executes diverse trajectories, recording actions, states, and visual evidence.</p><span class="role-output">Gameplay evidence <svg class="icon"><use href="#i-arrow"/></svg></span></article>
+        <article class="role"><div class="role-top"><span class="role-number">04</span><span class="role-kind">REFLECT</span></div><img src="assets/robot-reviewer.svg" alt="Reviewer robot from the paper's workflow illustration" width="130" height="130" loading="lazy"><h3>Reviewer</h3><p>Compares experience evidence, weighs strengths and trade-offs, and recommends which version to retain.</p><span class="role-output">Revision feedback <svg class="icon"><use href="#i-loop"/></svg></span></article>
+      </div>
+      <div class="loop-footer"><span class="loop-line" aria-hidden="true"></span><svg class="icon"><use href="#i-loop"/></svg><span>Selected game + evidence-backed feedback → next round</span><span class="loop-line" aria-hidden="true"></span></div>
+    </section>
+
+    <section class="evolution-section section-space container" id="evolution" aria-labelledby="evolution-title">
+      <div class="section-title-row"><div><p class="eyebrow">GAME EVOLUTION</p><h2 id="evolution-title">From V1 to V3.</h2></div><p class="section-deck">Compare environments, interaction feedback, and presentation across three selected development versions.</p></div>
+      <figure class="evolution-film" id="evolution-film" aria-labelledby="film-title">
+        <div class="film-header"><div><p class="eyebrow">MEME ARENA / DEVELOPMENT FILM</p><h3 id="film-title">See the changes in motion.</h3></div><div class="film-actions"><span class="film-spec">01:03 · 1080p</span><button class="button button-secondary" id="film-play" type="button" aria-controls="evolution-video">▶ Play film</button></div></div>
+        <video id="evolution-video" controls playsinline preload="none" width="1920" height="1080" poster="videos/meme-arena/poster.jpg" aria-label="Meme Arena gameplay comparison across V1, V2 and V3" aria-describedby="film-caption">
+          <source src="videos/meme-arena/meme-arena-evolution.mp4" type="video/mp4">
+          Your browser does not support embedded video. <a href="videos/meme-arena/meme-arena-evolution.mp4">Download the comparison film.</a>
+        </video>
+        <figcaption id="film-caption"><div><p>Matched moves across V1, V2, and V3 reveal changes in the arena, skill effects, and the eight-bull finisher.</p><p class="film-source-note">Scripted gameplay from selected development snapshots; V1/V2 use restored snapshots.</p></div><div class="film-links"><a href="meme-arena-video.html">Explore individual versions <span aria-hidden="true">↗</span></a><a href="videos/meme-arena/meme-arena-evolution.mp4" download>Download MP4 <span aria-hidden="true">↓</span></a></div></figcaption>
+        <p class="sr-only" id="film-status" role="status"></p>
+      </figure>
+      <div class="explorer-toolbar"><div class="game-tabs" role="tablist" aria-label="Choose a game"><button id="tab-meme" role="tab" aria-selected="true" aria-controls="game-panel" data-game="meme">Meme Arena</button><button id="tab-novel" role="tab" aria-selected="false" aria-controls="game-panel" tabindex="-1" data-game="novel">Visual Novel</button><button id="tab-racing" role="tab" aria-selected="false" aria-controls="game-panel" tabindex="-1" data-game="racing">KAZE Racing</button></div><button class="compare-toggle" id="compare-toggle" aria-pressed="false">Compare all versions <span>↗</span></button></div>
+      <div class="game-panel" id="game-panel" role="tabpanel" aria-labelledby="tab-meme">
+        <div class="stage-view" id="stage-view">
+          <button class="stage-image zoom-button" id="stage-zoom" data-zoom="assets/meme-v1-scene.png" data-caption="Meme Arena · V1 arena design" aria-label="Enlarge selected version screenshot"><img id="stage-image" src="assets/meme-v1-scene.png" alt="Meme Arena V1: the early rooftop arena" width="1280" height="800" loading="lazy"><span class="stage-version" id="stage-version">VERSION 01</span><span class="image-arrow"><svg class="icon"><use href="#i-expand"/></svg></span></button>
+          <div class="stage-copy"><span class="stage-kicker" id="stage-kicker">THE STARTING POINT</span><h3 id="stage-title">A playable foundation.</h3><p id="stage-description">A rooftop arena, a three-character roster, and simple combat effects establish the core fighting loop.</p><ul id="stage-features"><li>Basic rooftop arena</li><li>Simple ring effects</li><li>Three-character selection</li></ul><button class="detail-image zoom-button" id="detail-zoom" data-zoom="assets/meme-v1-detail.png" data-caption="Meme Arena · V1 skill effects" aria-label="Enlarge version detail"><img id="detail-image" src="assets/meme-v1-detail.png" alt="Meme Arena V1 skill effects" width="1280" height="800" loading="lazy"><span id="detail-caption">A closer look at skill effects ↗</span></button></div>
+        </div>
+        <div class="comparison-grid" id="comparison-grid" hidden></div>
+        <div class="version-switcher" role="group" aria-label="Select development version"><button data-version="0" aria-pressed="true"><span class="version-dot"></span><span><strong>V1</strong><small>Establish the core</small></span></button><button data-version="1" aria-pressed="false"><span class="version-dot"></span><span><strong>V2</strong><small>Develop the experience</small></span></button><button data-version="2" aria-pressed="false"><span class="version-dot"></span><span><strong>V3</strong><small>Refine the details</small></span></button></div>
+      </div>
+      <p class="figure-note" id="evolution-note">Selected development snapshots; scenes and gameplay states may differ. Meme Arena V1/V2 are restored snapshots; V1 uses the earliest retained compatible character models.</p>
+    </section>
+
+    <section class="results-section" id="results" aria-labelledby="results-title">
+      <div class="container section-space">
+        <div class="section-title-row"><div><p class="eyebrow">EXPERIMENTS</p><h2 id="results-title">Quantitative results.</h2></div><p class="section-deck">GameCraft-Bench assesses mechanics,<br> content depth, functional visuals, and art.</p></div>
+        <div class="results-layout">
+          <div class="overall-panel"><div class="panel-kicker">GAMECRAFT-BENCH / OVERALL</div><div class="main-score">77.89<span>/ 100</span></div><p class="score-gain"><svg class="icon"><use href="#i-external"/></svg> +5.19 points from round 1</p><div class="score-staircase"><div><span>Round 1</span><strong>72.70</strong><div style="--value:72.70%"></div></div><div><span>Round 2</span><strong>75.35</strong><div style="--value:75.35%"></div></div><div><span>Round 3</span><strong>77.89</strong><div style="--value:77.89%"></div></div></div><p class="score-footnote">Three refinement rounds.<br>Gains in all five reported categories.</p></div>
+          <div class="category-panel"><div class="chart-header"><h3>Quality across categories</h3><div class="chart-controls" role="group" aria-label="Select result round"><button data-round="0" aria-pressed="false">R1</button><button data-round="1" aria-pressed="false">R2</button><button data-round="2" aria-pressed="true">R3</button></div></div><div class="chart-scale" aria-hidden="true"><span>0</span><span>50</span><span>100</span></div><div class="category-chart" id="category-chart" aria-label="Round 3 category scores"></div><div class="chart-legend"><span class="legend-marker"></span><span id="chart-legend-text">Round 3</span><span class="legend-outline"></span><span>Round 1 reference</span></div></div>
+        </div>
+        <details class="results-table" open><summary>View the complete reported scores <span>+</span></summary><div class="table-scroll"><table><caption>GameCraft-Bench scores reported in the manuscript (0–100).</caption><thead><tr><th scope="col">Method</th><th scope="col">Action</th><th scope="col">Timing</th><th scope="col">Strategy</th><th scope="col">Simulation</th><th scope="col">Adventure</th><th scope="col">Overall</th></tr></thead><tbody><tr><th scope="row">GPT-6 Astra baseline</th><td>73.33</td><td>64.26</td><td>71.44</td><td>74.78</td><td>72.49</td><td>71.26</td></tr><tr><th scope="row">Recursive Game Creator · R1</th><td>67.96</td><td>68.76</td><td>72.10</td><td>77.72</td><td>76.95</td><td>72.70</td></tr><tr><th scope="row">Recursive Game Creator · R2</th><td>70.33</td><td>73.19</td><td>72.96</td><td>80.57</td><td>79.69</td><td>75.35</td></tr><tr class="highlight-row"><th scope="row">Recursive Game Creator · R3</th><td>77.62</td><td>74.41</td><td>74.46</td><td>82.94</td><td>80.00</td><td>77.89</td></tr></tbody></table></div></details>
+        <p class="figure-note">Values transcribed from the current manuscript, not recomputed on this page. See the paper for evaluation details.</p>
+        <div class="gameasg-strip"><div><span class="eyebrow">COMPLEMENTARY EVALUATION</span><h3>GameASG-Bench</h3><p>Source and runtime requirement compliance.</p></div><div class="small-metric"><strong>25<span>/47</span></strong><span>Strict task success</span></div><div class="small-metric"><strong>98.3<span>%</span></strong><span>L1 mean pass rate</span></div><div class="small-metric"><strong>93.4<span>%</span></strong><span>L2 mean pass rate</span></div></div>
+      </div>
+    </section>
+
+    <section class="exploration-section section-space container" aria-labelledby="exploration-title">
+      <div class="exploration-copy"><p class="eyebrow">CODING-NATIVE PLAYER</p><h2 id="exploration-title">Diverse play.<br>Concrete evidence.</h2><p>Separating policy generation from interaction lets the Player act repeatedly without a new model response at every step.</p><p>Different strategies produce different paths through a game. Recorded states, actions, and outcomes give the Reviewer concrete evidence for the next revision.</p><div class="exploration-numbers"><div><strong>48</strong><span>recorded rollouts</span></div><div><strong>97.1<span>%</span></strong><span>reported grid coverage</span></div></div></div>
+      <figure><button class="exploration-image zoom-button" data-zoom="assets/exploration.png" data-caption="Player exploration figure from the manuscript. The left panel shows three illustrative paths; the right shows 48 recorded rollouts. This is not a matched-budget comparison." aria-label="Enlarge exploration comparison"><img src="assets/exploration.png" alt="Exploration comparison showing three illustrative GUI paths and a visitation heatmap from 48 coding-native Player rollouts" width="1500" height="960" loading="lazy"><span class="image-arrow"><svg class="icon"><use href="#i-expand"/></svg></span></button><figcaption>Left: three illustrative paths. Right: recorded rollout coverage. The figure is qualitative, not a matched-budget comparison.</figcaption></figure>
+    </section>
+
+    <section class="citation-section container-wide" id="citation" aria-labelledby="citation-title"><div class="citation-intro"><p class="eyebrow">RESOURCES</p><h2 id="citation-title">Citation</h2><p>Explore the paper, code, and generated games.</p><div class="citation-links"><a href="assets/recursive-game-creator.pdf" target="_blank" rel="noopener">Paper <svg class="icon"><use href="#i-external"/></svg></a><a href="https://github.com/IMBALDY/RSI-GameCreator" target="_blank" rel="noopener">Code <svg class="icon"><use href="#i-external"/></svg></a><a href="https://github.com/RSIGameCreator/gamecraft" target="_blank" rel="noopener">Games <svg class="icon"><use href="#i-external"/></svg></a></div></div><div class="bibtex-block"><div class="bibtex-header"><span>BIBTEX</span><button id="copy-citation"><svg class="icon"><use href="#i-copy"/></svg><span>Copy citation</span></button></div><pre id="bibtex">@misc{chen2026recursive,
+  title = {Recursive Game Creator:
+    An Agentic Product-Level
+    Experience-Oriented Game Harness},
+  author = {Chen, Jiajun and Wu, Haoyu and
+    Jia, Mingda and Liu, Xihui},
+  year = {2026},
+  note = {Preprint}
+}</pre><span id="copy-status" class="sr-only" role="status"></span></div></section>
+  </main>
+  <footer class="site-footer container"><a class="brand" href="#"><span class="brand-mark"><svg><use href="#i-loop"/></svg></span><span>Recursive Game Creator</span></a><p>The University of Hong Kong · Shenzhen Loop Area Institute <span>·</span> 2026</p><a href="#">Back to top ↑</a></footer>
+  <dialog id="image-dialog" aria-labelledby="dialog-caption"><div class="dialog-toolbar"><span>RECURSIVE GAME CREATOR / GALLERY</span><button id="close-dialog" aria-label="Close expanded image"><svg class="icon"><use href="#i-close"/></svg></button></div><img id="dialog-image" src="assets/meme-v3-scene.png" alt="Expanded game screenshot"><p id="dialog-caption"></p></dialog>
+  <noscript><p class="noscript-note">Interactive comparisons require JavaScript. The paper and all reported scores remain available above.</p></noscript>
+</body>
+</html>

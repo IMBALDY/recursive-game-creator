@@ -1,0 +1,152 @@
+[
+  {
+    "file": "assets/racing_1.png",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/demos/three_games/racing_1.png",
+    "note": "Original manuscript image, unaltered.",
+    "sha256": "909d008b2df62fed620d92b186c966aa35234de65eaa0a26619f603af655375d"
+  },
+  {
+    "file": "assets/racing_2.png",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/demos/three_games/racing_2.png",
+    "note": "Original manuscript image, unaltered.",
+    "sha256": "452d514348ffbc33c050a42b39e5b97513ca2f73aed5108b8a83a32c04482144"
+  },
+  {
+    "file": "assets/racing_3.png",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/demos/three_games/racing_3.png",
+    "note": "Original manuscript image, unaltered.",
+    "sha256": "72c5771ef8e2fb78ba37011fe5e57a7c0d1ea28cd1831216babadb7df1bf9a4a"
+  },
+  {
+    "file": "assets/moba_3.png",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/demos/three_games/moba_3.png",
+    "note": "Original manuscript image, unaltered.",
+    "sha256": "7ae4890101ebcf234af4ebde6b2d6342edebc928f2d4381118cca76ec4ff2305"
+  },
+  {
+    "file": "assets/novel_3.jpeg",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/demos/three_games/novel_3.jpeg",
+    "note": "Original manuscript image, unaltered.",
+    "sha256": "395dae14566d7a475ed241ff3127dfb5a7efebc9316178444bedad99201265ac"
+  },
+  {
+    "file": "assets/meme-hero.png",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/demos/meme_arena_v05.png",
+    "note": "Original manuscript image, unaltered.",
+    "sha256": "984ed9e53b2459529c2f9dc5b44318649e6fd3e396249ed50d0973ab94b84bb5"
+  },
+  {
+    "file": "assets/robot-designer.svg",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/assets/robot_designer.svg",
+    "note": "Original manuscript image, unaltered.",
+    "sha256": "bb765ac24472d280870bfe1279793bf2f1db0839b81cdbcdba3efab94b6832d0"
+  },
+  {
+    "file": "assets/robot-builder.svg",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/assets/robot_builder.svg",
+    "note": "Original manuscript image, unaltered.",
+    "sha256": "cf0fee457dfb9c3b638f160bd0641061a658e1dc8ec5fc7ddcb48e4098cac50b"
+  },
+  {
+    "file": "assets/robot-player.svg",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/assets/robot_player.svg",
+    "note": "Original manuscript image, unaltered.",
+    "sha256": "d9ab824eafd01847b3dc9424b75ad2af8977d94dc9d2f5b5694abe847683f855"
+  },
+  {
+    "file": "assets/robot-reviewer.svg",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/assets/robot_reviewer.svg",
+    "note": "Original manuscript image, unaltered.",
+    "sha256": "dfdf2bd2bc287b088e4c21c5c0ecfa783c6d2ecccad005aa27c2ff402901ec7b"
+  },
+  {
+    "file": "assets/meme-v1-scene.png",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/meme_arena_versions.pdf",
+    "note": "Screenshot rectangle rendered with the PDF's display transform: row 1, column 1. No generated or retouched content.",
+    "sha256": "d66f243b420f8d9a09300c25db95ed3d1aa63f5132b1c0aca69b20dce7700e23"
+  },
+  {
+    "file": "assets/meme-v1-detail.png",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/meme_arena_versions.pdf",
+    "note": "Screenshot rectangle rendered with the PDF's display transform: row 1, column 2. No generated or retouched content.",
+    "sha256": "28065131cb70f0eded33005498cf5422d9b1485de7ed2900338b4a7f7b4591cf"
+  },
+  {
+    "file": "assets/meme-v2-scene.png",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/meme_arena_versions.pdf",
+    "note": "Screenshot rectangle rendered with the PDF's display transform: row 2, column 1. No generated or retouched content.",
+    "sha256": "2e0a13c68ac5420a15aaa4e2467dd26bb8b1502730901991e14ed59a8ec290c5"
+  },
+  {
+    "file": "assets/meme-v2-detail.png",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/meme_arena_versions.pdf",
+    "note": "Screenshot rectangle rendered with the PDF's display transform: row 2, column 2. No generated or retouched content.",
+    "sha256": "69e73bc6cd4884f7e5fa0811e4d4ed75ee7eab533840b5b783d10b5f1993ed50"
+  },
+  {
+    "file": "assets/meme-v3-scene.png",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/meme_arena_versions.pdf",
+    "note": "Screenshot rectangle rendered with the PDF's display transform: row 3, column 1. No generated or retouched content.",
+    "sha256": "3ba67c01fa6db7538cb60409cc943ebe3ce7d31f26846363808afe7c12f8b4b0"
+  },
+  {
+    "file": "assets/meme-v3-detail.png",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/meme_arena_versions.pdf",
+    "note": "Screenshot rectangle rendered with the PDF's display transform: row 3, column 2. No generated or retouched content.",
+    "sha256": "248e26a79c4fd239feed9c14441405ebf88025e49f95a66cfa9b1e817ea61f47"
+  },
+  {
+    "file": "assets/novel-v1-scene.jpeg",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/visual_novel_versions_bold.pdf",
+    "note": "Screenshot rectangle rendered with the PDF's display transform: row 1, column 1. No generated or retouched content.",
+    "sha256": "fb011bb4f7eeb6019d06b26728e7baee3db4d6c4fcbb68e42bdd9953c9ca7a0f"
+  },
+  {
+    "file": "assets/novel-v1-detail.jpeg",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/visual_novel_versions_bold.pdf",
+    "note": "Screenshot rectangle rendered with the PDF's display transform: row 1, column 2. No generated or retouched content.",
+    "sha256": "00936b44bfad8ba45ab142abc2a5828ed418db7d71657bcbe108001e37943972"
+  },
+  {
+    "file": "assets/novel-v2-scene.jpeg",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/visual_novel_versions_bold.pdf",
+    "note": "Screenshot rectangle rendered with the PDF's display transform: row 2, column 1. No generated or retouched content.",
+    "sha256": "99776b96a75251c652738623e1044895f4607886edd62c28543327b6628ce3e8"
+  },
+  {
+    "file": "assets/novel-v2-detail.jpeg",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/visual_novel_versions_bold.pdf",
+    "note": "Screenshot rectangle rendered with the PDF's display transform: row 2, column 2. No generated or retouched content.",
+    "sha256": "26e4117a58a3b86837b40255cc3602ac9757a4062539ae9710f963ef54e0a5aa"
+  },
+  {
+    "file": "assets/novel-v3-scene.jpeg",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/visual_novel_versions_bold.pdf",
+    "note": "Screenshot rectangle rendered with the PDF's display transform: row 3, column 1. No generated or retouched content.",
+    "sha256": "ee9832a32711216a4c7f06fcea4ee9c0d967596c315d8edfacb421146647d69a"
+  },
+  {
+    "file": "assets/novel-v3-detail.jpeg",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/visual_novel_versions_bold.pdf",
+    "note": "Screenshot rectangle rendered with the PDF's display transform: row 3, column 2. No generated or retouched content.",
+    "sha256": "b9ae2418b248cf4f5192347c2a426effe146dac57b288f3df255cbe4cb5e6bdc"
+  },
+  {
+    "file": "assets/exploration.png",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/exploration_comparison.pdf",
+    "note": "Raster rendering of the complete paper figure.",
+    "sha256": "7d4c5f6fffa8f8264ea3b354d76e7ff0c804a32be8fae4c88ee45e566ff37dd0"
+  },
+  {
+    "file": "assets/method-overview.png",
+    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/rsi_gamecreator_cycle.pdf",
+    "note": "Raster rendering of the complete four-role workflow figure.",
+    "sha256": "072392ab8d2a07f5c51993edcbf1cc73f4e0fda88813dc0cb62f7e643f43fc62"
+  },
+  {
+    "file": "assets/recursive-game-creator.pdf",
+    "source": "overleaf/SelfEvolingGamesAgent_arxiv_20261005/preview.pdf",
+    "note": "Losslessly repackaged local manuscript PDF; page content unchanged.",
+    "sha256": "7047b25c486c03459961a50bebd1a00c2fdb5e67f7b1ddce7287950e683ae24d"
+  }
+]
