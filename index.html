@@ -151,6 +151,18 @@
       <p class="figure-note" id="evolution-note">Selected development snapshots; scenes and gameplay states may differ. Meme Arena V1/V2 are restored snapshots; V1 uses the earliest retained compatible character models.</p>
     </section>
 
+    <section class="exploration-section section-space container" id="exploration" aria-labelledby="exploration-title">
+      <div class="exploration-copy">
+        <div><p class="eyebrow">CODING-NATIVE PLAYER</p><h2 id="exploration-title">Diverse play.<br>Concrete evidence.</h2></div>
+        <div class="exploration-summary"><p>Separating policy generation from interaction lets the Player act repeatedly without a new model response at every step.</p><p>Watch different strategies unfold into recorded paths, visited interiors, and accumulated coverage—concrete evidence for the next revision.</p><a class="exploration-full-view" href="exploration-motion.html" target="_blank" rel="noopener">Open full interactive view <svg class="icon"><use href="#i-external"/></svg></a></div>
+      </div>
+      <figure class="exploration-figure">
+        <iframe class="exploration-frame" id="exploration-frame" src="exploration-motion.html?embed=1" title="Animated exploration: illustrative GUI routes and 48 recorded coding-native Player rollouts" loading="lazy" height="750"></iframe>
+        <noscript><style>.exploration-frame { display: none; }</style><img class="exploration-fallback" src="assets/exploration.png" alt="Three illustrative routes and the recorded rollout coverage heatmap" width="1500" height="960" loading="lazy"></noscript>
+        <figcaption>Left: three illustrative paths. Right: all 48 recorded rollouts, normalized by each rollout’s duration and overlaid for display. This is a qualitative visualization, not a matched-budget speed comparison. <a href="assets/exploration-motion/provenance.json" target="_blank" rel="noopener">Data provenance ↗</a></figcaption>
+      </figure>
+    </section>
+
     <section class="results-section" id="results" aria-labelledby="results-title">
       <div class="container section-space">
         <div class="section-title-row"><div><p class="eyebrow">EXPERIMENTS</p><h2 id="results-title">Quantitative results.</h2></div><p class="section-deck">GameCraft-Bench assesses mechanics,<br> content depth, functional visuals, and art.</p></div>
@@ -162,18 +174,6 @@
         <p class="figure-note">Values transcribed from the current manuscript, not recomputed on this page. See the paper for evaluation details.</p>
         <div class="gameasg-strip"><div><span class="eyebrow">COMPLEMENTARY EVALUATION</span><h3>GameASG-Bench</h3><p>Source and runtime requirement compliance.</p></div><div class="small-metric"><strong>25<span>/47</span></strong><span>Strict task success</span></div><div class="small-metric"><strong>98.3<span>%</span></strong><span>L1 mean pass rate</span></div><div class="small-metric"><strong>93.4<span>%</span></strong><span>L2 mean pass rate</span></div></div>
       </div>
-    </section>
-
-    <section class="exploration-section section-space container" id="exploration" aria-labelledby="exploration-title">
-      <div class="exploration-copy">
-        <div><p class="eyebrow">CODING-NATIVE PLAYER</p><h2 id="exploration-title">Diverse play.<br>Concrete evidence.</h2></div>
-        <div class="exploration-summary"><p>Separating policy generation from interaction lets the Player act repeatedly without a new model response at every step.</p><p>Watch different strategies unfold into recorded paths, visited interiors, and accumulated coverage—concrete evidence for the next revision.</p><a class="exploration-full-view" href="exploration-motion.html" target="_blank" rel="noopener">Open full interactive view <svg class="icon"><use href="#i-external"/></svg></a></div>
-      </div>
-      <figure class="exploration-figure">
-        <iframe class="exploration-frame" id="exploration-frame" src="exploration-motion.html?embed=1" title="Animated exploration: illustrative GUI routes and 48 recorded coding-native Player rollouts" loading="lazy" height="750"></iframe>
-        <noscript><style>.exploration-frame { display: none; }</style><img class="exploration-fallback" src="assets/exploration.png" alt="Three illustrative routes and the recorded rollout coverage heatmap" width="1500" height="960" loading="lazy"></noscript>
-        <figcaption>Left: three illustrative paths. Right: all 48 recorded rollouts, normalized by each rollout’s duration and overlaid for display. This is a qualitative visualization, not a matched-budget speed comparison. <a href="assets/exploration-motion/provenance.json" target="_blank" rel="noopener">Data provenance ↗</a></figcaption>
-      </figure>
     </section>
 
     <section class="citation-section container-wide" id="citation" aria-labelledby="citation-title"><div class="citation-intro"><p class="eyebrow">RESOURCES</p><h2 id="citation-title">Citation</h2><p>Explore the paper, code, and generated games.</p><div class="citation-links"><a href="https://arxiv.org/abs/2610.08621" target="_blank" rel="noopener">Paper <svg class="icon"><use href="#i-external"/></svg></a><a href="https://github.com/IMBALDY/RSI-GameCreator" target="_blank" rel="noopener">Code <svg class="icon"><use href="#i-external"/></svg></a><a href="https://github.com/RSIGameCreator/gamecraft" target="_blank" rel="noopener">Games <svg class="icon"><use href="#i-external"/></svg></a></div></div><div class="bibtex-block"><div class="bibtex-header"><span>BIBTEX</span><button id="copy-citation"><svg class="icon"><use href="#i-copy"/></svg><span>Copy citation</span></button></div><pre id="bibtex">@misc{chen2026recursivegamecreatoragentic,
