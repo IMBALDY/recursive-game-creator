@@ -1,0 +1,786 @@
+{
+  "version": 3,
+  "provider": "Tripo",
+  "generation_model": "v3.1-20260211",
+  "generated_at": "2026-10-02T18:05:26.845Z",
+  "documentation": "https://developers.tripo3d.com/en/docs/generation-text-to-model/standard",
+  "budget": {
+    "maximum_new_tasks": 11,
+    "completed_tasks": 11,
+    "total_credits_consumed": 330,
+    "remaining_credits": 470
+  },
+  "animation_note": "Generated models are static meshes. Swimming is driven by renderer transforms; these are not rigged animations.",
+  "assets": [
+    {
+      "id": "diver",
+      "status": "success",
+      "requested_at": "2026-10-02T17:42:36.186Z",
+      "request": {
+        "prompt": "Beautiful art-directed stylized natural ocean game, detailed painterly PBR textures with organic hand painted gradients, soft readable shapes, convincing anatomy, no text, no pedestal, isolated object only. A single young adult East Asian male scuba diver in horizontal swimming pose, head toward right and fins behind left. Warm ochre yellow and deep teal wetsuit with cloth seam details, short dark hair, transparent diving mask, compact steel air tank on back with hose, realistic hands held forward and knees slightly bent, two long dark teal fins. Attractive friendly adventurous character, balanced proportions. No weapon, no surrounding water.",
+        "negative_prompt": "blurry, broken anatomy, extra limbs, floating debris, backdrop, stand, text, watermark",
+        "model": "v3.1-20260211",
+        "face_limit": 12000,
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "standard",
+        "export_orientation": "+x"
+      },
+      "task_id": "e090f8b3-4dd8-4946-b3ab-6e9a57744f8f",
+      "progress": 100,
+      "last_checked_at": "2026-10-02T17:46:59.501Z",
+      "credits_consumed": 30,
+      "completed_at": "2026-10-02T17:45:29.080457Z",
+      "glb_inspection": {
+        "container": "GLB 2",
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "animations": 0,
+        "extensions_required": [],
+        "external_dependencies": false,
+        "accessor_bounds": [
+          {
+            "min": [
+              -0.4045369625091553,
+              -0.3653255105018616,
+              -0.5
+            ],
+            "max": [
+              0.4045369625091553,
+              0.3653255105018616,
+              0.5
+            ]
+          },
+          {
+            "min": [
+              -0.9994497895240784,
+              -0.9999369382858276,
+              -0.9995275139808655
+            ],
+            "max": [
+              0.9999806880950928,
+              0.9997854828834534,
+              0.999974250793457
+            ]
+          }
+        ]
+      },
+      "file": "models/diver.glb",
+      "bytes": 9440732,
+      "sha256": "a067d2d11574d6f74167558886a0d3d228c1b51c4e55bb35318a4d2e5b6a9780",
+      "visual_review": {
+        "at": "2026-10-02T18:05:26.845Z",
+        "method": "Browser skill / local Three.js GLTFLoader preview, screenshot visually inspected",
+        "render_success": true,
+        "forward_axis_observed": "-z",
+        "renderer_forward_axis": "+x",
+        "up_axis": "+y",
+        "notes": "Complete young diver with ochre suit, air tank, face mask and two fins; horizontal bent-knee pose. Replaces player and underwater diver NPC visual.",
+        "screenshot": "model-review-shots/diver.jpg",
+        "screenshot_sha256": "65a88ce57c806cc774fdd91fe5f808de3346ce53607e776b261578febe07fcdc"
+      }
+    },
+    {
+      "id": "clownfish",
+      "status": "success",
+      "requested_at": "2026-10-02T17:42:37.547Z",
+      "request": {
+        "prompt": "Beautiful art-directed stylized natural ocean game, detailed painterly PBR textures with organic hand painted gradients, soft readable shapes, convincing anatomy, no text, no pedestal, isolated object only. A single full body orange ocellaris clownfish swimming horizontally. Accurate three creamy white bands edged with black, orange rounded fins with black delicate edges, shiny dark eye and subtle scales. Lively graceful fish anatomy. No coral, no water.",
+        "negative_prompt": "blurry, broken anatomy, extra limbs, floating debris, backdrop, stand, text, watermark",
+        "model": "v3.1-20260211",
+        "face_limit": 12000,
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "standard",
+        "export_orientation": "+x"
+      },
+      "task_id": "3c365988-a9d6-4b45-b556-f51f7a0661c5",
+      "progress": 100,
+      "last_checked_at": "2026-10-02T17:47:06.181Z",
+      "credits_consumed": 30,
+      "completed_at": "2026-10-02T17:45:19.908719Z",
+      "glb_inspection": {
+        "container": "GLB 2",
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "animations": 0,
+        "extensions_required": [],
+        "external_dependencies": false,
+        "accessor_bounds": [
+          {
+            "min": [
+              -0.2210918664932251,
+              -0.29424652457237244,
+              -0.5
+            ],
+            "max": [
+              0.2210918664932251,
+              0.29424652457237244,
+              0.5
+            ]
+          },
+          {
+            "min": [
+              -0.9999628067016602,
+              -0.9977084994316101,
+              -0.9989232420921326
+            ],
+            "max": [
+              0.9999858736991882,
+              0.9993072748184204,
+              0.9961510300636292
+            ]
+          }
+        ]
+      },
+      "file": "models/clownfish.glb",
+      "bytes": 7888016,
+      "sha256": "08fc1996168faeed9ef9081ff7f77f112a2f652b251f9cac40f564f136596b14",
+      "visual_review": {
+        "at": "2026-10-02T18:05:26.845Z",
+        "method": "Browser skill / local Three.js GLTFLoader preview, screenshot visually inspected",
+        "render_success": true,
+        "forward_axis_observed": "-z",
+        "renderer_forward_axis": "+x",
+        "up_axis": "+y",
+        "notes": "Orange and white striped body with detailed fins, visible eye and complete tail.",
+        "screenshot": "model-review-shots/clownfish.jpg",
+        "screenshot_sha256": "da62a94528d7cd75c14185f23f88c2fe2f376746fcc64ec5aec87a4497ec22bd"
+      }
+    },
+    {
+      "id": "parrotfish",
+      "status": "success",
+      "requested_at": "2026-10-02T17:42:38.700Z",
+      "request": {
+        "prompt": "Beautiful art-directed stylized natural ocean game, detailed painterly PBR textures with organic hand painted gradients, soft readable shapes, convincing anatomy, no text, no pedestal, isolated object only. A single full body stoplight parrotfish swimming horizontally. Vibrant natural turquoise emerald scales each finely outlined, warm coral pink cheek and fin edges, distinct small parrot beak, sturdy oval body, elegant broad tail. Animal anatomy, no human expression, no water.",
+        "negative_prompt": "blurry, broken anatomy, extra limbs, floating debris, backdrop, stand, text, watermark",
+        "model": "v3.1-20260211",
+        "face_limit": 12000,
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "standard",
+        "export_orientation": "+x"
+      },
+      "task_id": "94217019-f368-4a05-9aa3-905deba34612",
+      "progress": 100,
+      "last_checked_at": "2026-10-02T17:47:08.013Z",
+      "credits_consumed": 30,
+      "completed_at": "2026-10-02T17:45:20.016849Z",
+      "glb_inspection": {
+        "container": "GLB 2",
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "animations": 0,
+        "extensions_required": [],
+        "external_dependencies": false,
+        "accessor_bounds": [
+          {
+            "min": [
+              -0.23500096797943115,
+              -0.2005780190229416,
+              -0.5
+            ],
+            "max": [
+              0.23500096797943115,
+              0.2005780190229416,
+              0.5
+            ]
+          },
+          {
+            "min": [
+              -0.9999918341636658,
+              -0.9999232292175293,
+              -0.9986380338668823
+            ],
+            "max": [
+              0.9999809861183167,
+              0.9999518394470215,
+              0.9984781742095947
+            ]
+          }
+        ]
+      },
+      "file": "models/parrotfish.glb",
+      "bytes": 11808540,
+      "sha256": "83bdec8cecef94e843bbe5e496c4808bc0703190f997fcfad087dc3adeb2da9b",
+      "visual_review": {
+        "at": "2026-10-02T18:05:26.845Z",
+        "method": "Browser skill / local Three.js GLTFLoader preview, screenshot visually inspected",
+        "render_success": true,
+        "forward_axis_observed": "-z",
+        "renderer_forward_axis": "+x",
+        "up_axis": "+y",
+        "notes": "Turquoise scale pattern, distinct beak, warm pink cheek and tail silhouette.",
+        "screenshot": "model-review-shots/parrotfish.jpg",
+        "screenshot_sha256": "d113f911a19876e73ed5625f5a28c67cfa2e03d0042a5dbb38171fe4175cdc22"
+      }
+    },
+    {
+      "id": "grouper",
+      "status": "success",
+      "requested_at": "2026-10-02T17:42:39.373Z",
+      "request": {
+        "prompt": "Beautiful art-directed stylized natural ocean game, detailed painterly PBR textures with organic hand painted gradients, soft readable shapes, convincing anatomy, no text, no pedestal, isolated object only. A single full body large coral grouper swimming horizontally. Russet red skin covered in many small electric blue dots, large rounded mouth, expressive natural golden eye, detailed dorsal fin and rounded tail, strongly sculpted gill plate, believable fish anatomy. No water.",
+        "negative_prompt": "blurry, broken anatomy, extra limbs, floating debris, backdrop, stand, text, watermark",
+        "model": "v3.1-20260211",
+        "face_limit": 12000,
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "standard",
+        "export_orientation": "+x"
+      },
+      "task_id": "0f78c957-4992-42be-b51f-0d5d3eca260c",
+      "progress": 100,
+      "last_checked_at": "2026-10-02T17:47:10.752Z",
+      "credits_consumed": 30,
+      "completed_at": "2026-10-02T17:45:29.172557Z",
+      "glb_inspection": {
+        "container": "GLB 2",
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "animations": 0,
+        "extensions_required": [],
+        "external_dependencies": false,
+        "accessor_bounds": [
+          {
+            "min": [
+              -0.2557157278060913,
+              -0.2464807778596878,
+              -0.5
+            ],
+            "max": [
+              0.2557157278060913,
+              0.2464807778596878,
+              0.5
+            ]
+          },
+          {
+            "min": [
+              -0.9999845027923584,
+              -0.9999650120735168,
+              -0.9960079789161682
+            ],
+            "max": [
+              0.9997355341911316,
+              0.9996615052223206,
+              0.9982908964157104
+            ]
+          }
+        ]
+      },
+      "file": "models/grouper.glb",
+      "bytes": 13058308,
+      "sha256": "f629238733a2fce195795ea2564794550b71b3e68275862432ce4a7ddf1d573f",
+      "visual_review": {
+        "at": "2026-10-02T18:05:26.845Z",
+        "method": "Browser skill / local Three.js GLTFLoader preview, screenshot visually inspected",
+        "render_success": true,
+        "forward_axis_observed": "-z",
+        "renderer_forward_axis": "+x",
+        "up_axis": "+y",
+        "notes": "Red coral grouper with blue dots, detailed dorsal fin and large mouth. Stylized coloring differs from the old generic brown grouper.",
+        "screenshot": "model-review-shots/grouper.jpg",
+        "screenshot_sha256": "03f2f95fce9546385ff11d87c373244b8fb4e702bc3aeaf7cf4baca74f1c4a1e"
+      }
+    },
+    {
+      "id": "whale_shark",
+      "status": "success",
+      "requested_at": "2026-10-02T17:42:40.663Z",
+      "request": {
+        "prompt": "Beautiful art-directed stylized natural ocean game, detailed painterly PBR textures with organic hand painted gradients, soft readable shapes, convincing anatomy, no text, no pedestal, isolated object only. A single magnificent whale shark in horizontal swimming pose. Massive broad flat head, small gentle eyes, dark blue gray back with beautiful precise cream spotted checker pattern, pale ivory belly, large triangular pectoral fins, prominent tall dorsal fin and crescent caudal tail. Full intact animal, no little fish, no ocean.",
+        "negative_prompt": "blurry, broken anatomy, extra limbs, floating debris, backdrop, stand, text, watermark",
+        "model": "v3.1-20260211",
+        "face_limit": 12000,
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "standard",
+        "export_orientation": "+x"
+      },
+      "task_id": "15dd5bac-4fb5-4c79-94c8-0ac5b016907e",
+      "progress": 100,
+      "last_checked_at": "2026-10-02T17:47:16.331Z",
+      "credits_consumed": 30,
+      "completed_at": "2026-10-02T17:45:15.227326Z",
+      "glb_inspection": {
+        "container": "GLB 2",
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "animations": 0,
+        "extensions_required": [],
+        "external_dependencies": false,
+        "accessor_bounds": [
+          {
+            "min": [
+              -0.19561581313610077,
+              -0.1706213802099228,
+              -0.5
+            ],
+            "max": [
+              0.19561581313610077,
+              0.1706213802099228,
+              0.5
+            ]
+          },
+          {
+            "min": [
+              -0.9999538660049438,
+              -0.99997478723526,
+              -0.9996586441993713
+            ],
+            "max": [
+              0.999898374080658,
+              0.9999111294746399,
+              0.9993305802345276
+            ]
+          }
+        ]
+      },
+      "file": "models/whale_shark.glb",
+      "bytes": 10851944,
+      "sha256": "e920e610bfd71ccc64e39340cb20182a915f63b96c8660b034a58d50f3fde186",
+      "visual_review": {
+        "at": "2026-10-02T18:05:26.845Z",
+        "method": "Browser skill / local Three.js GLTFLoader preview, screenshot visually inspected",
+        "render_success": true,
+        "forward_axis_observed": "+z",
+        "renderer_forward_axis": "+x",
+        "up_axis": "+y",
+        "notes": "Complete spotted giant whale shark; native forward axis is opposite to most assets, corrected to +X in renderer.",
+        "screenshot": "model-review-shots/whale_shark.jpg",
+        "screenshot_sha256": "4817c35e995a5678d7eff8ba472ce59e71ed68a76ae66723803fc64b3a9275f9"
+      }
+    },
+    {
+      "id": "manta_ray",
+      "status": "success",
+      "requested_at": "2026-10-02T17:42:41.497Z",
+      "request": {
+        "prompt": "Beautiful art-directed stylized natural ocean game, detailed painterly PBR textures with organic hand painted gradients, soft readable shapes, convincing anatomy, no text, no pedestal, isolated object only. A single majestic oceanic manta ray gliding horizontally, wings extended in a gentle downstroke. Broad dark indigo diamond shaped body, two curved cephalic lobes flanking mouth, white underside with natural smoky markings, graceful long slender tail, realistic gills and fin anatomy. No ocean.",
+        "negative_prompt": "blurry, broken anatomy, extra limbs, floating debris, backdrop, stand, text, watermark",
+        "model": "v3.1-20260211",
+        "face_limit": 12000,
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "standard",
+        "export_orientation": "+x"
+      },
+      "task_id": "f57514a1-51a5-47d8-8b32-bb49f2d0eb9c",
+      "progress": 100,
+      "last_checked_at": "2026-10-02T17:47:18.568Z",
+      "credits_consumed": 30,
+      "completed_at": "2026-10-02T17:45:29.050718Z",
+      "glb_inspection": {
+        "container": "GLB 2",
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "animations": 0,
+        "extensions_required": [],
+        "external_dependencies": false,
+        "accessor_bounds": [
+          {
+            "min": [
+              -0.49033892154693604,
+              -0.18180161714553833,
+              -0.5
+            ],
+            "max": [
+              0.49033892154693604,
+              0.18180161714553833,
+              0.5
+            ]
+          },
+          {
+            "min": [
+              -0.9976117610931396,
+              -0.9994999766349792,
+              -0.9986306428909302
+            ],
+            "max": [
+              0.9996961355209351,
+              0.9999704360961914,
+              0.9997263550758362
+            ]
+          }
+        ]
+      },
+      "file": "models/manta_ray.glb",
+      "bytes": 7100340,
+      "sha256": "1518def063d502a88f5b0c8c5190b629dd23a589f76ac0eb66a47f42bdc3975f",
+      "visual_review": {
+        "at": "2026-10-02T18:05:26.845Z",
+        "method": "Browser skill / local Three.js GLTFLoader preview, screenshot visually inspected",
+        "render_success": true,
+        "forward_axis_observed": "-z",
+        "renderer_forward_axis": "+x",
+        "up_axis": "+y",
+        "notes": "Complete dark blue giant ray with broad wings, cephalic lobes and long tail. Stylized mottled texture; not a rigged wing animation.",
+        "screenshot": "model-review-shots/manta_ray.jpg",
+        "screenshot_sha256": "8826aabdc6061e82153181062336adaebcba45710f453bab87b37f0e3610497a"
+      }
+    },
+    {
+      "id": "ancient_arch",
+      "status": "success",
+      "requested_at": "2026-10-02T17:42:42.232Z",
+      "request": {
+        "prompt": "Beautiful art-directed stylized natural ocean game, detailed painterly PBR textures with organic hand painted gradients, soft readable shapes, convincing anatomy, no text, no pedestal, isolated object only. A large organic ancient submerged stone arch ruin, broken limestone gateway with two weathered pillars and curved capstone, eroded spiral and tide relief carvings, clinging turquoise sea fans, orange coral patches, green sea grass and small pale shells at base. Ruined seafaring civilization, believable stone construction, fully open central passage, no ground plane or ocean.",
+        "negative_prompt": "blurry, broken anatomy, extra limbs, floating debris, backdrop, stand, text, watermark",
+        "model": "v3.1-20260211",
+        "face_limit": 18000,
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "standard",
+        "export_orientation": "+x"
+      },
+      "task_id": "df06a15e-27b2-4229-bc6c-a9cce2c6d2aa",
+      "progress": 100,
+      "last_checked_at": "2026-10-02T17:47:20.036Z",
+      "credits_consumed": 30,
+      "completed_at": "2026-10-02T17:45:47.270163Z",
+      "glb_inspection": {
+        "container": "GLB 2",
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "animations": 0,
+        "extensions_required": [],
+        "external_dependencies": false,
+        "accessor_bounds": [
+          {
+            "min": [
+              -0.23561471700668335,
+              -0.4216892719268799,
+              -0.5
+            ],
+            "max": [
+              0.23561471700668335,
+              0.4216892719268799,
+              0.5
+            ]
+          },
+          {
+            "min": [
+              -0.9999926686286926,
+              -0.9999999403953552,
+              -0.9999933838844299
+            ],
+            "max": [
+              0.9999743103981018,
+              0.999978244304657,
+              0.9999952912330627
+            ]
+          }
+        ]
+      },
+      "file": "models/ancient_arch.glb",
+      "bytes": 11815260,
+      "sha256": "8c095987549b52b562e33d436ff46b5c4e8d8f1105abddbf09fd98182985e6de",
+      "visual_review": {
+        "at": "2026-10-02T18:05:26.845Z",
+        "method": "Browser skill / local Three.js GLTFLoader preview, screenshot visually inspected",
+        "render_success": true,
+        "forward_axis_observed": "+x",
+        "renderer_forward_axis": "+x",
+        "up_axis": "+y",
+        "notes": "Open weathered stone gateway with coral, relief carvings and shells. Native broad plane is YZ; rotated into the visible XY plane.",
+        "screenshot": "model-review-shots/ancient_arch.jpg",
+        "screenshot_sha256": "0953d39b896f12c7247d4ece3c9b6b3c05d358ecadfab10b99f2c96875aafdbe"
+      }
+    },
+    {
+      "id": "harbor_tavern",
+      "status": "success",
+      "requested_at": "2026-10-02T17:42:43.038Z",
+      "request": {
+        "prompt": "Beautiful art-directed stylized natural ocean game, detailed painterly PBR textures with organic hand painted gradients, soft readable shapes, convincing anatomy, no text, no pedestal, isolated object only. A charming small coastal wooden seafood tavern on a pier, complete single diorama building, hand crafted weathered cedar planks, deep teal curved roof, open serving counter with hanging warm paper lamps, copper cooking pots, baskets of seashells, tiny potted coastal plants, rope wrapped dock posts, a short wooden walkway and steps. Cozy East Asian seaside spirit, polished miniature game environment, no readable signs, no terrain or water.",
+        "negative_prompt": "blurry, broken anatomy, extra limbs, floating debris, backdrop, stand, text, watermark",
+        "model": "v3.1-20260211",
+        "face_limit": 18000,
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "standard",
+        "export_orientation": "+x"
+      },
+      "task_id": "761e6bfd-72f8-4506-9461-947fc812f678",
+      "progress": 100,
+      "last_checked_at": "2026-10-02T17:47:28.807Z",
+      "credits_consumed": 30,
+      "completed_at": "2026-10-02T17:46:43.652648Z",
+      "glb_inspection": {
+        "container": "GLB 2",
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "animations": 0,
+        "extensions_required": [],
+        "external_dependencies": false,
+        "accessor_bounds": [
+          {
+            "min": [
+              -0.5,
+              -0.4141986072063446,
+              -0.406936377286911
+            ],
+            "max": [
+              0.5,
+              0.4141986072063446,
+              0.406936377286911
+            ]
+          },
+          {
+            "min": [
+              -1,
+              -1,
+              -0.999993622303009
+            ],
+            "max": [
+              1,
+              0.9999972581863403,
+              0.9999980330467224
+            ]
+          }
+        ]
+      },
+      "file": "models/harbor_tavern.glb",
+      "bytes": 10640660,
+      "sha256": "a0124a83cd5c93b46355b9a6092faf75b371b12a287e72b1f33b4a69d60d1586",
+      "visual_review": {
+        "at": "2026-10-02T18:05:26.845Z",
+        "method": "Browser skill / local Three.js GLTFLoader preview, screenshot visually inspected",
+        "render_success": true,
+        "forward_axis_observed": "-x",
+        "renderer_forward_axis": "+x",
+        "up_axis": "+y",
+        "notes": "Complete small teal-roof coastal tavern on wood platform, warm lamps, serving counter and props. Used above reef surface.",
+        "screenshot": "model-review-shots/harbor_tavern.jpg",
+        "screenshot_sha256": "9f3df83e18b9e4739702e3ba685727595fbdee615eae875c506626d7cec68d6f"
+      }
+    },
+    {
+      "id": "shrimp",
+      "status": "success",
+      "requested_at": "2026-10-02T17:55:47.104Z",
+      "request": {
+        "prompt": "Beautiful art-directed stylized natural ocean game, detailed painterly PBR textures with organic hand painted gradients, soft readable shapes, convincing anatomy, no text, no pedestal, isolated object only. A single whole beautiful reef shrimp swimming horizontally, pale translucent pearl and coral pink segmented shell, delicate slender legs, two long curving antennae, tiny black stalked eyes, gracefully curved body and broad elegant tail fan. Accurate crustacean anatomy, delicate detailed shell texture, soft pastel natural colors. No plate, no food presentation, no water.",
+        "negative_prompt": "blurry, broken anatomy, extra limbs, floating debris, backdrop, stand, text, watermark",
+        "model": "v3.1-20260211",
+        "face_limit": 12000,
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "standard",
+        "export_orientation": "+x"
+      },
+      "task_id": "5eca592a-ec76-4105-a9d5-4f85de830249",
+      "progress": 100,
+      "last_checked_at": "2026-10-02T17:58:48.112Z",
+      "credits_consumed": 30,
+      "completed_at": "2026-10-02T17:57:36.719050Z",
+      "glb_inspection": {
+        "container": "GLB 2",
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "animations": 0,
+        "extensions_required": [],
+        "external_dependencies": false,
+        "accessor_bounds": [
+          {
+            "min": [
+              -0.13976818323135376,
+              -0.2084268182516098,
+              -0.5
+            ],
+            "max": [
+              0.13976818323135376,
+              0.2084268182516098,
+              0.5
+            ]
+          },
+          {
+            "min": [
+              -0.9999349117279053,
+              -0.9994094371795654,
+              -0.9993422031402588
+            ],
+            "max": [
+              0.9999324679374695,
+              0.9996880888938904,
+              0.9998525977134705
+            ]
+          }
+        ]
+      },
+      "file": "models/shrimp.glb",
+      "bytes": 7495612,
+      "sha256": "371bfc4c08c9eb1f7a9dd7384b5721aa31d77db3e44cd36f59b6550e125806f1",
+      "visual_review": {
+        "at": "2026-10-02T18:05:26.845Z",
+        "method": "Browser skill / local Three.js GLTFLoader preview, screenshot visually inspected",
+        "render_success": true,
+        "forward_axis_observed": "+z",
+        "renderer_forward_axis": "+x",
+        "up_axis": "+y",
+        "notes": "Pale pink segmented shrimp with many legs, antennae and tail fan; native forward axis corrected.",
+        "screenshot": "model-review-shots/shrimp.jpg",
+        "screenshot_sha256": "8c94b2f5850d99cd2a9ec04c8998bc5c7fe9285524d8362c60ff3b8d88eda4cd"
+      }
+    },
+    {
+      "id": "octopus",
+      "status": "success",
+      "requested_at": "2026-10-02T17:55:48.624Z",
+      "request": {
+        "prompt": "Beautiful art-directed stylized natural ocean game, detailed painterly PBR textures with organic hand painted gradients, soft readable shapes, convincing anatomy, no text, no pedestal, isolated object only. A single beautiful small living octopus, complete intact full body with eight graceful arms curled naturally below a rounded mantle, warm reddish lavender skin with small cream dots, gentle intelligent golden eyes, many neat rows of suction cups. Charming natural marine animal anatomy, elegant balanced silhouette, soft detailed skin, no human smile, no ground, no water.",
+        "negative_prompt": "blurry, broken anatomy, extra limbs, floating debris, backdrop, stand, text, watermark",
+        "model": "v3.1-20260211",
+        "face_limit": 12000,
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "standard",
+        "export_orientation": "+x"
+      },
+      "task_id": "72c9cde2-06cb-43e3-a0d0-52037f5b7522",
+      "progress": 100,
+      "last_checked_at": "2026-10-02T17:58:49.380Z",
+      "credits_consumed": 30,
+      "completed_at": "2026-10-02T17:58:08.738254Z",
+      "glb_inspection": {
+        "container": "GLB 2",
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "animations": 0,
+        "extensions_required": [],
+        "external_dependencies": false,
+        "accessor_bounds": [
+          {
+            "min": [
+              -0.5,
+              -0.1886717528104782,
+              -0.49254509806632996
+            ],
+            "max": [
+              0.5,
+              0.1886717528104782,
+              0.49254509806632996
+            ]
+          },
+          {
+            "min": [
+              -0.9999052286148071,
+              -0.999983012676239,
+              -0.9994242787361145
+            ],
+            "max": [
+              0.9993908405303955,
+              0.9993549585342407,
+              0.9992673993110657
+            ]
+          }
+        ]
+      },
+      "file": "models/octopus.glb",
+      "bytes": 10428236,
+      "sha256": "a3e0eef86a05511acd5ab85295bacdea968ddf3206a4c9f7fab16cfd54ae6003",
+      "visual_review": {
+        "at": "2026-10-02T18:05:26.845Z",
+        "method": "Browser skill / local Three.js GLTFLoader preview, screenshot visually inspected",
+        "render_success": true,
+        "forward_axis_observed": "-z",
+        "renderer_forward_axis": "+x",
+        "up_axis": "+y",
+        "notes": "Lavender octopus with rounded mantle, curled arms and visible suction cups. Static posed mesh; transforms provide swimming motion.",
+        "screenshot": "model-review-shots/octopus.jpg",
+        "screenshot_sha256": "f441a30be84027d6bbd5702cdfa92995554fbcdb93325468efca0172c911f008"
+      }
+    },
+    {
+      "id": "crab",
+      "status": "success",
+      "requested_at": "2026-10-02T17:55:49.691Z",
+      "request": {
+        "prompt": "Beautiful art-directed stylized natural ocean game, detailed painterly PBR textures with organic hand painted gradients, soft readable shapes, convincing anatomy, no text, no pedestal, isolated object only. A single beautiful small snow crab with full body and all limbs, pale ivory porcelain shell shaded warm blush, detailed segmented carapace, two small eyes on short stalks, two small front claws and eight long jointed walking legs arranged neatly around body. Accurate natural crustacean anatomy, refined shell texture, delicate organic shape. No ground, no plate, no water.",
+        "negative_prompt": "blurry, broken anatomy, extra limbs, floating debris, backdrop, stand, text, watermark",
+        "model": "v3.1-20260211",
+        "face_limit": 12000,
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "detailed",
+        "geometry_quality": "standard",
+        "export_orientation": "+x"
+      },
+      "task_id": "6fd107cc-488f-451e-86ef-2d12a91fc9e1",
+      "progress": 100,
+      "last_checked_at": "2026-10-02T17:58:52.722Z",
+      "credits_consumed": 30,
+      "completed_at": "2026-10-02T17:57:55.341673Z",
+      "glb_inspection": {
+        "container": "GLB 2",
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "animations": 0,
+        "extensions_required": [],
+        "external_dependencies": false,
+        "accessor_bounds": [
+          {
+            "min": [
+              -0.31202617287635803,
+              -0.17042304575443268,
+              -0.5
+            ],
+            "max": [
+              0.31202617287635803,
+              0.17042304575443268,
+              0.5
+            ]
+          },
+          {
+            "min": [
+              -0.9998798370361328,
+              -0.9999759793281555,
+              -0.9996213912963867
+            ],
+            "max": [
+              0.9999489784240723,
+              0.9999694228172302,
+              0.9994356036186218
+            ]
+          }
+        ]
+      },
+      "file": "models/crab.glb",
+      "bytes": 8484536,
+      "sha256": "6b493761fdc319afebd4a1f5726a15983d3d9804158544af2e688cdf2f7af85f",
+      "visual_review": {
+        "at": "2026-10-02T18:05:26.845Z",
+        "method": "Browser skill / local Three.js GLTFLoader preview, screenshot visually inspected",
+        "render_success": true,
+        "forward_axis_observed": "-z",
+        "renderer_forward_axis": "+x",
+        "up_axis": "+y",
+        "notes": "Pale ivory crab with claws, eyes and jointed legs. Used for snow-crab species.",
+        "screenshot": "model-review-shots/crab.jpg",
+        "screenshot_sha256": "338ec61979f2307cad66f0d7d273ca2c9b734388928141e4eb62960509317a76"
+      }
+    }
+  ]
+}

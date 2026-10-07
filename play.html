@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Play selected games created with Recursive Game Creator directly in your browser.">
+  <title>Play · Recursive Game Creator</title>
+  <link rel="stylesheet" href="play.css?v=20261007-public">
+  <script src="play.js?v=20261007-public" defer></script>
+</head>
+<body>
+  <header class="player-header">
+    <a class="back-link" href="index.html#play">← All games</a>
+    <div class="player-heading"><h1 id="game-title">Choose a game</h1><span id="game-meta">Recursive Game Creator</span></div>
+    <div class="player-actions"><a id="standalone" hidden target="_blank" rel="noopener">Open separately ↗</a><button id="fullscreen" type="button" hidden>Fullscreen ⛶</button></div>
+  </header>
+  <main class="player-stage" id="player-stage">
+    <button class="fullscreen-exit" id="exit-fullscreen" type="button">Exit fullscreen ↙</button>
+    <div id="game-loading" role="status"><span class="loading-dot"></span><h2 id="loading-title">Choose a game to start.</h2><p id="loading-detail">Explore four playable games from our collection.</p><a id="loading-back" href="index.html#play">Browse games →</a></div>
+  </main>
+  <footer class="player-help"><p id="game-controls">Select a game from the project page.</p><span id="game-note">Best played on desktop.</span></footer>
+  <noscript><p class="noscript">JavaScript is needed to play these games. <a href="index.html#play">Return to the collection.</a></p></noscript>
+</body>
+</html>

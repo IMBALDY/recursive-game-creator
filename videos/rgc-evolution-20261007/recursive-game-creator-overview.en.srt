@@ -1,0 +1,155 @@
+1
+00:00:00,370 --> 00:00:01,046
+One game.
+
+2
+00:00:01,318 --> 00:00:02,348
+Three versions.
+
+3
+00:00:12,670 --> 00:00:13,648
+Many games.
+
+4
+00:00:13,868 --> 00:00:15,083
+One refinement loop.
+
+5
+00:00:26,050 --> 00:00:29,942
+Recursive Game Creator refines games through experience.
+
+6
+00:00:30,698 --> 00:00:33,576
+Designer plans experience-driven changes.
+
+7
+00:00:33,950 --> 00:00:36,398
+Builder implements code and assets.
+
+8
+00:00:37,211 --> 00:00:39,967
+Player writes reusable gameplay policies.
+
+9
+00:00:40,450 --> 00:00:43,116
+Reviewer evaluates the playing experience.
+
+10
+00:00:43,762 --> 00:00:48,249
+Policies collect diverse trajectories, without per-action model calls.
+
+11
+00:00:48,729 --> 00:00:52,308
+Review combines play records, visuals, and preferences.
+
+12
+00:00:52,847 --> 00:00:54,992
+Feedback guides the next revision.
+
+13
+00:00:55,865 --> 00:00:58,630
+Meme Arena refines combat presentation.
+
+14
+00:00:59,562 --> 00:01:02,605
+The first version establishes a playable arena.
+
+15
+00:01:03,450 --> 00:01:07,585
+Later versions add a richer stage and more polished character movement.
+
+16
+00:01:11,662 --> 00:01:14,249
+Across the same skills, added effects
+
+17
+00:01:14,259 --> 00:01:17,545
+make each action and impact easier to read.
+
+18
+00:01:23,550 --> 00:01:26,435
+The eight-bull finisher gains a stronger buildup.
+
+19
+00:01:33,312 --> 00:01:36,937
+Then, a cinematic cut-in and a distinct final strike.
+
+20
+00:01:38,700 --> 00:01:41,888
+Matched moves reveal how the presentation evolves.
+
+21
+00:01:44,412 --> 00:01:46,605
+Next, Racing Rocket Trials.
+
+22
+00:01:48,050 --> 00:01:51,554
+Version one warns of an explosion with a flashing barrel.
+
+23
+00:01:56,062 --> 00:02:00,270
+Version two adds a live countdown and a marked blast range.
+
+24
+00:02:04,062 --> 00:02:09,411
+Version three distinguishes direct crashes from knockback with separate danger zones.
+
+25
+00:02:11,900 --> 00:02:15,112
+Recovery costs are visible before you commit.
+
+26
+00:02:17,111 --> 00:02:21,039
+Focused section practice provides its own retry controls.
+
+27
+00:02:25,050 --> 00:02:26,746
+The obstacle stays the same.
+
+28
+00:02:26,943 --> 00:02:28,663
+The feedback becomes clearer.
+
+29
+00:02:30,874 --> 00:02:33,237
+Whitebird evolves from an early prototype.
+
+30
+00:02:34,562 --> 00:02:40,226
+Version one establishes movement, automatic attacks, and three starting blessings.
+
+31
+00:02:41,562 --> 00:02:46,656
+The next build adds illustrated characters, enemies, and weapon techniques.
+
+32
+00:02:48,762 --> 00:02:54,074
+Version three refines yokai artwork, character movement, and the combat interface.
+
+33
+00:02:57,562 --> 00:03:02,073
+Skill details explain what each technique does, alongside the current build.
+
+34
+00:03:05,450 --> 00:03:09,318
+Room routes and blessing choices give the journey more structure.
+
+35
+00:03:12,662 --> 00:03:16,154
+The same core idea grows into a more complete game.
+
+36
+00:03:18,562 --> 00:03:24,056
+Across three rounds, GameCraft-Bench scores improve by 5.19 points.
+
+37
+00:03:26,561 --> 00:03:31,854
+GameASG-Bench: 53.2% strict success.
+
+38
+00:03:32,010 --> 00:03:34,519
+Up 34.1 percentage points.
+
+39
+00:03:35,550 --> 00:03:37,901
+Explore the games, and read the paper.

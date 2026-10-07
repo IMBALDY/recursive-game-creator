@@ -1,0 +1,32 @@
+@font-face{font-family:WhitebirdSans;src:url('assets/NotoSansCJKsc-Regular.otf') format('opentype');font-display:swap}
+@font-face{font-family:'Whitebird Sans';src:url('assets/NotoSansCJKsc-Regular.otf') format('opentype');font-weight:100 900;font-display:swap}
+:root{--font-ui:'Whitebird Sans','Microsoft YaHei','Noto Sans CJK SC',sans-serif}
+body,button,input,select,.modal p,#itemPopover p{font-family:var(--font-ui)!important;font-weight:400;letter-spacing:.025em}
+.home-copy h1{font-size:clamp(52px,6.3vw,88px);letter-spacing:.12em}.home-copy .intro{font-size:23px;line-height:1.6}.home-copy .intro small{font-size:16px;margin-top:10px}.home-actions button{font-size:15px}.modal h2{font-size:25px;letter-spacing:.04em}.card h3{font-size:20px;line-height:1.45}.card p,.modal-sub{font-size:14px;line-height:1.8}.card{padding:23px;min-height:245px}.card .item-icon{display:block;position:static!important;width:64px;height:64px;max-width:none;flex-shrink:0;margin:4px 0 14px}.card small{font-size:12px;letter-spacing:.06em}.cards{gap:16px}.item-icon{background-size:contain!important;background-position:center!important;background-repeat:no-repeat!important}.tabs button{font-size:14px;letter-spacing:0}.character-content h2{font-size:23px}.character-content h3{font-size:18px}.character-content p{font-size:14px;line-height:1.75}.character-art h2{font-size:27px}.stat-grid strong{font-size:23px}.stat-grid small{font-size:12px}.talk-lines p{font-size:18px;line-height:1.7}.talk-lines small{font-size:14px}.talk-face figcaption{font-size:14px}.room-status b{font-size:20px}.vitals b{font-size:18px}.hud-actions button{font-size:13px}.home-copy .eyebrow{font-size:14px}.modal .eyebrow{font-size:12px;letter-spacing:.12em}
+#buffCrown{max-height:190px;overflow-y:auto;max-width:262px;align-content:flex-start;scrollbar-width:thin;padding:3px 6px 5px 0;pointer-events:auto}#buffCrown:before{width:100%;position:static}#buffCrown>span{flex:none}#buffCrown .item-icon{width:30px;height:30px}.bag-list button{font-size:13px;padding:6px 12px}.bag-list article>div{min-width:0}.bag-list p{overflow-wrap:anywhere}.bag-list .item-icon{flex-shrink:0}
+.codex-modal{width:min(1060px,94vw);height:min(720px,90vh);display:flex;flex-direction:column;padding:24px;overflow:hidden}.codex-top{display:flex;justify-content:space-between;align-items:center}.codex-top h2{margin:0}.codex-top button{font-size:14px;border:1px solid #887957;background:#233335;color:#dfd2b3;padding:7px 13px}.codex-layout{min-height:0;flex:1;display:grid;grid-template-columns:260px minmax(0,1fr);gap:24px}.codex-layout aside{display:flex;flex-direction:column;min-height:0}.codex-layout input{background:#0f2024;color:#e5dcc6;padding:12px;border:1px solid #776b50;font-size:14px;width:100%;box-sizing:border-box;margin-bottom:10px}.codex-list{overflow:auto;scrollbar-width:thin}.codex-list button{display:flex;align-items:center;gap:12px;width:100%;padding:9px;background:transparent;border:1px solid transparent;color:#c9c3ad;text-align:left;font-size:14px}.codex-list button.active{background:#31413e;border-color:#ad9864}.codex-list .item-icon{width:38px;height:38px;flex:none}.codex-detail{overflow:auto;padding:16px 25px 20px;background:#102326;border:1px solid #76684a55;scrollbar-width:thin}.codex-detail h3{font-size:23px;margin:16px 0}.codex-detail p{white-space:pre-line;font-size:15px;line-height:1.9}.codex-detail small{display:block;font-size:12px;line-height:1.6;color:#a8af9f;border-top:1px solid #8f795844;padding-top:14px}.codex-art{height:145px;display:flex;align-items:center;justify-content:flex-start}.codex-art .item-icon{height:125px;width:125px}.codex-art canvas{width:180px;height:180px}.codex-art img{height:145px;width:130px;object-fit:cover;object-position:center 20%;mask-image:linear-gradient(#000 85%,transparent)}
+@media(max-height:760px){.card{min-height:200px;padding:16px}.card .item-icon{width:50px;height:50px;margin:0 0 9px}.card h3{font-size:18px}.home-copy .intro{font-size:20px}.modal{max-height:92vh}.codex-modal{height:89vh}.codex-art{height:100px}.codex-art .item-icon{width:90px;height:90px}.codex-detail p{font-size:14px}#buffCrown{max-height:145px}.ink-dialogue .talk-lines p{font-size:17px}}
+@media(max-width:850px){.codex-layout{grid-template-columns:190px minmax(0,1fr);gap:12px}.codex-detail{padding:12px}.codex-list button{font-size:12px}.codex-modal{padding:16px}.hud-actions{gap:5px}.hud-actions button{font-size:12px}}
+
+h1,h2,h3,h4,blockquote,.jp,.eyebrow,.tabs,.card small{font-family:var(--font-ui)!important}h2,h3{font-weight:400!important}
+
+.home-copy{top:25%;}.home-copy h1{margin-bottom:32px}.home-copy .hairline{margin-bottom:35px}.home-actions{margin-top:22px}
+
+/* R1 repair: keep the shop exit visible while stock scrolls independently. */
+#modal.shop-choice{display:flex;flex-direction:column;height:min(780px,calc(100dvh - 48px));max-height:calc(100dvh - 48px);overflow:hidden;padding:20px 24px}
+#modal.shop-choice>.eyebrow,#modal.shop-choice>h2,#modal.shop-choice>.modal-sub,#modal.shop-choice>.modal-foot{flex-shrink:0}
+#modal.shop-choice>.eyebrow{margin-bottom:8px}
+#modal.shop-choice>h2{margin-bottom:8px}
+#modal.shop-choice>.modal-sub{margin-bottom:0}
+#modal.shop-choice>.cards{flex:1;min-height:0;overflow:auto;overscroll-behavior:contain;align-content:start;margin:16px 0;padding:3px 5px 5px 0;scrollbar-width:thin;scrollbar-color:var(--gold) var(--ink)}
+#modal.shop-choice .card{overflow:visible;min-height:0;display:flex;flex-direction:column;align-items:flex-start}
+#modal.shop-choice .card p{overflow-wrap:anywhere;margin-bottom:14px}
+#modal.shop-choice .card kbd{position:static;margin-top:auto;white-space:normal}
+#modal.shop-choice>.modal-foot{border-top:1px solid var(--line);padding-top:12px}
+#modal.shop-choice #skipChoice{flex-shrink:0;min-height:44px}
+@media(max-width:700px){#modal.shop-choice{padding:14px;height:calc(100dvh - 24px);max-height:calc(100dvh - 24px)}}
+
+/* Reserve the battle dock below the shop and let long cards size to content. */
+.battle-dock #modal.shop-choice{height:min(650px,calc(100dvh - 156px));max-height:calc(100dvh - 156px)}
+#modal.shop-choice>.cards{grid-auto-rows:max-content;align-items:start}
+#modal.shop-choice .card>*{flex-shrink:0}

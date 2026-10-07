@@ -1,0 +1,69 @@
+English synthetic narration — Recursive Game Creator
+
+00:00:00.300  One game. Three versions.
+
+00:00:12.600  Many games. One refinement loop.
+
+00:00:26.000  Recursive Game Creator refines games through experience.
+
+00:00:30.650  Designer plans experience-driven changes.
+
+00:00:33.900  Builder implements code and assets.
+
+00:00:37.150  Player writes reusable gameplay policies.
+
+00:00:40.400  Reviewer evaluates the playing experience.
+
+00:00:43.700  Policies collect diverse trajectories, without per-action model calls.
+
+00:00:48.700  Review combines play records, visuals, and preferences.
+
+00:00:52.700  Feedback guides the next revision.
+
+00:00:55.800  Meme Arena refines combat presentation.
+
+00:00:59.500  The first version establishes a playable arena.
+
+00:01:03.400  Later versions add a richer stage and more polished character movement.
+
+00:01:11.600  Across the same skills, added effects make each action and impact easier to read.
+
+00:01:23.500  The eight-bull finisher gains a stronger buildup.
+
+00:01:33.250  Then, a cinematic cut-in and a distinct final strike.
+
+00:01:38.650  Matched moves reveal how the presentation evolves.
+
+00:01:44.350  Next, Racing Rocket Trials.
+
+00:01:48.000  Version one warns of an explosion with a flashing barrel.
+
+00:01:56.000  Version two adds a live countdown and a marked blast range.
+
+00:02:04.000  Version three distinguishes direct crashes from knockback with separate danger zones.
+
+00:02:11.850  Recovery costs are visible before you commit.
+
+00:02:17.000  Focused section practice provides its own retry controls.
+
+00:02:25.000  The obstacle stays the same. The feedback becomes clearer.
+
+00:02:30.800  Whitebird evolves from an early prototype.
+
+00:02:34.500  Version one establishes movement, automatic attacks, and three starting blessings.
+
+00:02:41.500  The next build adds illustrated characters, enemies, and weapon techniques.
+
+00:02:48.700  Version three refines yokai artwork, character movement, and the combat interface.
+
+00:02:57.500  Skill details explain what each technique does, alongside the current build.
+
+00:03:05.400  Room routes and blessing choices give the journey more structure.
+
+00:03:12.600  The same core idea grows into a more complete game.
+
+00:03:18.500  Across three rounds, GameCraft-Bench scores improve by 5.19 points.
+
+00:03:26.500  GameASG-Bench: 53.2% strict success. Up 34.1 percentage points.
+
+00:03:35.500  Explore the games, and read the paper.

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "motion_hero",
+    "status": "completed",
+    "sha256": "9dc302568e2e17902fc8b1d622b20bf6629979ac72c8dee0da320b6d36146dc6"
+  },
+  {
+    "id": "motion_divine",
+    "status": "completed",
+    "sha256": "a5f86a624bd97584c8f15a19990ca017b06e6f80b4c66e96ff68e965850bc3c9"
+  },
+  {
+    "id": "motion_blood",
+    "status": "completed",
+    "sha256": "c5cadf2a827d6a86500036cfc0438dbabbbda021b6147a394998d195921a9b08"
+  },
+  {
+    "id": "motion_enemies_a",
+    "status": "completed",
+    "sha256": "7b200e6ac6989b54157756a6d08f5133c80e2c2db985d6212ba4f9be0fc52762"
+  },
+  {
+    "id": "motion_enemies_b",
+    "status": "completed",
+    "sha256": "8a150abaac13e3d4240e6bd292d8473298ef5a87b0d3bfcba0667a3370f9aab5"
+  },
+  {
+    "id": "motion_enemies_c",
+    "status": "completed",
+    "sha256": "1f978bfe7b5527222e49675723007d1e65546309411ae82a6fe4e36d2f4e2636"
+  },
+  {
+    "id": "motion_bosses",
+    "status": "completed",
+    "sha256": "ad5bdb66dfaa87c3ee4ee2953ba769f19c939dd687cc9b43b9b8a1a73dbef707"
+  },
+  {
+    "id": "motion_gods",
+    "status": "completed",
+    "sha256": "a8abe88df92714ac0a9160fc29371353d916fb976abc14d030a3a7489e926c39"
+  },
+  {
+    "id": "aragami_portrait",
+    "status": "completed",
+    "sha256": "0d67bb7870c6259d2354cd9bc3c8ce5b81fd2879e04deefebae4ddd3b97313f7"
+  },
+  {
+    "id": "sea_portrait",
+    "status": "completed",
+    "sha256": "0d29ac7cc3c06b4808217db652e70d4002d8a6d210285ee451073bab68fdc3ec"
+  },
+  {
+    "id": "arena_mountain",
+    "status": "completed",
+    "sha256": "c462318b2533715c709074ee8dfb07080a35b30b3dd8541bfd067c97138341f2"
+  },
+  {
+    "id": "arena_sea",
+    "status": "completed",
+    "sha256": "0f0826322b33e579bd4f4c710603d34982e29788884bd7837a6daba0ae4ce7d4"
+  },
+  {
+    "id": "motion_fx",
+    "status": "completed",
+    "sha256": "d6e8b1df27f1c4f35d29efc15021b746ea14f6fa65ef370017028e29a1fd43b5"
+  },
+  {
+    "id": "voyage_atlas",
+    "status": "completed",
+    "sha256": "8ce092845ea7d65325d6e641f448adaeda8ded56fadb5b98cbc6a93380aa7a73"
+  }
+]

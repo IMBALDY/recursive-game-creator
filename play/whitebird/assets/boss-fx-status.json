@@ -1,0 +1,32 @@
+[
+  {
+    "id": "fx_edict",
+    "status": "completed",
+    "sha256": "fe09525e3b8f48d0d44b5b06aea63738118f25c81b82f8abc641b8733bab5d38"
+  },
+  {
+    "id": "fx_guardian",
+    "status": "completed",
+    "sha256": "c25339fb28fcccefb8d485ec74519b2407b65069abaa31522f1973ef54a288b5"
+  },
+  {
+    "id": "fx_mountain",
+    "status": "completed",
+    "sha256": "0ecb83e9b4b82935b5bbb46b12224c42cb5e1f17b01d7596ade59bbb5af04360"
+  },
+  {
+    "id": "fx_sea",
+    "status": "completed",
+    "sha256": "140617411638db10bf5e5149f9ddc576071dea3282c37372aaa8afe0a6527176"
+  },
+  {
+    "id": "fx_prince",
+    "status": "completed",
+    "sha256": "728b291228fe63b51f936f7b6ead0a04dc279a9db99012389e64f611039286a8"
+  },
+  {
+    "id": "fx_whitebird",
+    "status": "completed",
+    "sha256": "d7fb7af5edc18e8de5625fb9b5aab46ba5b0243317ae2db40f21a0f467c37924"
+  }
+]

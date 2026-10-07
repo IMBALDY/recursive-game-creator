@@ -1,0 +1,4 @@
+游戏：明天见。基于 RSI-GameCreator 本地视觉小说分支。
+原仓库：https://github.com/IMBALDY/RSI-GameCreator
+剧情与插画为本项目创作；插画使用生成式工具制作。
+未打包参考作品的脚本或素材库图片。本包不包含作者的玩家档案、真实轨迹、提示词记录或 API 密钥。

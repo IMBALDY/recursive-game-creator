@@ -9,11 +9,11 @@
   <meta property="og:description" content="An Agentic Product-Level Experience-Oriented Game Harness.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://rsigamecreator.github.io/">
-  <meta property="og:image" content="https://rsigamecreator.github.io/videos/meme-arena/poster.jpg">
+  <meta property="og:image" content="https://rsigamecreator.github.io/videos/rgc-evolution-20261007/recursive-game-creator-overview-poster.jpg?rev=clean-gameplay-footer">
   <link rel="canonical" href="https://rsigamecreator.github.io/">
   <title>Recursive Game Creator | Research Project</title>
   <link rel="icon" href="favicon.svg?v=20261005-paper" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20261005-motion">
+  <link rel="stylesheet" href="styles.css?v=20261007-playable-games">
   <script src="app.js?v=20261005-motion" defer></script>
 </head>
 <body>
@@ -34,7 +34,7 @@
     <div class="nav-wrap">
       <a class="brand" href="#" aria-label="Recursive Game Creator home"><span class="brand-mark"><svg><use href="#i-loop"/></svg></span><span>Recursive<span class="brand-light"> Game Creator</span></span></a>
       <nav aria-label="Main navigation">
-        <a href="#overview">Overview</a><a href="#method">Method</a><a href="#evolution">Evolution</a><a href="#results">Results</a><a href="#citation">Citation</a>
+        <a href="#play">Play</a><a href="#overview">Overview</a><a href="#method">Method</a><a href="#evolution">Evolution</a><a href="#results">Results</a><a href="#citation">Citation</a>
         <a class="nav-paper" href="assets/recursive-game-creator.pdf" target="_blank" rel="noopener">Paper <svg class="icon"><use href="#i-external"/></svg></a>
       </nav>
     </div>
@@ -57,9 +57,19 @@
           <a class="button button-primary" href="assets/recursive-game-creator.pdf" target="_blank" rel="noopener"><svg class="icon"><use href="#i-paper"/></svg> Paper <svg class="icon"><use href="#i-external"/></svg></a>
           <a class="button button-secondary" href="https://github.com/IMBALDY/RSI-GameCreator" target="_blank" rel="noopener"><svg class="icon"><use href="#i-code"/></svg> Code</a>
           <a class="button button-secondary" href="https://github.com/RSIGameCreator/gamecraft" target="_blank" rel="noopener"><svg class="icon"><use href="#i-game"/></svg> Game collection</a>
+          <a class="button button-secondary" href="#play"><svg class="icon"><use href="#i-game"/></svg> Play games</a>
           <a class="button button-secondary" href="#evolution-film">▶ Evolution film</a>
         </div>
       </div>
+
+      <figure class="evolution-film hero-film container" id="evolution-film" aria-labelledby="film-title">
+        <div class="film-header"><div><p class="eyebrow">RECURSIVE GAME CREATOR / PROJECT FILM</p><h3 id="film-title">Games evolve through experience.</h3></div><div class="film-actions"><span class="film-spec">03:40 · 1080p</span><button class="button button-secondary" id="film-play" type="button" aria-controls="evolution-video">▶ Play film</button></div></div>
+        <video id="evolution-video" controls playsinline preload="metadata" width="1920" height="1080" poster="videos/rgc-evolution-20261007/recursive-game-creator-overview-poster.jpg?rev=clean-gameplay-footer" aria-label="Recursive Game Creator: framework overview, three game evolution stories, and benchmark results">
+          <source src="videos/rgc-evolution-20261007/recursive-game-creator-overview.mp4?rev=clean-gameplay-footer" type="video/mp4">
+          Your browser does not support embedded video. <a href="videos/rgc-evolution-20261007/recursive-game-creator-overview.mp4?rev=clean-gameplay-footer">Download the project film.</a>
+        </video>
+        <p class="sr-only" id="film-status" role="status"></p>
+      </figure>
 
       <div class="showcase container-wide">
         <button class="showcase-card side-card" data-zoom="assets/novel_3.jpeg" data-caption="See You Tomorrow · event illustration from the manuscript" aria-label="Enlarge See You Tomorrow game screenshot">
@@ -83,14 +93,37 @@
       <div><strong>3 <span>rounds</span></strong><p>Iterative game refinement</p></div>
       <div><strong>+5.19 <span>points</span></strong><p>GameCraft-Bench overall · R1 → R3</p></div>
     </div>
+
+    <section class="play-section section-space container" id="play" aria-labelledby="play-title">
+      <div class="section-title-row"><div><p class="eyebrow">PLAY THE GAMES</p><h2 id="play-title">Your turn to play.</h2></div><p class="section-deck">Four selected browser games, one edition each.<br>No installation. Best on a desktop with a keyboard.</p></div>
+      <div class="play-grid">
+        <article class="play-card">
+          <a class="play-cover" href="play.html?game=whitebird" aria-label="Play Whitebird"><img src="assets/play/whitebird.png" alt="Whitebird character in an illustrated shrine arena" width="1280" height="720" loading="lazy"><span class="play-cover-action">Play game <span aria-hidden="true">↗</span></span></a>
+          <div class="play-card-body"><div class="play-card-meta"><span>ACTION ROGUELITE</span><span>English</span></div><h3><a href="play.html?game=whitebird">Whitebird</a></h3><p>Choose your weapon, build a loadout, and fight through a mythic world.</p><div class="play-card-bottom"><span>Keyboard + mouse</span><a href="play.html?game=whitebird" aria-label="Play Whitebird">Play now <span aria-hidden="true">↗</span></a></div></div>
+        </article>
+        <article class="play-card">
+          <a class="play-cover" href="play.html?game=racing-rocket-trials" aria-label="Play Racing Rocket Trials"><img src="assets/play/racing-rocket-trials.png" alt="Motorbike crossing an industrial obstacle course" width="1280" height="720" loading="lazy"><span class="play-cover-action">Play game <span aria-hidden="true">↗</span></span></a>
+          <div class="play-card-body"><div class="play-card-meta"><span>PHYSICS RACING</span><span>English</span></div><h3><a href="play.html?game=racing-rocket-trials">Racing Rocket Trials</a></h3><p>Balance your bike, clear the gaps, and chase a better time across 24 courses.</p><div class="play-card-bottom"><span>Keyboard</span><a href="play.html?game=racing-rocket-trials" aria-label="Play Racing Rocket Trials">Play now <span aria-hidden="true">↗</span></a></div></div>
+        </article>
+        <article class="play-card">
+          <a class="play-cover" href="play.html?game=see-you-tomorrow" aria-label="Play See You Tomorrow"><img src="assets/play/see-you-tomorrow.png" alt="Two characters in a classroom in See You Tomorrow" width="1280" height="720" loading="lazy"><span class="play-cover-action">Play game <span aria-hidden="true">↗</span></span></a>
+          <div class="play-card-body"><div class="play-card-meta"><span>VISUAL NOVEL</span><span>中文 / Chinese</span></div><h3><a href="play.html?game=see-you-tomorrow">See You Tomorrow</a></h3><p>Follow an illustrated mystery and shape the story through branching choices.</p><div class="play-card-bottom"><span>Mouse / keyboard</span><a href="play.html?game=see-you-tomorrow" aria-label="Play See You Tomorrow">Play now <span aria-hidden="true">↗</span></a></div></div>
+        </article>
+        <article class="play-card">
+          <a class="play-cover" href="play.html?game=bluebay-night-kitchen" aria-label="Play Bluebay Night Kitchen"><img src="assets/play/bluebay-night-kitchen.png" alt="Diver collecting fish in an underwater reef" width="1280" height="720" loading="lazy"><span class="play-cover-action">Play game <span aria-hidden="true">↗</span></span></a>
+          <div class="play-card-body"><div class="play-card-meta"><span>EXPLORATION & SIMULATION</span><span>中文 / Chinese</span></div><h3><a href="play.html?game=bluebay-night-kitchen">Bluebay Night Kitchen</a></h3><p>Dive for ingredients, discover the reef, and return to your seaside kitchen.</p><div class="play-card-bottom"><span>Keyboard + mouse</span><a href="play.html?game=bluebay-night-kitchen" aria-label="Play Bluebay Night Kitchen">Play now <span aria-hidden="true">↗</span></a></div></div>
+        </article>
+      </div>
+      <p class="play-section-note">Games load when opened. First-time loading may take a moment; progress is saved in your browser.</p>
+    </section>
+
     <section class="intro-section section-space container" id="overview" aria-labelledby="intro-title">
       <div class="intro-body"><p class="eyebrow">OVERVIEW</p><h2 id="intro-title">Beyond a playable prototype.</h2>
       <h3 class="abstract-label">Abstract</h3>
-      <p>Recent game design agents have made substantial progress in generating playable games and correcting functional bugs. However, functional correctness alone does not ensure engaging gameplay or a production-quality player experience.</p>
-      <p>We present <strong>Recursive Game Creator</strong>, an experience-oriented harness for advancing game development from functional prototypes toward games that people enjoy playing. It organizes iterative development around four components: a <strong>Designer</strong>, a <strong>Builder</strong>, a <strong>Player</strong>, and a <strong>Reviewer</strong>. The Designer translates user goals and review feedback into revision plans, while the Builder implements these plans as candidate games.</p>
-      <p>The coding-native Player executes reusable policies through programmatic interfaces to collect diverse gameplay trajectories, mitigating evaluation bias from visual perception errors and response latency. The Reviewer uses trajectory-based metrics, visual evidence, and explicit textual preferences to evaluate games against game-specific criteria. Its judgments guide version selection and subsequent revisions.</p>
-      <p>In our three-round GameCraft-Bench evaluation, the overall score increases from <strong>72.70 to 77.89</strong>, with gains in all five reported game categories. These results support experience-oriented refinement as a means of improving benchmark-assessed game quality.</p></div>
-      <aside class="research-summary"><span class="panel-kicker">THE REFINEMENT LOOP</span><h3>Development informed<br>by experience.</h3><ol><li><b>Design &amp; build</b><span>Turn user goals and review feedback into a playable candidate.</span></li><li><b>Play &amp; observe</b><span>Execute diverse policies and retain states, actions, metrics, and screenshots.</span></li><li><b>Review &amp; select</b><span>Compare experience evidence and choose the version to carry forward.</span></li></ol><p class="summary-footer"><svg class="icon"><use href="#i-loop"/></svg> Selected game + feedback → next round</p></aside>
+      <p>Recent game design agents have made substantial progress in generating playable games. However, program correctness does not ensure an enjoyable experience for players.</p>
+      <p>We present <strong>Recursive Game Creator</strong>, an experience-oriented harness to advance agentic game development from rough game prototypes into entertaining games. Recursive Game Creator organizes recursive development around four components: <strong>Designer</strong>, <strong>Builder</strong>, <strong>Player</strong>, and <strong>Reviewer</strong>. The Designer translates user instructions and Reviewer's feedback into detailed plans. The Builder turns these plans into candidate games.</p>
+      <p>The coding-native Player creates and executes reusable policies through programmatic interfaces to efficiently collect diverse gameplay trajectories, mitigating evaluation bias caused by slow GUI-based collection. The Reviewer uses carefully designed trajectory-based metrics to induce player preferences, integrating with visual evidence and explicit textual preferences to evaluate games against game-specific criteria. Finally, the Reviewer accepts the better version and provides improvement reviews for the next round, closing the recursive loop.</p>
+      <p>Our method achieves state-of-the-art overall performance of <strong>77.89</strong> on GameCraft-Bench. On GameASG-Bench, it achieves a strict task success rate of <strong>53.2%</strong>, a <strong>34.1%</strong> improvement over the same-model baseline, and the highest mean runtime-check pass rate at <strong>93.4%</strong> among compared methods. A user study shows longer playtime and higher ratings.</p></div>
     </section>
 
     <section class="method-section container-wide" id="method" aria-labelledby="method-title">
@@ -107,15 +140,6 @@
 
     <section class="evolution-section section-space container" id="evolution" aria-labelledby="evolution-title">
       <div class="section-title-row"><div><p class="eyebrow">GAME EVOLUTION</p><h2 id="evolution-title">From V1 to V3.</h2></div><p class="section-deck">Compare environments, interaction feedback, and presentation across three selected development versions.</p></div>
-      <figure class="evolution-film" id="evolution-film" aria-labelledby="film-title">
-        <div class="film-header"><div><p class="eyebrow">MEME ARENA / DEVELOPMENT FILM</p><h3 id="film-title">See the changes in motion.</h3></div><div class="film-actions"><span class="film-spec">01:03 · 1080p</span><button class="button button-secondary" id="film-play" type="button" aria-controls="evolution-video">▶ Play film</button></div></div>
-        <video id="evolution-video" controls playsinline preload="none" width="1920" height="1080" poster="videos/meme-arena/poster.jpg" aria-label="Meme Arena gameplay comparison across V1, V2 and V3" aria-describedby="film-caption">
-          <source src="videos/meme-arena/meme-arena-evolution.mp4" type="video/mp4">
-          Your browser does not support embedded video. <a href="videos/meme-arena/meme-arena-evolution.mp4">Download the comparison film.</a>
-        </video>
-        <figcaption id="film-caption"><div><p>Matched moves across V1, V2, and V3 reveal changes in the arena, skill effects, and the eight-bull finisher.</p><p class="film-source-note">Scripted gameplay from selected development snapshots; V1/V2 use restored snapshots.</p></div><div class="film-links"><a href="meme-arena-video.html">Explore individual versions <span aria-hidden="true">↗</span></a><a href="videos/meme-arena/meme-arena-evolution.mp4" download>Download MP4 <span aria-hidden="true">↓</span></a></div></figcaption>
-        <p class="sr-only" id="film-status" role="status"></p>
-      </figure>
       <div class="explorer-toolbar"><div class="game-tabs" role="tablist" aria-label="Choose a game"><button id="tab-meme" role="tab" aria-selected="true" aria-controls="game-panel" data-game="meme">Meme Arena</button><button id="tab-novel" role="tab" aria-selected="false" aria-controls="game-panel" tabindex="-1" data-game="novel">Visual Novel</button><button id="tab-racing" role="tab" aria-selected="false" aria-controls="game-panel" tabindex="-1" data-game="racing">KAZE Racing</button></div><button class="compare-toggle" id="compare-toggle" aria-pressed="false">Compare all versions <span>↗</span></button></div>
       <div class="game-panel" id="game-panel" role="tabpanel" aria-labelledby="tab-meme">
         <div class="stage-view" id="stage-view">
@@ -153,14 +177,14 @@
       </figure>
     </section>
 
-    <section class="citation-section container-wide" id="citation" aria-labelledby="citation-title"><div class="citation-intro"><p class="eyebrow">RESOURCES</p><h2 id="citation-title">Citation</h2><p>Explore the paper, code, and generated games.</p><div class="citation-links"><a href="assets/recursive-game-creator.pdf" target="_blank" rel="noopener">Paper <svg class="icon"><use href="#i-external"/></svg></a><a href="https://github.com/IMBALDY/RSI-GameCreator" target="_blank" rel="noopener">Code <svg class="icon"><use href="#i-external"/></svg></a><a href="https://github.com/RSIGameCreator/gamecraft" target="_blank" rel="noopener">Games <svg class="icon"><use href="#i-external"/></svg></a></div></div><div class="bibtex-block"><div class="bibtex-header"><span>BIBTEX</span><button id="copy-citation"><svg class="icon"><use href="#i-copy"/></svg><span>Copy citation</span></button></div><pre id="bibtex">@misc{chen2026recursive,
-  title = {Recursive Game Creator:
-    An Agentic Product-Level
-    Experience-Oriented Game Harness},
-  author = {Chen, Jiajun and Wu, Haoyu and
-    Jia, Mingda and Liu, Xihui},
-  year = {2026},
-  note = {Preprint}
+    <section class="citation-section container-wide" id="citation" aria-labelledby="citation-title"><div class="citation-intro"><p class="eyebrow">RESOURCES</p><h2 id="citation-title">Citation</h2><p>Explore the paper, code, and generated games.</p><div class="citation-links"><a href="https://arxiv.org/abs/2610.08621" target="_blank" rel="noopener">Paper <svg class="icon"><use href="#i-external"/></svg></a><a href="https://github.com/IMBALDY/RSI-GameCreator" target="_blank" rel="noopener">Code <svg class="icon"><use href="#i-external"/></svg></a><a href="https://github.com/RSIGameCreator/gamecraft" target="_blank" rel="noopener">Games <svg class="icon"><use href="#i-external"/></svg></a></div></div><div class="bibtex-block"><div class="bibtex-header"><span>BIBTEX</span><button id="copy-citation"><svg class="icon"><use href="#i-copy"/></svg><span>Copy citation</span></button></div><pre id="bibtex">@misc{chen2026recursivegamecreatoragentic,
+      title={Recursive Game Creator: An Agentic Product-Level Experience-Oriented Game Harness},
+      author={Jiajun Chen and Haoyu Wu and Mingda Jia and Xihui Liu},
+      year={2026},
+      eprint={2610.08621},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2610.08621},
 }</pre><span id="copy-status" class="sr-only" role="status"></span></div></section>
   </main>
   <footer class="site-footer container"><a class="brand" href="#"><span class="brand-mark"><svg><use href="#i-loop"/></svg></span><span>Recursive Game Creator</span></a><p>The University of Hong Kong · Shenzhen Loop Area Institute <span>·</span> 2026</p><a href="#">Back to top ↑</a></footer>

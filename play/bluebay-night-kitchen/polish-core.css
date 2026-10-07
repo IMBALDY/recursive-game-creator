@@ -1,0 +1,218 @@
+/* V6.1: smooth fitted surfaces. Text stays in flow and inside its own safe area. */
+.rel-v6 .rel-choices .rel-choice-ribbon:focus-visible { outline:0!important;filter:brightness(1.16) drop-shadow(0 0 5px #e5b654)!important; }
+.rel-v6 .rel-choices .rel-choice-ribbon:focus-visible>span { text-decoration:underline;text-underline-offset:5px; }
+.bb-button.primary,.bb-button.secondary,.bb-sail-button,.bb-pennant-button,
+.bb-book-tabs button,.panel--character .character-name,
+.panel[data-scene=loadout] .choice strong,.hud-top>.hud-mission,
+.controls-line,.hunt-board .hunt-actions .primary,.hunt-card .hunt-card-body button {
+  clip-path:none!important;
+}
+.bb-button.primary {
+  background:linear-gradient(180deg,#386b5c,#245245);border:1px solid #b6a16a;
+  border-radius:100px;box-shadow:inset 0 1px 0 #c9dcc530,0 3px 8px #132f272d;
+  padding:13px 27px;min-height:52px;font:500 15px/1.6 var(--font-ui);
+}
+.bb-button.secondary { font:500 14px/1.6 var(--font-ui);padding:12px;min-height:46px; }
+.bb-button>span { min-width:0;overflow-wrap:anywhere; }
+.bb-button .bb-icon { width:24px;height:24px; }
+.button-row { flex-wrap:wrap;gap:12px; }
+.bb-title .title-copy h1 { font:600 clamp(56px,5.8vw,84px)/1.5 var(--font-display);letter-spacing:.08em; }
+.bb-title .title-copy .subtitle { font:500 17px/1.7 var(--font-display);letter-spacing:.16em; }
+.bb-title .title-copy p { font:400 16px/1.9 var(--font-dialogue);max-width:410px; }
+.bb-title .eyebrow,.bb-title .title-brand { font-family:var(--font-ui);font-size:12px;line-height:1.7;letter-spacing:.12em; }
+.bb-title .title-copy { width:min(510px,52vw);padding-top:3vh; }
+.bb-title-actions { align-items:center;gap:24px; }
+.bb-sail-button { width:236px;height:auto;min-height:150px;padding:22px 24px;border:1px solid #d6be8c;border-radius:38px 38px 52px 52px;box-shadow:inset 0 0 0 5px #efdcba,0 5px 15px #082d3444; }
+.bb-sail-button:before { inset:10px;border:1px solid #a7936980;border-radius:28px 28px 43px 43px;clip-path:none; }
+.bb-sail-button>span { font:600 16px/1.6 var(--font-ui); }
+.bb-sail-button>small { font:500 11px/1.6 var(--font-ui);letter-spacing:.1em; }
+.bb-round-button { width:110px;height:110px;padding:22px 14px;gap:4px;font:500 14px/1.5 var(--font-ui); }
+.bb-round-button .bb-icon { width:27px;height:27px; }
+.bb-title .bb-pennant-button { width:214px;min-height:64px;background:none;border:0;border-radius:100px;padding:12px 17px;font:500 14px/1.6 var(--font-ui);box-shadow:inset 0 0 0 1px #c4b17c99;background-color:#254b3ed9; }
+.bb-manual-link { font:400 14px/1.6 var(--font-ui);padding:12px 0; }
+.bb-title .title-crew p { font:400 13px/1.7 var(--font-dialogue); }
+.bb-title .title-footer { position:relative;left:auto;right:auto;bottom:auto;margin-top:27px;gap:16px; }
+.bb-title .title-footer button,.bb-title .title-footer>span { font:400 13px/1.7 var(--font-ui); }
+.bb-title .title-footer button { min-height:44px;padding:8px 10px; }
+.title-screen.bb-title { padding-bottom:24px; }
+.bb-title .bb-island-route { width:320px;top:14vh;right:4vw; }
+.bb-title .route-card { width:calc(100% - 48px);margin-block:16px;min-height:70px; }
+.bb-title .route-card h3 { font:600 21px/1.5 var(--font-display);letter-spacing:.05em; }
+.bb-title .route-card span { font:400 12px/1.6 var(--font-ui);letter-spacing:.04em; }
+.bb-title .route-card>div { min-width:0;background:none;border-radius:0;padding:0; }
+.bb-route-seal { border-radius:50%; }
+.overlay>.panel:not(.panel--character) { border-radius:22px; }
+.panel:not(.panel--character):before { border-style:solid;border-color:#b0986933; }
+.panel h2 { font-family:var(--font-display)!important;font-size:30px;line-height:1.45; }
+.panel p { font:400 16px/1.85 var(--font-dialogue); }
+.panel .eyebrow { font:500 12px/1.7 var(--font-ui);letter-spacing:.09em; }
+.panel .choices .choice,.panel .panel-body .choices .choice { border-radius:16px;padding:18px 22px;background:linear-gradient(90deg,#ddd0ad60,#f7eccc30); }
+.panel .choices .choice:before { display:none; }
+.panel .choices .choice strong { font:600 16px/1.6 var(--font-ui); }
+.panel .choices .choice span { font:400 14px/1.8 var(--font-ui); }
+.panel.panel--character .panel-body { border-radius:22px;padding:32px;box-shadow:0 8px 26px #082b2677,inset 0 0 0 1px #b6a07599; }
+.panel.panel--character .panel-body:before { border-radius:15px;inset:8px;border-style:solid;border-color:#b6a07533; }
+.panel--character .character-name { transform:none;border-radius:50px;padding:10px 24px;font:600 25px/1.5 var(--font-display); }
+.panel--character .character-role { font:400 14px/1.8 var(--font-dialogue); }
+.panel--character .panel-body h2 { font:600 30px/1.5 var(--font-display); }
+.panel--character .panel-body p,.panel[data-scene=dialog] .panel-body>p,.panel[data-scene=hunt-homecoming] .panel-body>p { font:400 17px/1.9 var(--font-dialogue); }
+.panel--character .panel-body .small,.panel--character .panel-body label { font:400 13px/1.7 var(--font-ui); }
+.panel--character .panel-body input { font:400 15px/1.6 var(--font-number);border-radius:9px;padding:12px; }
+.panel[data-scene=brief] .panel-body { border-radius:22px;transform:none; }
+.panel[data-scene=brief] .panel-body:after { display:none; }
+.panel--character .panel-body .steps { gap:14px; }
+.panel--character .panel-body .step { padding:12px 0; }
+.panel--character .panel-body .step b { font:600 15px/1.6 var(--font-ui); }
+.panel--character .panel-body .step span { font:400 14px/1.8 var(--font-ui); }
+.panel[data-scene=loadout] .panel-body { border-radius:26px; }
+.panel[data-scene=loadout] .illustrated-choice { min-height:270px;padding-inline:12px!important; }
+.panel[data-scene=loadout] .choice strong { display:block;background:none;border:0;font:600 17px/1.6 var(--font-ui)!important;padding:10px 0 5px; }
+.panel[data-scene=loadout] .choice span { font:400 14px/1.8 var(--font-ui)!important;padding:4px 0; }
+.panel[data-scene=loadout] .illustrated-choice:hover { transform:none!important; }
+.panel[data-scene=collection] { border-radius:16px!important; }
+.bb-book-head { font:400 13px/1.7 var(--font-ui);padding-right:52px; }
+.bb-book-head .eyebrow { font-size:13px;letter-spacing:.08em; }
+.bb-book-tabs { gap:10px;flex-wrap:wrap; }
+.bb-book-tabs button { border-radius:14px 14px 5px 5px;min-height:46px;font:500 14px/1.6 var(--font-ui);padding:10px 16px; }
+.bb-specimen-detail p { font:400 15px/1.9 var(--font-dialogue);min-height:57px; }
+.bb-specimen-detail h2 { font-size:28px; }
+.bb-catalog-no,.bb-specimen-art i { font:400 12px/1.6 var(--font-ui);letter-spacing:.05em; }
+.bb-specimen-art i { position:static;transform:none;align-self:flex-end;display:none; }
+.bb-mastery { width:100%;font:500 14px/1.7 var(--font-ui); }
+.bb-mastery small { font:400 12px/1.7 var(--font-ui);display:block; }
+.bb-page-title { flex-wrap:wrap;gap:8px; }
+.bb-page-title h3 { font:600 22px/1.5 var(--font-display); }
+.bb-page-title>span { font:400 10px/1.6 var(--font-ui); }
+.bb-specimen-stamp { font:500 14px/1.7 var(--font-ui);border-radius:18px;padding:8px 4px; }
+.bb-specimen-stamp>small { font:400 11px/1.6 var(--font-ui); }
+.bb-stamp-art { border-radius:50%; }
+.bb-page-turn { font:400 13px/1.6 var(--font-number);letter-spacing:.1em; }
+.bb-page-turn button { height:44px;width:44px;font-family:var(--font-ui); }
+.panel[data-scene=collection] .bag-grid { max-height:210px;gap:10px; }
+.panel[data-scene=collection] .bag-grid button { max-width:230px;border:1px solid #9c885866;border-radius:14px;font:400 13px/1.6 var(--font-ui);padding:10px; }
+.panel[data-scene=collection] .bag-section p { font-size:13px; }
+.panel[data-scene=friends] { border-radius:22px!important; }
+.bb-friends-head p { font-size:15px; }
+.bb-friend-page h3 { font:600 34px/1.45 var(--font-display);letter-spacing:.08em; }
+.bb-friend-page blockquote { font:400 19px/1.9 var(--font-dialogue);transform:none; }
+.bb-friend-page>span { font:500 14px/1.7 var(--font-ui); }
+.bb-friend-page>small { font:400 13px/1.7 var(--font-ui); }
+.bb-friend-tabs { gap:12px; }
+.bb-friend-tabs button { width:78px;font:500 13px/1.6 var(--font-ui);padding:5px; }
+.panel[data-scene=feedback] { border-radius:20px!important;padding:35px 40px!important; }
+.panel[data-scene=feedback]:after { display:none; }
+.panel[data-scene=feedback] h2 { max-width:calc(100% - 32px);font-size:29px; }
+.panel[data-scene=feedback] label,.panel[data-scene=feedback] .feedback-note { font:400 14px/1.8 var(--font-ui); }
+.panel[data-scene=feedback] select,.panel[data-scene=feedback] textarea { font:400 16px/1.8 var(--font-ui);padding:12px;background:#faf0d655;border-radius:9px;border:1px solid #b3a07755; }
+.panel[data-scene=feedback] textarea { min-height:160px; }
+.bb-ratings summary { font:500 14px/1.7 var(--font-ui); }
+.bb-ratings .rating-row { font:400 13px/1.7 var(--font-ui); }
+.bb-ratings .rating-grid { gap:14px; }
+.panel[data-scene=pause],.panel[data-scene=hunt-pause] { border-radius:40px!important; }
+.panel[data-scene=pause] .choice strong { font:500 16px/1.6 var(--font-ui)!important; }
+.panel[data-scene=pause] .choice span { font:400 13px/1.8 var(--font-ui)!important; }
+.panel[data-scene=map] { border-radius:22px!important; }
+.panel[data-scene=map] .map-full { border-radius:16px; }
+.panel[data-scene=map] .map-legend { font:400 13px/1.8 var(--font-ui); }
+.hud,.hunt-hud,.hunt-board,.hunt-result,.hunt-practice { font-family:var(--font-ui); }
+.hud-top>.hud-mission { border-radius:20px!important;padding:15px 18px!important;width:300px!important;max-width:300px!important;background:linear-gradient(90deg,#173f3455,#173f34de)!important; }
+.hud-top>.hud-mission:after { display:none; }
+.hud .eyebrow { font:400 11px/1.6 var(--font-ui);letter-spacing:.08em; }
+.hud .location { font:600 20px/1.5 var(--font-display);letter-spacing:.04em; }
+.hud .objective strong,.hud .objective div { font:400 13px/1.75 var(--font-ui); }
+.hud-player b { font:600 18px/1.5 var(--font-display); }
+.hud-player span,.hud .stat-row,.depth { font:400 12px/1.6 var(--font-number); }
+.bb-dive-instrument { height:156px;width:156px;padding:43px 20px 20px; }
+.bb-dive-instrument .stat-row { font:400 12px/1.5 var(--font-ui);gap:3px; }
+.bb-dive-instrument #oxygen-text { font:600 23px/1.45 var(--font-number);font-variant-numeric:tabular-nums;white-space:nowrap; }
+.bb-dive-instrument #oxygen-bar { margin:8px 7px 0; }
+.hud-actions .small-button { width:44px;height:44px; }
+.controls-line { border-radius:16px;background:#183e32d9!important;font:400 12px/1.8 var(--font-ui);gap:10px;max-width:calc(100vw - 210px);flex-wrap:wrap; }
+.controls-line b { font:500 12px/1.6 var(--font-ui); }
+.interaction { font:500 14px/1.6 var(--font-ui);border-radius:28px!important;max-width:calc(100vw - 48px); }
+.fish-tag,.toast,#caption { font:400 14px/1.7 var(--font-ui);border-radius:15px!important; }
+.hunt-header h1,.hunt-card h2,.hunt-result-card h1 { font-family:var(--font-display); }
+.hunt-header h1 { line-height:1.5;padding-block:3px; }
+.hunt-header p,.hunt-card-body p,.hunt-card-body .hunt-mechanic { font:400 14px/1.8 var(--font-ui); }
+.hunt-card-body>small,.hunt-coordinate,.hunt-reward { font:400 12px/1.7 var(--font-ui); }
+.hunt-board .hunt-actions button,.hunt-card .hunt-card-body button { border-radius:26px!important;min-height:50px;font:500 14px/1.6 var(--font-ui);padding:13px 22px;background:linear-gradient(#396251,#244939)!important;border:1px solid #c7b47c99!important; }
+.hunt-chart { min-height:590px;height:auto;max-height:none; }
+.hunt-grid { min-height:570px;height:auto;padding-bottom:25px; }
+.hunt-result-card { border-radius:24px!important; }
+.hunt-result-card p { font:400 16px/1.8 var(--font-dialogue); }
+.hunt-controls .hunt-action,.hunt-warning,.hunt-tips>p { font:500 14px/1.7 var(--font-ui); }
+.hunt-tips>small,.hunt-footer { font:400 12px/1.7 var(--font-ui); }
+@media(max-width:1050px) {
+ .bb-title .title-copy { width:480px;max-width:58vw; }
+ .bb-title .bb-island-route { width:280px;right:3vw; }
+ .bb-title .route-card h3 { font-size:18px; }
+ .bb-title .route-card span { font-size:11px; }
+ .bb-title-actions { gap:16px; }.bb-sail-button { width:210px; }.bb-title .bb-pennant-button { width:195px;font-size:13px; }
+}
+@media(max-width:760px) {
+ .bb-title .title-copy { width:100%;max-width:none;padding-top:28px; }
+ .bb-title .bb-island-route { position:relative;inset:auto;display:block;width:100%;padding-top:30px; }
+ .bb-title .bb-island-route:before { display:none; }
+ .bb-title .route-card { width:100%;margin:15px 0!important; }
+ .bb-title .title-footer { margin-top:22px;display:block; }
+ .bb-title .title-footer>div { flex-wrap:wrap;justify-content:flex-start;gap:8px; }
+ .bb-title .title-footer>span { display:none; }
+ .panel--character .character-layout { grid-template-columns:145px minmax(0,1fr); }
+ .panel--character .panel-body { padding:25px!important; }
+ .panel--character .panel-body h2 { font-size:26px; }
+ .panel--character .panel-body p { font-size:16px; }
+ .panel[data-scene=loadout] .choices { grid-template-columns:1fr!important; }
+ .panel[data-scene=loadout] .illustrated-choice { padding:12px 10px 12px 103px!important;min-height:128px; }
+ .panel[data-scene=loadout] .illustrated-choice>.art-icon { width:65px!important;height:65px!important;left:15px!important;top:18px!important;transform:none!important; }
+ .panel[data-scene=loadout] .illustrated-choice:after { display:none; }
+ .panel[data-scene=loadout] .choices { border-top:0; }
+ .bb-book-spread { grid-template-columns:1fr; }
+ .panel[data-scene=collection] { background:#efe0b9 url('./assets/ui/paper-grain.svg')!important; }
+ .bb-specimen-detail { padding:15px 0 22px; }
+ .bb-specimen-index { border-top:1px solid #b7a17b66;padding:20px 0 0; }
+ .bb-specimen-detail p { min-height:0; }
+ .bb-specimen-stamps { gap:14px; }
+}
+@media(max-width:660px) {
+ .title-screen.bb-title { padding:25px 25px 30px; }
+ .bb-title .title-copy h1 { font-size:58px; }
+ .bb-title .title-copy p { font-size:16px; }
+ .bb-title-actions { gap:14px; }.bb-sail-button { width:210px;min-height:154px;flex:1; }.bb-title-side { flex:1;max-width:210px; }.bb-title .bb-pennant-button { width:100%;font-size:13px;padding:10px; }
+ .panel:not(.panel--character) { padding:28px 25px!important; }
+ .panel--character .character-layout { grid-template-columns:1fr; }
+ .panel--character .character-name { font-size:23px; }
+ .panel--character .character-role { font-size:13px; }
+ .panel--character .panel-body .step b { font-size:15px; }
+ .panel--character .panel-body .step span { font-size:14px; }
+ .bb-book-head { font-size:12px;padding-right:42px; }.bb-book-head .eyebrow { font-size:12px; }
+ .bb-book-tabs button { font-size:13px; }
+ .bb-specimen-detail { grid-template-columns:128px minmax(0,1fr);gap:12px;text-align:left; }
+ .bb-specimen-detail h2 { font-size:24px; }.bb-specimen-detail p { font:400 14px/1.85 var(--font-dialogue); }
+ .bb-mastery { font-size:13px; }.bb-mastery small { font-size:11px; }
+ .bb-page-title h3 { font-size:20px; }.bb-specimen-stamp { font-size:13px; }
+ .bb-friend-page blockquote { font-size:17px; }.bb-friend-page p { font-size:15px; }.bb-friend-page h3 { font-size:29px; }
+ .bb-friend-tabs button { font-size:13px;width:65px; }
+ .bb-ratings .rating-grid { grid-template-columns:1fr; }
+ .panel[data-scene=feedback] h2 { font-size:25px; }
+ .panel[data-scene=pause] .choices { gap:14px; }
+ .hud { padding:13px; }
+ .hud-top>.hud-mission { width:228px!important;max-width:228px!important;padding:12px!important; }
+ .hud .objective strong,.hud .objective div { font-size:12px; }
+ .hud .location { font-size:17px; }
+ .bb-dive-instrument { width:130px;height:130px;padding:34px 17px 13px; }
+ .bb-dive-instrument #oxygen-text { font-size:19px; }
+ .bb-dive-instrument .stat-row { font-size:11px; }
+ .hud-actions { gap:8px!important; }.hud-actions .small-button { width:38px;height:38px; }
+ .controls-line { display:none; }
+ .interaction { bottom:120px;font-size:13px; }
+ #caption { max-width:calc(100vw - 36px);font-size:13px; }
+ .hunt-chart { min-height:0; }.hunt-grid { min-height:0; }.hunt-board .hunt-actions button,.hunt-card .hunt-card-body button { font-size:13px; }
+}
+@media(max-width:400px) {
+ .bb-title .title-copy h1 { font-size:48px; }.bb-title .title-copy .subtitle { font-size:15px;letter-spacing:.08em; }
+ .bb-title .title-brand { font-size:10px;letter-spacing:.09em; }
+ .bb-title-actions { flex-wrap:wrap; }.bb-sail-button { width:100%;flex-basis:100%;min-height:130px; }
+ .bb-title-side { max-width:none;flex-direction:row;justify-content:space-between; }.bb-round-button { flex:0 0 100px;width:100px;height:100px; }.bb-title .bb-pennant-button { flex:1; }
+ .bb-specimen-stamps { grid-template-columns:repeat(2,1fr); }.bb-specimen-detail { display:block;text-align:center; }.bb-specimen-art { height:145px; }
+ .hud-top>.hud-mission { width:180px!important;max-width:180px!important; }.hud .objective strong { display:none; }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "prince_portrait",
+    "status": "completed",
+    "sha256": "1f1b7a41a01e4370db4541b27a1a63ceff0786e2ffc6f15abc010603950a2a8e"
+  },
+  {
+    "id": "orochi_fx",
+    "status": "completed",
+    "sha256": "1a808838f393a6788366afbedaf70ac0d6a9df699e554273e9f8d31a6e66af26"
+  },
+  {
+    "id": "clean_fx_atlas",
+    "status": "completed",
+    "sha256": "42bec92a7334ffaea7ee159c4260db6874b5176d3cce08702fd902dd5f8b049d"
+  }
+]

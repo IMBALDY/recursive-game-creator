@@ -1,0 +1,77 @@
+RECURSIVE GAME CREATOR — EVOLUTION FILMS
+Production date: 07 October 2026
+
+Main film: recursive-game-creator-overview.mp4 — 194.5 seconds
+Meme Arena: meme-arena-evolution.mp4 — 48.5 seconds
+Racing Rocket Trials: racing-rocket-trials-evolution.mp4 — 46.5 seconds
+Whitebird: whitebird-evolution.mp4 — 47.5 seconds
+All final videos: 1920 x 1080, 30 fps, H.264/AAC, fast-start MP4.
+All titles and editorial explanations are English. Native game labels and in-world signs remain as rendered by the games. Music is a new, procedurally composed instrumental underscore. The main film adds English synthetic narration (Microsoft en-US-AndrewMultilingualNeural, generated through edge-tts) and word-aligned burned-in English captions. Original game films retain music only. No synthesized gameplay sound effects. Narration is not a recording of an author or a cloned individual voice.
+
+CAPTURE
+Every gameplay shot was newly recorded for this production. No existing gameplay video, screenshot montage or prior film was used as an input. Original game assets and the project's role illustrations were used. Video edits add titles, captions, framing, brief fades and music; they do not generate or invent game scenes.
+
+Meme Arena:
+V1 = restored v0.1 gameplay plus earliest retained compatible pre-v0.5 models; exact original v0.1 model hashes are unavailable.
+V2 = saved v0.3 gameplay/VFX with retained pre-v0.5 models.
+V3 = frozen v0.5 source.
+Fresh Godot SubViewport renders: 1280x800, 60 Hz simulation sampled at 30 fps. Seed 20261007. External harness supplies matched positions and move requests, resetting rounds and meter between shots. Each raw capture has 24 seconds and eight visible bull allies during its finisher. No gameplay mechanics or original source files were changed. The film illustrates selected development versions, not a continuous playthrough or a benchmark replay.
+
+Racing Rocket Trials:
+V1/V2/V3 = ver1/ver2/ver3 (three refinement rounds). Fresh captures use the packaged Godot 4.6.2 web builds, 1280x720, original --scenario launch arguments and actual keyboard input. The barrel scenario is compared across versions. V2 adds live fuse and blast feedback; V3 distinguishes the already-existing direct-crash and knockback regions. Recovery and practice footage is from V3. No checkpoint-2 safety comparison is claimed in the film.
+
+Whitebird:
+V1 = v0.1.0, V2 = v0.3.0, V3 = v0.8.0, from Whitebird-Three-Playable-Versions-Windows-x64. These are selected development snapshots, not three benchmark rounds. All Whitebird footage was newly recorded for this replacement. The progression shows a geometric prototype, illustrated characters/enemies, then revised yokai art, character animation, an expanded combat interface and readable skill information. The later build also demonstrates its character journal, room map and blessing choices. The map is not claimed to have first appeared in v0.8.
+Browser captures use the original game source, public seeded reset (20261007), read-only state observations, and actual keyboard/mouse input. Battle, chest opening, travel and blessing choices follow normal game mechanics. No source edits, health overrides, teleportation or fabricated scenes. Native Chinese game labels are retained; editorial explanations and narration are English. This replaces the earlier R1/R2/R2c segment and its feedback summary; no unverified player feedback is attributed to these versions.
+
+METHOD AND RESULTS
+The opening's policy and trajectories are illustrative diagrams. Method and benchmark figures are grounded in arXiv:2610.08621v1. GameCraft-Bench overall scores are 72.70, 75.35 and 77.89; the 5.19 gain is in score points. These benchmark rounds are separate from the selected qualitative showcase versions.
+GameASG-Bench follows GameCraft-Bench in the ending. Table 2 reports 25/47 strict task successes (53.2%), +34.1 percentage points over the same-model GPT-6-Astra high / Codex CLI baseline (19.1%), and 93.4% mean L2 runtime-check pass rate, highest among compared methods. The +34.1 is the difference between reported rounded rates, not a relative percentage improvement. The video does not claim the highest strict task success across all model settings.
+Paper: https://arxiv.org/abs/2610.08621
+Project: https://rsigamecreator.github.io
+
+EDIT AND SOURCE
+Production scripts, detailed storyboard, raw-capture metadata, per-game edit manifests and QA:
+RSI-GameCreator/project-page/video-production/promo-20261007/
+Whitebird browser evidence: output/playwright/promo-whitebird-history/
+Racing browser evidence: output/playwright/promo-racing/
+Original games and the existing public homepage were not edited by this production. The added evolution-film-preview.html is a local review page; no deployment or push was performed.
+
+NARRATED EDIT
+The main timeline remains 194.5 seconds. The original frame is proportionally resized to 1792x1008 inside 1920x1080, with captions in a separate 72-pixel bottom band. Narration has 32 timed segments; brief tempo adjustments keep speech within its corresponding shot. Music smoothly ducks around spoken lines. English SRT, WebVTT, and narration transcript files are saved alongside the master. The pre-narration film is preserved in the production narration directory.
+
+Pronunciation correction: the Meme Arena introduction (30.3s) uses en-US-AndrewNeural at its natural rate; all other narration retains the original voice configuration. Its wording is unchanged, and timing plus independent speech-recognition checks were recorded in narration/pronunciation-check/.
+
+
+NEW OVERVIEW OPENING — 12 seconds
+Whitebird V1 → V2 → V3, continuous pullback into a 47-game gallery, then a dissolve into the existing title and method. The complete narrated film is now 206.5 seconds (3:26.5).
+45 GameCraft projects were freshly rendered in Godot from their available round snapshots (134 snapshots: 44 games with three, Detective Noir with two). Whitebird and Meme Arena use captures newly recorded during this production. Gallery stills are animated in the edit; they are not simultaneous live sessions. Matched visible phases are selected across versions wherever available. No game source, mechanics, health, scores or assets were changed for these captures. Isolated working copies and public reset/normal input were used.
+The original narration wording, including the corrected Meme Arena pronunciation, is unchanged and shifted by 12 seconds together with its captions. The existing three detailed game chapters and benchmark information follow the method as before.
+
+
+MOVING GAME WALL UPDATE
+45 GameCraft projects were freshly played and captured using their existing ordinary-input policies, detached observations, isolated save directories, and unmodified project files. The final overview wall contains 47 moving game tiles, including the Whitebird hero and Meme Arena. These are separately recorded clips composited together. The 12-second opening, 206.5-second film, narration, captions, and later chapters retain their timing.
+
+
+COMPLETE 48-GAME WALL AND TIGHTER OPENING
+The former bottom-right text tile is replaced by freshly recorded Twilight Front v0.12 gameplay. Its actual version label is retained. The overview now contains 48 moving games. The opening hero is enlarged from scale 6.6 to 7.7, with tighter vertical margins; the first 12 seconds use the full 1920x1080 canvas without the additional narration matte. Complete game UI and the source aspect ratio are retained. Narration, captions and later chapters keep their timing and layout.
+
+
+CENTERED TYPOGRAPHIC TRANSITIONS
+The two small top headings are replaced with large centered animated titles. One game / Three versions appears over the opening gameplay, then Many games / One refinement loop appears during the pullback and clears before the full moving wall. The 48-game gallery, chapter durations, narration and captions are preserved.
+
+
+CLEAR GAME WALL WITH EARLIER TEXT FADE
+Removed the full-frame paper wash behind Many games / One refinement loop. Only the light lettering and its local shadow animate; game colors and contrast remain unchanged. The lettering fades from 5.9 to 7.0 seconds, leaving the rest of the pullback and full moving wall unobstructed. The first title, chapter durations, narration and captions are preserved.
+
+
+SLOWER NARRATED OPENING
+The opening is now 25.5 seconds. Two new English narration lines play at their natural recorded speed. V1/V2/V3 receive about three seconds each after the first title, followed by the second narrated title, a five-second pullback and a 3.2-second moving-wall hold. The second title has no full-frame wash. Short wall clips loop as needed; Whitebird uses a longer continuous excerpt of its fresh capture. Existing chapters, narration and captions are shifted by 13.5 seconds. The complete film is 3:40 and is embedded in index.html in place of the old Meme Arena film.
+
+
+CLEAN VERSION LABELS
+Removed the small development-version strings beneath large V1/V2/V3 in all 21 game detail shots. Main film and all three standalone films updated. Gameplay, cut timing, narration and captions preserved; main AAC audio stream hash matches the previous cut.
+
+
+CLEAN GAMEPLAY FOOTER
+Removed “NEW GAMEPLAY CAPTURE / SELECTED DEVELOPMENT VERSIONS” from all 21 detail shots in the main film and three standalone films. Rebuilt from the original captured footage and compositor plates; retained narration, caption timing, chapters, gameplay and version labels. The main film remains 220 seconds / 6600 frames. Original encoded AAC audio is byte-identical in all four films.

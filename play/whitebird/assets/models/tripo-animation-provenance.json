@@ -1,0 +1,9 @@
+{
+  "source_model": "Hunyuan generated hero GLB",
+  "provider": "Tripo",
+  "output": "hero_rig.glb",
+  "rig": "auto_rig, Mixamo skeleton",
+  "animation": "Procedural bone animation in hybrid.js: walking, slash, casting, dash",
+  "retarget_status": "Preset retarget attempts were incompatible with generated rig versions; no preset clips are included.",
+  "api_reference": "https://developers.tripo3d.com/en/docs/animations-rig"
+}

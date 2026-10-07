@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hero_divine_v2",
+    "status": "completed",
+    "sha256": "674f92fae5050cc588f866af651b91a50f44bba8a94a21c0ae020405cc14cd8d"
+  },
+  {
+    "id": "hero_blood_v2",
+    "status": "completed",
+    "sha256": "e9d98ca7b13deea803abe6fc1fe4fd9358310980f1fab38e7f5ac03cfe9e0fe1"
+  },
+  {
+    "id": "hero_forms_v2",
+    "status": "completed",
+    "sha256": "f3c02270a72eb12af98e0068943ae8515f5e20f744f69d3fa61bea26d5e370e1"
+  }
+]

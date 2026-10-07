@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "tool": "built-in image_gen",
+  "date": "2026-10-03",
+  "purpose": "Original illustrated assets for playable V2. Not screenshots or gameplay evidence.",
+  "assets": [
+    {
+      "file": "hero.png",
+      "prompt": "Use case: illustration-story. Production game environment illustration for an original cozy Chinese seaside diving and restaurant game called Blue Bay Night Kitchen. Widescreen 16:9 beautifully hand-painted gouache and textured ink, warm natural storybook art, sophisticated small indie game art direction. A tiny wooden raft restaurant moored in a lush turquoise ocean cove at golden twilight, three welcoming stools, ceramic bowls, herbs, little hanging amber lanterns, coral colored canvas awning, wooden service counter, palm and layered islands far away. View from just outside the restaurant across its terrace; distant soft peach sunset upper-left, cabin occupies right two-thirds, left third mostly open teal sea and sky for UI title. Subtle visible underwater corals in clear water lower foreground. Strong readable shapes, organic brush detail, lovingly handmade objects, painterly edges, rich warm light against cool teal water. No people, no lettering, no logo, no watermark, no UI drawn. This is a finished usable game background, not a mockup.",
+      "transparent_background": false
+    },
+    {
+      "file": "portraits.png",
+      "prompt": "Use case: stylized-concept. ONE production game character portrait atlas with FOUR portraits in EXACTLY four equally wide vertical cells in ONE HORIZONTAL ROW. Transparent background, no dividers, no captions, no lettering. Each character from waist up, face at same height, centered inside own cell, entire silhouette within cell and ample transparent margin, no touching/overlap. Image wide landscape. Art direction consistent cozy natural ocean restaurant game: exquisite hand-painted gouache, clean expressive ink lines, warm skin shading, textured fabric, approachable character designs, sophisticated storybook illustration not generic chibi. LEFT to RIGHT: (1) Ah He, cheerful young East Asian woman chef, short dark brown bob, coral orange headscarf, cream shirt and sea-green apron, holding wooden ladle, mischievous warm smile. (2) Xi, young adult East Asian diver, sun-tanned skin, tousled dark short hair, round amber diving goggles on forehead, muted teal wetsuit and ochre straps, confident curious smile. (3) Old Zhou, friendly elderly East Asian fisherman, silver beard, weathered face, straw hat, dusty blue shirt and olive vest, smiling kindly. (4) Night Voyager, gentle mysterious adult East Asian traveler with shoulder-length dark hair, sea-blue rain cape, cream scarf, holding an aged small meal ticket, calm smile and soft eyes. All original characters, relaxed slice-of-life tone, cohesive ochre/coral/sea-green palette. Precisely four separate portraits equally spaced, transparent cutouts.",
+      "transparent_background": true
+    },
+    {
+      "file": "items.png",
+      "prompt": "Use case: stylized-concept. Production 4 by 4 inventory ICON ATLAS, square image, EXACTLY16 equally spaced square cells in FOUR ROWS and FOUR COLUMNS, no cell borders. Transparent background. Each object centered in its cell with a generous 18 percent clear margin and never overlaps another cell. Cohesive hand-painted gouache with clear ink silhouettes, warm gentle natural colors, exquisite cozy ocean game UI icons, very readable at64pixels. No labels, no lettering, no numbers, no watermark. Exact left-to-right row order: Row1 = a sea-green diving oxygen tank with ochre straps; a pair of ochre diving fins; a woven wicker fishing creel basket with teal strap; a small simple wood and brass diving harpoon. Row2 = one silver-blue sardine fish; one orange-white clownfish; one royal blue tang fish with yellow tail; one teal striped mackerel. Row3 = one curved deep teal moray eel; one red-white striped lionfish with beautiful fins; one speckled ochre grouper; one coral pink shrimp. Row4 = a ceramic bowl of clear fish and seaweed soup; a plated grilled fish with lemon; a ceramic bowl of fish over rice with herbs; a ceramic teapot and tea cup. Objects three-quarter or side view as appropriate, delicious dishes, friendly natural fish anatomy. Precisely ordered16icons; transparent cutouts, no other decoration.",
+      "transparent_background": true
+    },
+    {
+      "file": "reef.png",
+      "prompt": "Use case: stylized-concept. Production underwater background painting for a side-view cozy diving game, landscape16:9. High-quality hand-painted gouache/ink with natural organic details and textured brushwork, sea-green and turquoise palette, warm soft sunlight and atmospheric depth. This is a distant backdrop behind interactive3D foreground; central60percent must be clear open water, soft and low contrast. Detailed scenery mostly bottom quarter and outer edges, no dominant object blocking center, flat side view not top down. No people, no fish, no UI, no words or watermarks. A sunlit tropical coral cove, delicate branching orange coral and sea fans bottom edges, organically eroded pale limestone arches faintly visible far away, streaming rays from surface, turquoise open water with faint drifting suspended specks. Natural beautiful healthy reef, inviting discovery.",
+      "transparent_background": false
+    },
+    {
+      "file": "kelp.png",
+      "prompt": "Use case: stylized-concept. Production underwater background painting for a side-view cozy diving game, landscape16:9. High-quality hand-painted gouache/ink with natural organic details and textured brushwork, sea-green and turquoise palette, warm soft sunlight and atmospheric depth. This is a distant backdrop behind interactive3D foreground; central60percent must be clear open water, soft and low contrast. Detailed scenery mostly bottom quarter and outer edges, no dominant object blocking center, flat side view not top down. No people, no fish, no UI, no words or watermarks. A serene kelp forest, towering seaweed curtains alongleft andright, tangled kelp forest floor with amber and olive fronds, dim distant silhouettes of rockterraces, dappled golden light through green-bluewater, hugeclearopenwater central corridor. Evocative, calm, mysterious but welcoming.",
+      "transparent_background": false
+    },
+    {
+      "file": "cave.png",
+      "prompt": "Use case: stylized-concept. Production underwater background painting for a side-view cozy diving game, landscape16:9. High-quality hand-painted gouache/ink with natural organic details and textured brushwork, sea-green and turquoise palette, warm soft sunlight and atmospheric depth. This is a distant backdrop behind interactive3D foreground; central60percent must be clear open water, soft and low contrast. Detailed scenery mostly bottom quarter and outer edges, no dominant object blocking center, flat side view not top down. No people, no fish, no UI, no words or watermarks. An underwater limestone grotto at bluehour, arching rockformations atoutercorners, deep indigo and cyan open watercentralarea, delicate pale sea anemones and tiny bioluminescentbluecorals alongfloor, a distant narrow shaft of warm evening sunlight throughceiling, deep layers atmosphericdistance, cozywonder nothorror.",
+      "transparent_background": false
+    },
+    {
+      "file": "species.png",
+      "prompt": "Use case: stylized-concept. One production game fish icon atlas with EXACTLY SIX icons arranged in THREE COLUMNS and TWO ROWS, landscape3:2 image. Transparent background, equal square cells and generous15percent clear margin each. Charming detailed handpainted gouache with fine ink outlines, natural anatomy, readable smallicons, cohesive cozy seaside game art in naturalcolors. SIDEVIEW each marine animal centered fullywithin itscell, no overlap between cells. Order left-to-right: TOPROW: (1) yellow butterflyfish with dark vertical blackeye band and pointedsnout; (2) green-teal parrotfish with coral pink cheek and distinctivebeak; (3) rose-pink and olive wrasse with longcontinuousdorsalfin. BOTTOMROW: (4) tan cuttlefish, broad ovalmantle with delicate undulatingrim, clearlyvisiblelargeeye and shortcurledtentacles atfront, NOT a fish; (5) golden pineapplefish with strong black-edged yellow platedscales and roundcompactbody; (6) redorange squirrelfish with verylargeeye and silverhorizontalstripedbody. EXACTLY6 animals, consistent renderedscale, no labels, no typography, no frames, no bubbles, no watermark, real alpha transparency.",
+      "transparent_background": true
+    }
+  ],
+  "integration": {
+    "hero": "title and restaurant",
+    "portraits": "four portraits horizontal atlas",
+    "items": "16 icons 4x4",
+    "species": "six additional species icons 3x2",
+    "reef": "parallax backdrop no collision",
+    "kelp": "parallax backdrop no collision",
+    "cave": "parallax backdrop no collision"
+  }
+}

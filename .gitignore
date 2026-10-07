@@ -1,2 +1,12 @@
 .DS_Store
 Thumbs.db
+
+# Original local game archives; curated browser builds live in play/.
+/games/
+
+# Video production intermediates stay local; publish final films and viewer resources.
+/videos/rgc-evolution-20261007/game-evolution-opening-*.mp4
+/videos/rgc-evolution-20261007/*-music-staging.mp4
+/videos/rgc-evolution-20261007/qa.json
+/videos/rgc-evolution-20261007/gallery-manifest.json
+/videos/rgc-evolution-20261007/moving-wall-manifest.json

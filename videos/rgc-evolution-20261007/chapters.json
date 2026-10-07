@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Games evolve",
+    "start": 0,
+    "end": 25.5
+  },
+  {
+    "title": "The method",
+    "start": 25.5,
+    "end": 55.5
+  },
+  {
+    "title": "Meme Arena",
+    "start": 55.5,
+    "end": 104.0
+  },
+  {
+    "title": "Racing Rocket Trials",
+    "start": 104.0,
+    "end": 150.5
+  },
+  {
+    "title": "Whitebird",
+    "start": 150.5,
+    "end": 198.0
+  },
+  {
+    "title": "GameCraft-Bench",
+    "start": 198.0,
+    "end": 206.0
+  },
+  {
+    "title": "GameASG-Bench",
+    "start": 206.0,
+    "end": 215.0
+  },
+  {
+    "title": "Project and paper",
+    "start": 215.0,
+    "end": 220.0
+  }
+]

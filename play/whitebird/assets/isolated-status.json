@@ -1,0 +1,87 @@
+[
+  {
+    "id": "anim_yomotsu",
+    "status": "completed",
+    "sha256": "c8f4ca993c9358dc735efbb050e11cb82e6bbd855a7a72085062d359ab491291"
+  },
+  {
+    "id": "anim_kodama",
+    "status": "completed",
+    "sha256": "f7b51f36972585b9ac250350b5412b6b774399c21431bf5b9b41b47d62451649"
+  },
+  {
+    "id": "anim_fox",
+    "status": "completed",
+    "sha256": "04432fa30670f4b66fceb804a0508d95b1652c466a3ce1a92f19acb08e356005"
+  },
+  {
+    "id": "anim_soldier",
+    "status": "completed",
+    "sha256": "27126b5886bf899b0946ff30ee56173cf4c7eccd927e09aa25c0d90f6da6caf7"
+  },
+  {
+    "id": "anim_thunder",
+    "status": "completed",
+    "sha256": "fa742d22e5022e301819253e016677d97066c1471b561288d8f73ea8c2733c71"
+  },
+  {
+    "id": "anim_wraith",
+    "status": "completed",
+    "sha256": "e7fe5338f02c6c66950155c0782642474c6243d89d23c0686f5d94161bd07720"
+  },
+  {
+    "id": "anim_boar",
+    "status": "completed",
+    "sha256": "798ea2744a1c47f69196a4293fec62b67540a41e4d3327ca8bbfcdfed901bbde"
+  },
+  {
+    "id": "anim_crab",
+    "status": "completed",
+    "sha256": "bfa021d58877ea3dac33255d2c5e873b38f47a0a30b7a2d699302ecb6fcd20ad"
+  },
+  {
+    "id": "anim_guardian",
+    "status": "completed",
+    "sha256": "8a8f22a9a9400da30ec95ec969873cc4003c961bb5ac9e564999431980fb9197"
+  },
+  {
+    "id": "anim_siren",
+    "status": "completed",
+    "sha256": "d0d3e77d6588f518a4b2f7b41560b8d5e11041f1a2057c14841183b2a664bd25"
+  },
+  {
+    "id": "anim_father",
+    "status": "completed",
+    "sha256": "3945ac0332f6fdb437ce15c408ca8edb31370e9a897539df5aab96b8c3f3547b"
+  },
+  {
+    "id": "anim_magatsu",
+    "status": "completed",
+    "sha256": "87c2886cc6482bd9e8615c5cd757f6dff76c7e35e64d24066b3bc2f5509b6700"
+  },
+  {
+    "id": "anim_sea",
+    "status": "completed",
+    "sha256": "2af4d36e17b13f022ee594a42629e0789225b5c6ab60b5018d24023181b63796"
+  },
+  {
+    "id": "anim_aragami",
+    "status": "completed",
+    "sha256": "87199676d25b4bf26df2add8f986483f9649b419566827eb7fa60f482cdf61ef"
+  },
+  {
+    "id": "anim_fx_water",
+    "status": "completed",
+    "sha256": "d91632e9579848125a4855d3d5d4858a091d776fc0a8e7f86e83940130605ce4"
+  },
+  {
+    "id": "anim_fx_fire",
+    "status": "completed",
+    "sha256": "8023200af7caa2cf4e1d7421bd1c3b1058fa45a9a807dc3e1e827b73e2d07f75"
+  },
+  {
+    "id": "anim_fx_bird",
+    "status": "completed",
+    "sha256": "f727891490c140e760f8abde60067b8c0fa6c53acd757ec893e76e908c7ea1e6"
+  }
+]

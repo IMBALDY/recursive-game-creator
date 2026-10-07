@@ -1,0 +1,56 @@
+[
+  {
+    "name": "portraits-new",
+    "prompt": "Use case: illustration-story. Asset: production portrait atlas for a cozy Chinese seaside fishing restaurant game. EXACTLY 8 separate waist-up character portraits in a perfectly regular 4 columns by 2 rows grid, every cell equal, transparent background, no frames, no text. Painterly anime / detailed warm storybook illustration, expressive natural faces, textured linen and nautical details, cohesive teal, cream, warm brown and coral palette. Row 1 left to right: young friendly male boatbuilder Xiaoman in rolled teal shirt with small wood shavings and tool apron; young female painter Xiaxia with wavy bob and ochre jacket holding worn sketchbook; confident female mechanic Lizi with brown ponytail and orange work vest, goggles on head; shy young male apprentice cook Nannan with short hair and cream kitchen apron holding a ceramic bowl. Row 2 left to right: older female weather archivist Yun with grey braid, sea-blue shawl and rolled tide charts; young female seaweed farmer Lin with freckles and straw hat and green shirt; middle-aged male letter carrier Mo with sun-weathered face, navy cap and canvas satchel; silver-haired mysterious kind wandering merchant Su with indigo layered shawl and shell jewelry. All adults. Halfbody including head fully contained within cell with ample margins, no overlapping cells. Friendly human characters, beautifully painted facial features, no chibi, no logos, no copied franchise characters. True alpha background.",
+    "tool": "image_gen",
+    "source": "C:\\Users\\22935\\.codex\\generated_images\\01a0fc00-5a36-7140-ae18-38e1a9325258\\exec-d7ef0446-40ee-421f-8148-21f23846bd71.png"
+  },
+  {
+    "name": "port",
+    "prompt": "Use case: illustration-story. Asset: wide 16:9 background for a cozy seaside harbor management game. Handpainted detailed anime storybook landscape with natural colors, jade turquoise ocean, warm weathered wood, cream plaster, lush greenery, gentle morning light. A small seaside restaurant with blue-green cloth awning on a wooden pier, simple kitchen window, few stools, modest short dock with a tiny fishing boat; ropes, woven baskets, ceramic bowls, hanging dried herbs, a cat sleeping near a plant, scalloped coastal hills across the peaceful bay. Perspective from gently elevated shore looking across the restaurant and pier, building in left third, open water and short dock toward right half; believable inviting place. This is the starting harbor before expansion, humble but beautiful. Wide scenic image edge to edge, no UI, no text, no logos, no visible people.",
+    "tool": "image_gen",
+    "source": "C:\\Users\\22935\\.codex\\generated_images\\01a0fc00-5a36-7140-ae18-38e1a9325258\\exec-c59f6564-b797-446b-b01d-b2f352ba8371.png"
+  },
+  {
+    "name": "afterhours",
+    "prompt": "Use case: illustration-story. Asset: wide 16:9 background for intimate late-night character conversations in a cozy ocean fishing restaurant game. Beautiful detailed handpainted anime storybook interior, empty intimate seaside diner at midnight. Wooden counter in foreground with two small ceramic cups, soup steam, amber pendant lamps, handwritten-looking blank menu slats with NO actual text, blue patterned tiles, a large open window behind looking onto moonlit turquoise bay and tiny floating lights, plants and shelves of pickling jars, a navy curtain gently moving in the night breeze. Warm amber light against cool teal moonlight, emotionally comforting, quiet human scale, natural materials, light painterly texture. Leave center-bottom clear for dialogue interface. No people, no text, no logos, no interface.",
+    "tool": "image_gen",
+    "source": "C:\\Users\\22935\\.codex\\generated_images\\01a0fc00-5a36-7140-ae18-38e1a9325258\\exec-e10dd743-ec00-4f4c-9ce3-866325c14444.png"
+  },
+  {
+    "name": "shop",
+    "prompt": "Use case: illustration-story. Asset: wide 16:9 background for a mysterious floating shop in a natural cozy seaside game. Detailed handpainted anime storybook scenery, a charming small wooden junk boat moored among mangrove roots in a sheltered jade lagoon at blue hour, its wooden deck overflowing with old diving lanterns, rolled sea charts, shell jewelry, sea glass, woven baskets, ceramic bottles, weathered diving equipment. Indigo patchwork awning, warm paper lanterns, soft distant fireflies and coral shapes visible under clear water. Enchanting friendly mystery, ancient travelers and small everyday treasures, no horror or sci-fi. Three-quarter front view of shop boat from adjacent pier, open clear area bottom for UI. No people, no text, no logos, no user interface.",
+    "tool": "image_gen",
+    "source": "C:\\Users\\22935\\.codex\\generated_images\\01a0fc00-5a36-7140-ae18-38e1a9325258\\exec-29e85308-0b90-44ab-92ff-5205259996c6.png"
+  },
+  {
+    "name": "port-grown",
+    "prompt": "Use case: illustration-story. Wide 16:9 handpainted detailed anime storybook seaside harbor game background. A developed cozy blue-green awning seafood diner built on a sunny wooden pier beside cream plaster stone houses and lush flowers. Restaurant occupies leftthird, now TWO kitchen windows and a spacious preparation terrace, to the right a newlyextended solid wooden dock with diving oxygen bottles neatly stored and two little fishing boats, warm stringlights hanging above THREE outdoor dining tables set with ceramic bowls. Jade turquoise clear sea, scalloped green hills and coastal village on far side ofbay. Elevated view fromshore, gentle morning sunlight, warm weatheredwood natural material. This is a medium expanded harbor where modest renovations are visible. Beautiful inviting lived-in detailed scenery, no text no people no interface no logos.",
+    "tool": "image_gen",
+    "source": "C:\\Users\\22935\\.codex\\generated_images\\01a0fc00-5a36-7140-ae18-38e1a9325258\\exec-e4afd112-6813-4368-aa0c-81c85154742e.png"
+  },
+  {
+    "name": "port-full",
+    "prompt": "Use case: illustration-story. Wide 16:9 handpainted detailed anime storybook seaside harbor game background. A flourishing small coastal diner with blue-green awnings, cream stonewalls and lush plants, glowing at golden sunset. Restaurantleftside nowlarge airy open kitchen with ceramicblue tiles, a long planted outdoor deck with SIX tables and warm lanterns, an elegant branching wooden pier to right with sheltered diving supplystation, three little fishingboats, flowerplanters and a lookoutseat. Turquoise clear water visiblearound docks, shell windchimes, freshingredients andceramicbowls. Farbay greenhills withvillage. Believable human-scale charming smallport, generous intricate details, warmemotional homeplace, paintednaturalcolors. Elevated view fromshore. No people, no text no UI no logos.",
+    "tool": "image_gen",
+    "source": "C:\\Users\\22935\\.codex\\generated_images\\01a0fc00-5a36-7140-ae18-38e1a9325258\\exec-f563fa63-b8a7-40bd-8f06-27881ede9a01.png"
+  },
+  {
+    "name": "ruins",
+    "prompt": "Use case: illustration-story. Wide16:9 environment painting used as distant underwater background behind actual interactive 3D game objects. Beautiful natural marine storybook anime illustration of an old submerged terraced garden and stone market. Clear luminous turquoisewater, weathered arched pale sandstone arcades covered with lavender fan corals, mosaictiles, terraces layered downward, seagrass meadow and smallorange fish. Sunbeams reach fromupperleft, intricate distantcoves androckformations, friendly wondrousexploration, no horror. Distant environment edge toedge, center unobstructed swimmingwater, no prominentforegroundobjects, no diver, no text/UI.",
+    "tool": "image_gen",
+    "source": "C:\\Users\\22935\\.codex\\generated_images\\01a0fc00-5a36-7140-ae18-38e1a9325258\\exec-8176ce2a-8063-42b7-a8f0-045b6e9a1a7e.png"
+  },
+  {
+    "name": "abyss",
+    "prompt": "Use case: illustration-story. Wide16:9 distant underwater environment painting for a cozy 3D fishing explorationgame. Natural deepocean tranquil cathedralof basalt columns, warmhydrothermal vents farbelow, glowingblue plankton andcream tubeanemones, broad winding swimmable darkteal water, a faintstreamofsilvery smallfish, beautiful sapphire/turquoise/softgold palette. Deep but welcoming, magical feeling grounded in marine life, gentle illumination, layered rockarchesandmysterious distant shadows, handpainted detailedanime storybook. Farbackground only, open center free forplayer, no huge foregroundanimals, nopeople no text noUI.",
+    "tool": "image_gen",
+    "source": "C:\\Users\\22935\\.codex\\generated_images\\01a0fc00-5a36-7140-ae18-38e1a9325258\\exec-595d25e9-d964-4940-9c5b-cd6812c8edd3.png"
+  },
+  {
+    "name": "species-new",
+    "prompt": "Use case: stylized-concept. Production inventory icon atlas for natural cozy ocean fishing restaurant game. EXACT 20 separate colorful detailed painterly fish/seafood illustrations arranged in perfectly regular FIVE columns FOUR rows, each object centered within equal-sized cell, ample transparentpadding, sideview fish facingright. NO text labels noframes noplate no background. Warm natural marine colors, paintedstorybook quality, crisp readable silhouettes. ROW1 lefttoright: pink small blenny; golden goatfish with chin barbels; royalblue damselfish; silver seabream; translucent slender anchovy. ROW2: green spotted greenling; silver grey mullet; translucent glassshrimp; small darkblue lanternfish with luminousspots; spotted small octopus. ROW3: coralred snapper; colorful goldpink tilefish; bluepink ornate wrasse; ribbonlike blue and yellow morayeel; flat round silver moonfish. ROW4: white silvercod; deepplum octopus with velvety arms; pinkshrimp with golden luminous tail; cream snowcrab; slender brown frilledeel. Fullbody every creature allfins orarms inside itscell, consistent scale by cell and nooverlap, truealpha transparentbackground.",
+    "tool": "image_gen",
+    "source": "C:\\Users\\22935\\.codex\\generated_images\\01a0fc00-5a36-7140-ae18-38e1a9325258\\exec-78678659-98cd-41f3-9c00-c2450e75919c.png"
+  }
+]

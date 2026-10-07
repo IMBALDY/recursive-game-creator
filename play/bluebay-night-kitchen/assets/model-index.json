@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "models": [
+    {
+      "id": "coral_reef",
+      "url": "models/coral_reef.glb",
+      "format": "glb",
+      "animated": false,
+      "display_name": "Natural coral reef",
+      "forward_axis_requested": "+x",
+      "forward_axis_observed": null,
+      "up_axis": "+y",
+      "normalize_longest_axis_to": 1,
+      "bounds": {
+        "min": [
+          -0.48633116483688354,
+          -0.43731993436813354,
+          -0.5
+        ],
+        "max": [
+          0.48633116483688354,
+          0.43731993436813354,
+          0.5
+        ]
+      },
+      "suggested_role": "environment prop"
+    },
+    {
+      "id": "tropical_fish",
+      "url": "models/tropical_fish.glb",
+      "format": "glb",
+      "animated": false,
+      "display_name": "Tropical butterflyfish",
+      "forward_axis_requested": "+x",
+      "forward_axis_observed": "-z",
+      "up_axis": "+y",
+      "normalize_longest_axis_to": 1,
+      "bounds": {
+        "min": [
+          -0.24347291886806488,
+          -0.3947836756706238,
+          -0.5
+        ],
+        "max": [
+          0.24347291886806488,
+          0.3947836756706238,
+          0.5
+        ]
+      },
+      "suggested_role": "fish visual"
+    }
+  ]
+}

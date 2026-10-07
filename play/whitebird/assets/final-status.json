@@ -1,0 +1,32 @@
+[
+  {
+    "id": "hero_long",
+    "status": "completed",
+    "sha256": "274787268c8850b872ca4c0c74b840d1a5723d3dc0911f35c6a23bb9b7899a64"
+  },
+  {
+    "id": "hero_divine",
+    "status": "completed",
+    "sha256": "e84916759215095bc36503a7aa63af748c27db606f31925326abec8b6513350b"
+  },
+  {
+    "id": "hero_blood",
+    "status": "completed",
+    "sha256": "e624b030d6d3481392702c1828087e9814e35b5424cfdad12be2284187f10039"
+  },
+  {
+    "id": "hero_forms",
+    "status": "completed",
+    "sha256": "2683ddaa997e3b47f26c3ad043c462bcc9746b6cae795a501537303feaaf91f9"
+  },
+  {
+    "id": "weapons_atlas",
+    "status": "completed",
+    "sha256": "f9726f01a69b013ec1e1edad17054dd3faaf10667d479fa4058d942d17dae335"
+  },
+  {
+    "id": "runes_atlas",
+    "status": "completed",
+    "sha256": "da37c3e6f46bf25e6a7cabaa0b3cee12dba8eed6597ed0fa2f5e0bc1a933d7a2"
+  }
+]

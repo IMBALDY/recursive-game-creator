@@ -1,0 +1,52 @@
+[
+  {
+    "id": "guardian_portrait",
+    "status": "completed",
+    "sha256": "78114e2bf57e9822024505514b3780b71426b8776d269903382424e6a5c51a9e"
+  },
+  {
+    "id": "hero_portrait",
+    "status": "completed",
+    "sha256": "934fccb8acdd76413fa75086471ec8b61c9547c03038501c02949b96094de4d2"
+  },
+  {
+    "id": "magatsu_portrait",
+    "status": "completed",
+    "sha256": "b2331287af75bc56cb55163de0a62ad2b8f32cf3027520147a620e1b8e68d4ea"
+  },
+  {
+    "id": "father_portrait",
+    "status": "completed",
+    "sha256": "445d5bbc15177125ab66399b4248f1076244e06445ee21f7312c5fcdaf3c7172"
+  },
+  {
+    "id": "arena_shrine",
+    "status": "completed",
+    "sha256": "ae24ba47a1b80788e5b97657cc5e732285906535144056e6f028ec0e75175736"
+  },
+  {
+    "id": "arena_reeds",
+    "status": "completed",
+    "sha256": "919b9357e9bd642ca1b8e5f981f6aa28a466c6677db8782023e22922a9ce1cef"
+  },
+  {
+    "id": "actors_atlas",
+    "status": "completed",
+    "sha256": "886f3b1c53c35ce63b0c46289b1bd9b29a98223341fda4e14fb42f5f162133b6"
+  },
+  {
+    "id": "arena_tide",
+    "status": "completed",
+    "sha256": "0d3ea1a57c4dc3dbe0c287cf2240dcececb299090d8cc894910c468917f40ad4"
+  },
+  {
+    "id": "items_atlas",
+    "status": "completed",
+    "sha256": "e1d77792a397b237cb3569219b8da433c5ca0b42548bfdc12b6f6f87c1599188"
+  },
+  {
+    "id": "effects_atlas",
+    "status": "completed",
+    "sha256": "b7e58bbb5ecf30961ef6bd77c9c91a75d8856003719e8959836cd64a6c45b17a"
+  }
+]

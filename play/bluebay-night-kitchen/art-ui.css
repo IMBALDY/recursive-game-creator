@@ -1,0 +1,15 @@
+/* Generated atlas coordinates are presentation only; no empty emoji stand-ins. */
+.art-icon{display:inline-block;flex:0 0 auto;width:58px;height:58px;vertical-align:middle;background-image:url('./assets/art/items.png');background-size:400% 400%;background-position:var(--item-x,0%) var(--item-y,0%);background-repeat:no-repeat;pointer-events:none;mix-blend-mode:multiply}
+.art-icon.species-art{background-image:url('./assets/art/species.png');background-size:300% 200%}
+.portrait{background-image:url('./assets/art/portraits.png');background-size:400% 100%;background-repeat:no-repeat;background-position:0 50%;aspect-ratio:3/4;pointer-events:none}
+.portrait-ahe{background-position:0% 50%}.portrait-xi{background-position:33.333333% 50%}.portrait-zhou{background-position:66.666667% 50%}.portrait-guest{background-position:100% 50%}
+.character-layout{display:grid;grid-template-columns:230px minmax(0,1fr);min-width:0}
+.character-rail{align-self:start;position:sticky;top:0;min-height:470px;padding:28px 12px 22px;background:linear-gradient(160deg,#d5e1d0,#a7c9be);text-align:center;overflow:hidden;border-right:1px solid #56847733}
+.character-rail:before{content:'';position:absolute;width:280px;height:280px;border:1px solid #f7efdba0;border-radius:50%;top:90px;left:-24px;pointer-events:none}
+.character-rail .portrait{position:relative;width:calc(100% + 24px);margin:22px -12px 0;filter:drop-shadow(0 10px 10px #26473e1c)}
+.character-tag{position:relative;font-size:10px;letter-spacing:3px;color:#34665e}.character-name{position:relative;font-family:'STSong','Songti SC','SimSun',serif;font-size:29px;letter-spacing:7px;margin:5px 0 8px;color:#184d47}.character-rail .character-role{position:relative;font-size:11px;line-height:1.75;color:#38695e;margin:0;padding:0 10px}.character-stamp{font-size:9px;letter-spacing:4px;line-height:2.2;color:#53786b;margin-top:30px}.character-stamp span{font-size:10px;letter-spacing:1px}
+.illustrated-choice{position:relative;min-height:85px;padding-left:85px!important}.illustrated-choice>.art-icon{position:absolute;left:13px;top:50%;transform:translateY(-50%)}
+.portrait-medallion{width:62px;aspect-ratio:1/1;background-size:400% auto;border-radius:50%;border:3px solid #f9efd8;box-shadow:0 4px 12px #153e4330;background-color:#d8e4d3}
+.title-crew .portrait{aspect-ratio:1/1;background-size:400% auto}
+@media(max-width:900px){.character-layout{grid-template-columns:185px minmax(0,1fr)}.character-rail{min-height:420px;padding-top:22px}.character-rail .portrait{margin-top:15px}.character-name{font-size:25px}.character-stamp{margin-top:20px}}
+@media(max-width:660px){.character-layout{grid-template-columns:1fr}.character-rail{min-height:0;position:relative;padding:15px 18px;text-align:left;display:grid;grid-template-columns:94px 1fr;column-gap:16px;border-right:0;border-bottom:1px solid #56847733}.character-rail .portrait{grid-column:1;grid-row:1/4;width:100%;margin:0}.character-tag,.character-name,.character-role{grid-column:2}.character-name{font-size:23px;margin:4px 0;letter-spacing:4px}.character-rail .character-role{padding:0}.character-stamp{display:none}}

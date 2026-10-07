@@ -1,0 +1,168 @@
+{
+  "provider": "Tripo",
+  "generation_model": "v3.1-20260211",
+  "created_at": "2026-10-02T09:59:38.309333+00:00",
+  "source_documentation": "https://developers.tripo3d.com/en/docs/generation-text-to-model/standard",
+  "purpose": "Two optional static 3D assets for the natural-ocean V0 game.",
+  "generation_budget": {
+    "maximum_new_tasks": 2,
+    "requested_tasks": 2
+  },
+  "authentication_check": {
+    "at": "2026-10-02T09:55:09.080117+00:00",
+    "authenticated": true,
+    "has_available_credits": true
+  },
+  "assets": [
+    {
+      "task_id": "da366eba-c083-4638-9e2f-ad9f8a320906",
+      "status": "success",
+      "requested_at": "2026-10-02T09:55:21.674051+00:00",
+      "completed_at": "2026-10-02T09:58:12.770392Z",
+      "credits_consumed": 20.0,
+      "file": "models/coral_reef.glb",
+      "sha256": "6d70fcdfa4f0899fa57fa13cda47e0a45a459605295492559e08f3c1cbe27939",
+      "bytes": 3071304,
+      "glb_inspection": {
+        "container": "GLB 2",
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "animations": 0,
+        "extensions_required": [],
+        "accessor_bounds": [
+          {
+            "min": [
+              -0.48633116483688354,
+              -0.43731993436813354,
+              -0.5
+            ],
+            "max": [
+              0.48633116483688354,
+              0.43731993436813354,
+              0.5
+            ]
+          },
+          {
+            "min": [
+              -0.9992270469665527,
+              -0.9999999403953552,
+              -0.9997043609619141
+            ],
+            "max": [
+              0.99897700548172,
+              0.9994931221008301,
+              0.9992690086364746
+            ]
+          }
+        ],
+        "external_dependencies": false
+      },
+      "visual_review": {
+        "at": "2026-10-02T09:59:38.308334+00:00",
+        "method": "Local Three.js GLTFLoader in headless Edge, screenshots visually inspected",
+        "render_success": true,
+        "bounds": {
+          "min": [
+            -0.48633116483688354,
+            -0.43731993436813354,
+            -0.5
+          ],
+          "max": [
+            0.48633116483688354,
+            0.43731993436813354,
+            0.5
+          ]
+        },
+        "notes": "Natural pale rock with warm peach branching coral and turquoise plates; complete static prop; Y-up, bottom at -0.43732. Some coarse faceting visible at close range; use as small or mid-distance decorative outcrop."
+      },
+      "id": "coral_reef",
+      "prompt": "A single small natural tropical coral reef cluster, rounded pale limestone base, warm peach and coral-orange branching staghorn corals, turquoise blue small plate corals, soft sea-green algae. Charming hand-painted stylized 3D ocean exploration game asset, organic believable forms, gentle saturated natural palette, clean readable silhouette, matt non-metallic surfaces, detailed but not photorealistic. Self-contained single isolated reef prop, no surrounding ocean, no backdrop, no text, no human objects.",
+      "request": {
+        "prompt": "A single small natural tropical coral reef cluster, rounded pale limestone base, warm peach and coral-orange branching staghorn corals, turquoise blue small plate corals, soft sea-green algae. Charming hand-painted stylized 3D ocean exploration game asset, organic believable forms, gentle saturated natural palette, clean readable silhouette, matt non-metallic surfaces, detailed but not photorealistic. Self-contained single isolated reef prop, no surrounding ocean, no backdrop, no text, no human objects.",
+        "model": "v3.1-20260211",
+        "face_limit": 12000,
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "standard",
+        "geometry_quality": "standard",
+        "export_orientation": "+x"
+      }
+    },
+    {
+      "task_id": "07df992f-7e46-480e-a46c-b054f5901300",
+      "status": "success",
+      "requested_at": "2026-10-02T09:55:23.959353+00:00",
+      "completed_at": "2026-10-02T09:57:19.496027Z",
+      "credits_consumed": 20.0,
+      "file": "models/tropical_fish.glb",
+      "sha256": "cbe6d20a81a8483baf6c6485e840e0baa9c22e2fed0a702b2c304203057588ed",
+      "bytes": 2299464,
+      "glb_inspection": {
+        "container": "GLB 2",
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "animations": 0,
+        "extensions_required": [],
+        "accessor_bounds": [
+          {
+            "min": [
+              -0.24347291886806488,
+              -0.3947836756706238,
+              -0.5
+            ],
+            "max": [
+              0.24347291886806488,
+              0.3947836756706238,
+              0.5
+            ]
+          },
+          {
+            "min": [
+              -0.9999977350234985,
+              -0.9991011619567871,
+              -0.9960066080093384
+            ],
+            "max": [
+              0.9998897314071655,
+              0.9977445602416992,
+              1.0
+            ]
+          }
+        ],
+        "external_dependencies": false
+      },
+      "visual_review": {
+        "at": "2026-10-02T09:59:38.308334+00:00",
+        "method": "Local Three.js GLTFLoader in headless Edge, screenshots visually inspected",
+        "render_success": true,
+        "bounds": {
+          "min": [
+            -0.24347291886806488,
+            -0.3947836756706238,
+            -0.5
+          ],
+          "max": [
+            0.24347291886806488,
+            0.3947836756706238,
+            0.5
+          ]
+        },
+        "notes": "Golden butterflyfish with cream lower body and distinct eye, fins and tail. Y-up; nose is -Z, contrary to the requested +X export orientation. Static asset; tail motion requires renderer deformation or transform animation."
+      },
+      "id": "tropical_fish",
+      "prompt": "A single beautiful natural tropical butterflyfish, full body horizontally swimming, rounded flattened body with clear dorsal fin, two pectoral fins and a broad tail, warm golden yellow and pale cream body with subtle turquoise markings and black eye stripe. Friendly natural animal anatomy, no exaggerated human expression. Charming hand-painted stylized 3D ocean exploration game asset, clean readable silhouette, matt non-metallic scales, organic fins. Fish only, no water, no pedestal, no ground, no coral, no text.",
+      "request": {
+        "prompt": "A single beautiful natural tropical butterflyfish, full body horizontally swimming, rounded flattened body with clear dorsal fin, two pectoral fins and a broad tail, warm golden yellow and pale cream body with subtle turquoise markings and black eye stripe. Friendly natural animal anatomy, no exaggerated human expression. Charming hand-painted stylized 3D ocean exploration game asset, clean readable silhouette, matt non-metallic scales, organic fins. Fish only, no water, no pedestal, no ground, no coral, no text.",
+        "model": "v3.1-20260211",
+        "face_limit": 8000,
+        "texture": true,
+        "pbr": true,
+        "texture_quality": "standard",
+        "geometry_quality": "standard",
+        "export_orientation": "+x"
+      }
+    }
+  ]
+}

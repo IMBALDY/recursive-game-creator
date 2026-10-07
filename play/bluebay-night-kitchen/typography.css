@@ -1,0 +1,19 @@
+/* Offline Chinese fonts. Display lettering, reading and controls have different jobs. */
+@font-face { font-family:'BlueBay Sans';src:url('./assets/fonts/bluebay-sans-sc.woff2') format('woff2');font-style:normal;font-weight:100 900;font-display:swap; }
+@font-face { font-family:'BlueBay Serif';src:url('./assets/fonts/bluebay-serif-sc.woff2') format('woff2');font-style:normal;font-weight:200 900;font-display:swap; }
+@font-face { font-family:'BlueBay Symbols';src:url('./assets/fonts/bluebay-symbols.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap;unicode-range:U+2082,U+21B6,U+21B7,U+2316,U+25B8,U+2726,U+2766,U+2767; }
+:root {
+  --font-display: 'BlueBay Serif', 'BlueBay Symbols', 'Noto Serif SC', 'Songti SC', 'SimSun', serif;
+  --font-dialogue: 'BlueBay Serif', 'BlueBay Symbols', 'Noto Serif SC', 'Songti SC', 'SimSun', serif;
+  --font-ui: 'BlueBay Sans', 'BlueBay Symbols', 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+  --font-number: 'BlueBay Sans', 'BlueBay Symbols', 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+}
+html, body { font-family:var(--font-ui); font-size:16px; }
+button, input, select, textarea { font-family:var(--font-ui); }
+button { line-height:1.5; white-space:normal; overflow-wrap:break-word; }
+button>span, .button-row { min-width:0; }
+h1,h2,h3 { font-family:var(--font-display); font-weight:600; line-height:1.4; }
+p { line-height:1.8; }
+.stat-row,.stat-grid b,.depth,.hud-timer,.hunt-numbers { font-family:var(--font-number); font-variant-numeric:tabular-nums; }
+input,textarea,select { font-size:16px; line-height:1.6; }
+button:focus-visible { outline:2px solid #f7d899; outline-offset:4px; }
