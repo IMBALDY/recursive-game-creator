@@ -2,7 +2,7 @@
 
 Research project website for **Recursive Game Creator: An Agentic Product-Level Experience-Oriented Game Harness**.
 
-**Website:** https://rsigamecreator.github.io/
+**Website:** https://imbaldy.github.io/recursive-game-creator/
 
 This repository contains the static project page, manuscript PDF, research figures, game screenshots, and gameplay videos. It also includes four selected browser game builds. The original downloaded game archives, agent framework, and training or evaluation runs are not published here.
 
