@@ -28,7 +28,7 @@ METHOD AND RESULTS
 The opening's policy and trajectories are illustrative diagrams. Method and benchmark figures are grounded in arXiv:2610.08621v1. GameCraft-Bench overall scores are 72.70, 75.35 and 77.89; the 5.19 gain is in score points. These benchmark rounds are separate from the selected qualitative showcase versions.
 GameASG-Bench follows GameCraft-Bench in the ending. Table 2 reports 25/47 strict task successes (53.2%), +34.1 percentage points over the same-model GPT-6-Astra high / Codex CLI baseline (19.1%), and 93.4% mean L2 runtime-check pass rate, highest among compared methods. The +34.1 is the difference between reported rounded rates, not a relative percentage improvement. The video does not claim the highest strict task success across all model settings.
 Paper: https://arxiv.org/abs/2610.08621
-Project: https://rsigamecreator.github.io
+Project: https://imbaldy.github.io/recursive-game-creator/
 
 EDIT AND SOURCE
 Production scripts, detailed storyboard, raw-capture metadata, per-game edit manifests and QA:
