@@ -15,3 +15,5 @@ The final edit preserves the complete 16:10 gameplay image inside a 16:9 canvas.
 
 Capture and edit source: project-page/video-production/meme-arena-20261005/
 Source snapshots: meme-arena-3d/builds/comparison/{v0.1,v0.3,v0.5}/source/
+
+2026-10-08: Re-recorded all three versions after correcting the character name to 奶蛙 (Chinese) / Nai Wa (English). Models and gameplay mechanics are unchanged.

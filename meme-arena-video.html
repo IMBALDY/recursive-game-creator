@@ -22,22 +22,22 @@
   <main>
     <div class="headline"><div><p class="eyebrow">GAME EVOLUTION / V1 → V2 → V3</p><h1>Meme Arena <span>牛来</span></h1><p class="lead">同一组招式，看场景、动作与大招演出如何改变。</p></div><span class="pill">实机录制 · 1080p 对比剪辑 · 原游戏音效</span></div>
     <div class="player-shell">
-      <video id="film" controls playsinline preload="metadata" poster="videos/meme-arena/poster.jpg" aria-label="Meme Arena 三版对比视频"><source src="videos/meme-arena/meme-arena-evolution.mp4" type="video/mp4">浏览器不支持视频播放，请下载 MP4。</video>
-      <div class="toolbar"><span class="current" id="current">三版对比剪辑 · 约 63 秒</span><div class="actions"><button class="play" id="play" type="button">▶ 播放视频</button><a class="download" id="download" href="videos/meme-arena/meme-arena-evolution.mp4" download>下载 MP4 ↓</a></div></div>
+      <video id="film" controls playsinline preload="metadata" poster="videos/meme-arena/poster.jpg?rev=naiwa-20261008" aria-label="Meme Arena 三版对比视频"><source src="videos/meme-arena/meme-arena-evolution.mp4?rev=naiwa-20261008" type="video/mp4">浏览器不支持视频播放，请下载 MP4。</video>
+      <div class="toolbar"><span class="current" id="current">三版对比剪辑 · 约 63 秒</span><div class="actions"><button class="play" id="play" type="button">▶ 播放视频</button><a class="download" id="download" href="videos/meme-arena/meme-arena-evolution.mp4?rev=naiwa-20261008" download>下载 MP4 ↓</a></div></div>
     </div>
     <div class="tabs" aria-label="选择视频">
       <button type="button" data-film="evolution" aria-pressed="true">完整对比</button><button type="button" data-film="v1" aria-pressed="false">V1 单独看</button><button type="button" data-film="v2" aria-pressed="false">V2 单独看</button><button type="button" data-film="v3" aria-pressed="false">V3 单独看</button><button type="button" data-film="side-by-side" aria-pressed="false">三版同屏</button>
     </div>
     <div class="chapters" id="chapters" aria-label="视频章节"><button data-time="3"><b>00:03</b>场景与动作</button><button data-time="21"><b>00:21</b>招牌技能</button><button data-time="39"><b>00:39</b>八牛大招</button><button data-time="57"><b>00:57</b>三版同屏</button></div>
     <div class="notes-grid"><article class="note"><small>01 / ENVIRONMENT</small><h2>从屋顶到夜市</h2><p>对照相同起始位置与移动动作，观察场景、光照和角色动画的变化。</p></article><article class="note"><small>02 / COMBAT</small><h2>招式更有表现力</h2><p>用召唤卡车与妈妈技能展示不同版本的攻击动作、弹幕和命中反馈。</p></article><article class="note"><small>03 / SUPER ART</small><h2>八牛大招的演进</h2><p>完整呈现卡车入场、群牛围攻与终结一击，最后将三个版本放在同一屏。</p></article></div>
-    <details><summary>录制方式与版本来源</summary><p>V1 / V2 / V3 对应保存的 v0.1 / v0.3 / v0.5 开发快照。V1、V2 使用现有恢复快照，其中早期角色模型来自最早保留的兼容备份；V3 使用完整保存的快照。</p><p>画面由三个 Godot 项目实机渲染。外部脚本安排相同起始位置和招式请求，片段之间重置对局，便于观察开发变化；这是分镜展示，并非连续通关录像或 benchmark 评测轨迹。没有修改游戏源代码，也没有合成不存在的游戏效果。保留原画面比例与 UI；剪辑包含标题、淡入淡出和变化说明。</p><p>单版素材为 1280×800 / 30fps，最终对比片为 1920×1080 / 30fps。音轨由各版原游戏音效按捕获事件时间线混合。<a href="videos/meme-arena/README.txt">查看素材说明</a></p></details>
+    <details><summary>录制方式与版本来源</summary><p>V1 / V2 / V3 对应保存的 v0.1 / v0.3 / v0.5 开发快照。V1、V2 使用现有恢复快照，其中早期角色模型来自最早保留的兼容备份；V3 使用完整保存的快照。</p><p>画面由三个 Godot 项目实机渲染。外部脚本安排相同起始位置和招式请求，片段之间重置对局，便于观察开发变化；这是分镜展示，并非连续通关录像或 benchmark 评测轨迹。本次修正角色显示名称：中文为“奶蛙”，英文为“Nai Wa”，并重新录制。角色模型和战斗机制保持不变。保留原画面比例与 UI；剪辑包含标题、淡入淡出和变化说明。</p><p>单版素材为 1280×800 / 30fps，最终对比片为 1920×1080 / 30fps。音轨由各版原游戏音效按捕获事件时间线混合。<a href="videos/meme-arena/README.txt">查看素材说明</a></p></details>
   </main>
   <footer>Recursive Game Creator · Selected development versions</footer>
   <script>
     const film=document.querySelector('#film'),play=document.querySelector('#play');
     const labels={evolution:'三版对比剪辑 · 约 63 秒',v1:'V1 · 屋顶场景 / 原始招式 · 18 秒',v2:'V2 · 夜市场景 / 特效升级 · 18 秒',v3:'V3 · 动作打磨 / 专属演出 · 18 秒','side-by-side':'三版同屏 · 八牛大招 · 6 秒'};
     let active='evolution';
-    function choose(key){active=key;film.pause();play.textContent='▶ 播放视频';film.src=`videos/meme-arena/meme-arena-${key}.mp4`;film.poster=key==='evolution'||key==='side-by-side'?'videos/meme-arena/poster.jpg':`videos/meme-arena/${key}-poster.jpg`;film.load();document.querySelector('#current').textContent=labels[key];document.querySelector('#download').href=film.src;document.querySelector('#chapters').hidden=key!=='evolution';document.querySelectorAll('[data-film]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.film===key)));}
+    function choose(key){active=key;film.pause();play.textContent='▶ 播放视频';film.src=`videos/meme-arena/meme-arena-${key}.mp4?rev=naiwa-20261008`;film.poster=key==='evolution'||key==='side-by-side'?'videos/meme-arena/poster.jpg?rev=naiwa-20261008':`videos/meme-arena/${key}-poster.jpg?rev=naiwa-20261008`;film.load();document.querySelector('#current').textContent=labels[key];document.querySelector('#download').href=film.src;document.querySelector('#chapters').hidden=key!=='evolution';document.querySelectorAll('[data-film]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.film===key)));}
     document.querySelectorAll('[data-film]').forEach(b=>b.addEventListener('click',()=>choose(b.dataset.film)));
     play.addEventListener('click',()=>{if(film.paused)film.play().catch(()=>{});else film.pause()});
     film.addEventListener('play',()=>play.textContent='Ⅱ 暂停视频');film.addEventListener('pause',()=>play.textContent='▶ 播放视频');film.addEventListener('ended',()=>play.textContent='▶ 重新播放');film.addEventListener('emptied',()=>play.textContent='▶ 播放视频');

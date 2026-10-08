@@ -75,3 +75,6 @@ Removed the small development-version strings beneath large V1/V2/V3 in all 21 g
 
 CLEAN GAMEPLAY FOOTER
 Removed “NEW GAMEPLAY CAPTURE / SELECTED DEVELOPMENT VERSIONS” from all 21 detail shots in the main film and three standalone films. Rebuilt from the original captured footage and compositor plates; retained narration, caption timing, chapters, gameplay and version labels. The main film remains 220 seconds / 6600 frames. Original encoded AAC audio is byte-identical in all four films.
+
+NAI WA NAME CORRECTION — 2026-10-08
+Corrected the character display name to 奶蛙 / Nai Wa in the live project and all three comparison sources. Newly rendered all Meme Arena gameplay from those corrected sources, rebuilt the moving-wall tile and Meme Arena chapter, and refreshed standalone films and website screenshots. Original narration, subtitle timing, chapters, and closing project link are preserved. The master remains 220 seconds at 1080p/30 fps; original AAC audio is byte-identical.

@@ -31,9 +31,9 @@
   },
   {
     "file": "assets/meme-hero.png",
-    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/demos/meme_arena_v05.png",
-    "note": "Original manuscript image, unaltered.",
-    "sha256": "984ed9e53b2459529c2f9dc5b44318649e6fd3e396249ed50d0973ab94b84bb5"
+    "source": "Fresh Godot capture, Meme Arena V3; frame at 20.366666667s",
+    "note": "Re-recorded after correcting the character name to 奶蛙 / Nai Wa.",
+    "sha256": "3eba2a941f95fbc13b9f78c617f74742793a17794e0ac18046380790287d9181"
   },
   {
     "file": "assets/robot-designer.svg",
@@ -61,39 +61,39 @@
   },
   {
     "file": "assets/meme-v1-scene.png",
-    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/meme_arena_versions.pdf",
-    "note": "Screenshot rectangle rendered with the PDF's display transform: row 1, column 1. No generated or retouched content.",
-    "sha256": "d66f243b420f8d9a09300c25db95ed3d1aa63f5132b1c0aca69b20dce7700e23"
+    "source": "Fresh Godot capture, Meme Arena V1; frame at 1.3s",
+    "note": "Re-recorded after correcting the character display name to 奶蛙 / Nai Wa. Gameplay mechanics and models unchanged.",
+    "sha256": "79e9906995983f33b4dc7b42809b8dbb3fabf48a0fd80257ecd341879cb910f6"
   },
   {
     "file": "assets/meme-v1-detail.png",
-    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/meme_arena_versions.pdf",
-    "note": "Screenshot rectangle rendered with the PDF's display transform: row 1, column 2. No generated or retouched content.",
-    "sha256": "28065131cb70f0eded33005498cf5422d9b1485de7ed2900338b4a7f7b4591cf"
+    "source": "Fresh Godot capture, Meme Arena V1; frame at 20.366666667s",
+    "note": "Re-recorded after correcting the character display name to 奶蛙 / Nai Wa. Gameplay mechanics and models unchanged.",
+    "sha256": "53011623042bad16b019af1008708e37ab8da5229644199b5f269756eeb5fb1d"
   },
   {
     "file": "assets/meme-v2-scene.png",
-    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/meme_arena_versions.pdf",
-    "note": "Screenshot rectangle rendered with the PDF's display transform: row 2, column 1. No generated or retouched content.",
-    "sha256": "2e0a13c68ac5420a15aaa4e2467dd26bb8b1502730901991e14ed59a8ec290c5"
+    "source": "Fresh Godot capture, Meme Arena V2; frame at 1.3s",
+    "note": "Re-recorded after correcting the character display name to 奶蛙 / Nai Wa. Gameplay mechanics and models unchanged.",
+    "sha256": "aae4d150c8984e6f17e574acb29a09a668e52c42c30b36aba0c89e3a93fb13fb"
   },
   {
     "file": "assets/meme-v2-detail.png",
-    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/meme_arena_versions.pdf",
-    "note": "Screenshot rectangle rendered with the PDF's display transform: row 2, column 2. No generated or retouched content.",
-    "sha256": "69e73bc6cd4884f7e5fa0811e4d4ed75ee7eab533840b5b783d10b5f1993ed50"
+    "source": "Fresh Godot capture, Meme Arena V2; frame at 20.366666667s",
+    "note": "Re-recorded after correcting the character display name to 奶蛙 / Nai Wa. Gameplay mechanics and models unchanged.",
+    "sha256": "610c660f6b59bcff9990db618d6209c27ef9878929bdc5c57cf18484e958e845"
   },
   {
     "file": "assets/meme-v3-scene.png",
-    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/meme_arena_versions.pdf",
-    "note": "Screenshot rectangle rendered with the PDF's display transform: row 3, column 1. No generated or retouched content.",
-    "sha256": "3ba67c01fa6db7538cb60409cc943ebe3ce7d31f26846363808afe7c12f8b4b0"
+    "source": "Fresh Godot capture, Meme Arena V3; frame at 1.3s",
+    "note": "Re-recorded after correcting the character display name to 奶蛙 / Nai Wa. Gameplay mechanics and models unchanged.",
+    "sha256": "260454544ef69c58525b7a3d17708ef1c06015508fcd694b8fd49332ec7d8f73"
   },
   {
     "file": "assets/meme-v3-detail.png",
-    "source": "overleaf/SelfEvolingGamesAgent_ICLR27/figures/meme_arena_versions.pdf",
-    "note": "Screenshot rectangle rendered with the PDF's display transform: row 3, column 2. No generated or retouched content.",
-    "sha256": "248e26a79c4fd239feed9c14441405ebf88025e49f95a66cfa9b1e817ea61f47"
+    "source": "Fresh Godot capture, Meme Arena V3; frame at 20.366666667s",
+    "note": "Re-recorded after correcting the character display name to 奶蛙 / Nai Wa. Gameplay mechanics and models unchanged.",
+    "sha256": "3eba2a941f95fbc13b9f78c617f74742793a17794e0ac18046380790287d9181"
   },
   {
     "file": "assets/novel-v1-scene.jpeg",
