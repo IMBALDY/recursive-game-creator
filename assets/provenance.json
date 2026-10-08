@@ -32,8 +32,8 @@
   {
     "file": "assets/meme-hero.png",
     "source": "Fresh Godot capture, Meme Arena V3; frame at 20.366666667s",
-    "note": "Re-recorded after correcting the character name to 奶蛙 / Nai Wa.",
-    "sha256": "3eba2a941f95fbc13b9f78c617f74742793a17794e0ac18046380790287d9181"
+    "note": "Re-recorded with consistent Chinese character names: 牛来 and 奶蛙.",
+    "sha256": "8254477ab1c97a7c206719ef2141f1fd068760750f69a685eccfbc7832149d53"
   },
   {
     "file": "assets/robot-designer.svg",
@@ -62,38 +62,38 @@
   {
     "file": "assets/meme-v1-scene.png",
     "source": "Fresh Godot capture, Meme Arena V1; frame at 1.3s",
-    "note": "Re-recorded after correcting the character display name to 奶蛙 / Nai Wa. Gameplay mechanics and models unchanged.",
-    "sha256": "79e9906995983f33b4dc7b42809b8dbb3fabf48a0fd80257ecd341879cb910f6"
+    "note": "Re-recorded with consistent Chinese character names: 牛来 and 奶蛙. Gameplay mechanics and models unchanged.",
+    "sha256": "376d6e0bdd15ce80be0bcf3a82e60721d6e253a2dbfdfed948f8354b2df690ba"
   },
   {
     "file": "assets/meme-v1-detail.png",
     "source": "Fresh Godot capture, Meme Arena V1; frame at 20.366666667s",
-    "note": "Re-recorded after correcting the character display name to 奶蛙 / Nai Wa. Gameplay mechanics and models unchanged.",
-    "sha256": "53011623042bad16b019af1008708e37ab8da5229644199b5f269756eeb5fb1d"
+    "note": "Re-recorded with consistent Chinese character names: 牛来 and 奶蛙. Gameplay mechanics and models unchanged.",
+    "sha256": "7e2a1bbef778835d65e04925b561ad619b0ca3691e1999951f79218e9bb2964a"
   },
   {
     "file": "assets/meme-v2-scene.png",
     "source": "Fresh Godot capture, Meme Arena V2; frame at 1.3s",
-    "note": "Re-recorded after correcting the character display name to 奶蛙 / Nai Wa. Gameplay mechanics and models unchanged.",
-    "sha256": "aae4d150c8984e6f17e574acb29a09a668e52c42c30b36aba0c89e3a93fb13fb"
+    "note": "Re-recorded with consistent Chinese character names: 牛来 and 奶蛙. Gameplay mechanics and models unchanged.",
+    "sha256": "80ace20cfcaa7715f1c5d60fe36079918a7dab5a01b1b697b957d158633796ee"
   },
   {
     "file": "assets/meme-v2-detail.png",
     "source": "Fresh Godot capture, Meme Arena V2; frame at 20.366666667s",
-    "note": "Re-recorded after correcting the character display name to 奶蛙 / Nai Wa. Gameplay mechanics and models unchanged.",
-    "sha256": "610c660f6b59bcff9990db618d6209c27ef9878929bdc5c57cf18484e958e845"
+    "note": "Re-recorded with consistent Chinese character names: 牛来 and 奶蛙. Gameplay mechanics and models unchanged.",
+    "sha256": "401d2c249b0310db50ba6f397f6cc8d6293b3d0b664ab023707f22416e8df224"
   },
   {
     "file": "assets/meme-v3-scene.png",
     "source": "Fresh Godot capture, Meme Arena V3; frame at 1.3s",
-    "note": "Re-recorded after correcting the character display name to 奶蛙 / Nai Wa. Gameplay mechanics and models unchanged.",
-    "sha256": "260454544ef69c58525b7a3d17708ef1c06015508fcd694b8fd49332ec7d8f73"
+    "note": "Re-recorded with consistent Chinese character names: 牛来 and 奶蛙. Gameplay mechanics and models unchanged.",
+    "sha256": "ebf089bd883d2512c1c062939719d0381a7c56f7fc07b460528f8ee72dced180"
   },
   {
     "file": "assets/meme-v3-detail.png",
     "source": "Fresh Godot capture, Meme Arena V3; frame at 20.366666667s",
-    "note": "Re-recorded after correcting the character display name to 奶蛙 / Nai Wa. Gameplay mechanics and models unchanged.",
-    "sha256": "3eba2a941f95fbc13b9f78c617f74742793a17794e0ac18046380790287d9181"
+    "note": "Re-recorded with consistent Chinese character names: 牛来 and 奶蛙. Gameplay mechanics and models unchanged.",
+    "sha256": "8254477ab1c97a7c206719ef2141f1fd068760750f69a685eccfbc7832149d53"
   },
   {
     "file": "assets/novel-v1-scene.jpeg",

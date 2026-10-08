@@ -35,8 +35,8 @@ let selectedVersion = 0;
 let comparing = false;
 const query = selector => document.querySelector(selector);
 const all = selector => Array.from(document.querySelectorAll(selector));
-const sceneFor = (key, index) => `assets/${games[key].versions[index].scene || `${key}-v${index + 1}-scene.${games[key].extension}`}${key === 'meme' ? '?rev=naiwa-20261008' : ''}`;
-const detailFor = (key, index) => `assets/${key}-v${index + 1}-detail.${games[key].extension}${key === 'meme' ? '?rev=naiwa-20261008' : ''}`;
+const sceneFor = (key, index) => `assets/${games[key].versions[index].scene || `${key}-v${index + 1}-scene.${games[key].extension}`}${key === 'meme' ? '?rev=naiwa-zh-20261008' : ''}`;
+const detailFor = (key, index) => `assets/${key}-v${index + 1}-detail.${games[key].extension}${key === 'meme' ? '?rev=naiwa-zh-20261008' : ''}`;
 
 function setImage(selector, source, alt) {
   const image = query(selector);

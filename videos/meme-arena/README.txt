@@ -17,3 +17,5 @@ Capture and edit source: project-page/video-production/meme-arena-20261005/
 Source snapshots: meme-arena-3d/builds/comparison/{v0.1,v0.3,v0.5}/source/
 
 2026-10-08: Re-recorded all three versions after correcting the character name to 奶蛙 (Chinese) / Nai Wa (English). Models and gameplay mechanics are unchanged.
+
+2026-10-08 UI LANGUAGE CONSISTENCY: All three games and fresh captures display 牛来 / 奶蛙 together in Chinese, including when launched on an English-language system. Nai Wa remains the English name in metadata. Refreshed all affected films, game-wall footage, posters, and gallery screenshots; narration and caption timing unchanged.
