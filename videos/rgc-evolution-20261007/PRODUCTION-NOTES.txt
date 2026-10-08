@@ -80,3 +80,10 @@ NAI WA NAME CORRECTION — 2026-10-08
 Corrected the character display name to 奶蛙 / Nai Wa in the live project and all three comparison sources. Newly rendered all Meme Arena gameplay from those corrected sources, rebuilt the moving-wall tile and Meme Arena chapter, and refreshed standalone films and website screenshots. Original narration, subtitle timing, chapters, and closing project link are preserved. The master remains 220 seconds at 1080p/30 fps; original AAC audio is byte-identical.
 
 2026-10-08 UI LANGUAGE CONSISTENCY: All three games and fresh captures display 牛来 / 奶蛙 together in Chinese, including when launched on an English-language system. Nai Wa remains the English name in metadata. Refreshed all affected films, game-wall footage, posters, and gallery screenshots; narration and caption timing unchanged.
+
+
+QUIET PIANO UNDERSCORE — 2026-10-08
+The main film now uses 'A Kind Of Hope' by Scott Buckley, released under CC-BY 4.0. www.scottbuckley.com.au
+Source: https://www.scottbuckley.com.au/library/a-kind-of-hope/
+License: https://creativecommons.org/licenses/by/4.0/
+Music excerpted, equalized, volume balanced, ducked under narration and faded. The clean narration stem replaces the earlier combined soundtrack; the old procedural music is not layered underneath. The video stream, captions, chapter timing, corrected Chinese names, and closing links are unchanged. The 45 MB local copy has the same new mix. Individual game films retain their existing music. See MUSIC-CREDITS.txt for reuse attribution.
